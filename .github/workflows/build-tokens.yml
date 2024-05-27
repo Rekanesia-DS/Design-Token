@@ -41,17 +41,18 @@ jobs:
           name: my-artifacts  # Customize artifact name as needed
           path: build/  # Assuming build output goes to 'build' folder
 
-      - name: Create branch master (if it doesn't exist)
+      - name: Create branch master (if it doesnt exist)
         run: |
           git checkout -b master  # Create branch master if it doesn't exist
           echo "Created branch master (if it doesn't exist)."
 
       - name: Commit and Push changes (optional)
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "GitHub Actions"  # Replace with your name if desired
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          echo "Config done..."
           git add build/ || echo "Failed adding build directory to staging area."
           git commit -m "Pushed build artifacts from workflow (SHA: ${{ github.sha }})" || echo "Failed committing changes."
           git push origin master
