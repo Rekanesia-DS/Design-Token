@@ -36,7 +36,33 @@ jobs:
           echo "Build completed (if no errors)."
 
       - name: Upload artifacts
-        uses: actions/upload-artifact@v4  # Using v4 as specified
+        uses: actions/upload-artifact@v4
         with:
           name: my-artifacts  # Customize artifact name as needed
           path: build/  # Assuming build output goes to 'build' folder
+
+      - name: Download artifacts.zip
+        uses: actions/download-artifact@v2
+        with:
+          name: my-artifacts  # Match the artifact name uploaded earlier
+
+      - name: Extract artifacts.zip (if it exists)
+        uses: unzip-action@v1  # External action for unzipping
+        with:
+          src: 'artifacts.zip'
+          dest: '.'  # Extract to current working directory
+
+      - name: Create branch master (if it doesn't exist)
+        run: |
+          git checkout -b master  # Create branch master if it doesn't exist
+          echo "Created branch master (if it didn't exist)."
+
+      - name: Commit and push changes (optional)
+        run: |
+          git config user.name "GitHub Actions"  # Replace with your name if desired
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .  # Add all extracted files
+          git commit -m "Extracted build artifacts from workflow (SHA: ${{ github.sha }})"
+          # Push changes to branch master (uncomment if desired)
+          # git push origin master
+        if: success()  # Only run if previous steps succeed
