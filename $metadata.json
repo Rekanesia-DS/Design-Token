@@ -1,0 +1,17 @@
+{
+  "tokenSetOrder": [
+    "seed/colors",
+    "seed/dimensions",
+    "seed/typography",
+    "mobile/core/colors",
+    "mobile/core/dimensions",
+    "mobile/core/typography",
+    "mobile/light/primitives",
+    "mobile/dark/primitives",
+    "mobile/component",
+    "mobile/semantic",
+    "mobile/overrides/brands/Lime",
+    "mobile/overrides/brands/Blueberries",
+    "mobile/overrides/brands/Passion"
+  ]
+}

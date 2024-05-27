@@ -1,0 +1,36 @@
+{
+  "button": {
+    "bg": {
+      "value": "{accent.bg.default}",
+      "type": "color"
+    },
+    "fg": {
+      "value": "{neutral.fg.icon.onAccent}",
+      "type": "color"
+    }
+  },
+  "corner": {
+    "medium": {
+      "value": "{corner.m}",
+      "type": "borderRadius"
+    },
+    "small": {
+      "value": "{corner.s}",
+      "type": "borderRadius"
+    }
+  },
+  "padding": {
+    "horizontal": {
+      "medium": {
+        "value": "{core.mobile.spacing.m}",
+        "type": "spacing"
+      }
+    }
+  },
+  "gap": {
+    "medium": {
+      "value": "{core.mobile.spacing.m}",
+      "type": "spacing"
+    }
+  }
+}

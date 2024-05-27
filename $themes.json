@@ -1,0 +1,137 @@
+[
+  {
+    "id": "6be618dc1cae3215f1793c74e72f3095e4de3527",
+    "name": "Light",
+    "group": "Theme",
+    "selectedTokenSets": {
+      "seed/colors": "source",
+      "seed/dimensions": "source",
+      "seed/typography": "source",
+      "mobile/core/colors": "source",
+      "mobile/core/dimensions": "source",
+      "mobile/core/typography": "source",
+      "mobile/light/primitives": "enabled",
+      "mobile/dark/primitives": "disabled",
+      "mobile/component": "enabled",
+      "mobile/semantic": "source",
+      "mobile/overrides/brands/Lime": "disabled",
+      "mobile/overrides/brands/Blueberries": "disabled",
+      "mobile/overrides/brands/Passion": "disabled"
+    },
+    "$figmaStyleReferences": {
+      "button.primary.background": "S:b1650f470cb24f40fe4acb6df6c3eee8db58b444,",
+      "button.primary.text": "S:14f542171ebe66b201954ba19711c7e4b646b9c0,",
+      "card.background": "S:ec25f86fa0a5f50deacf8a2671c5511492aef788,",
+      "fg.default": "S:5af7c362487c233f7c456cc9a7aceab72a931d1b,",
+      "fg.muted": "S:4f9bf89f0d6615917a1aff7ce78ff8f1aae23ed4,",
+      "accent.default": "S:5f3c0600e3813a5e849515ed2f1c5a8a4bb7a855,",
+      "accent.onAccent": "S:8a976e1be310681dd58a18e3dcfd0c9b77ad32ce,",
+      "accent.bg": "S:d5c88403cee5c342637643324f0a405aeb9d8289,",
+      "contrast.bg.default": "S:d19ea5b25adba35f551556c273cf534e51484954,",
+      "contrast.bg.subtle": "S:c2dd4c0d0e869d1660360c9e7f9555cf4eb0ff8e,",
+      "contrast.border.default": "S:e7333ea985936794b5042360ed9e59e6fe58d5e2,",
+      "contrast.border.muted": "S:238fab22febb64129dc583450006fa17981ba9d4,",
+      "typography.H1.Bold": "S:b0e8111b723df21aa232de763e273b272d6987e7,",
+      "typography.H1.Regular": "S:b1e795642c4d94ba8c3995b0a325e73a9333e855,",
+      "typography.H2.Bold": "S:98d352c727c902f392a07104096fbfdcae190a3d,",
+      "typography.H2.Regular": "S:0887b229e649dec8818d0cd2a374af557184ecb7,",
+      "typography.Body": "S:f5f96ed386c6c4e8a0734cc2da3ed1c8072489ff,",
+      "boxShadow.default": "S:f2ea44bb3cf9c46fd837628d4161f2e589ee1679,"
+    }
+  },
+  {
+    "id": "28983d638284cad3d6ad7965ac4046e1f48f6588",
+    "name": "Dark",
+    "group": "Theme",
+    "selectedTokenSets": {
+      "seed/colors": "source",
+      "seed/dimensions": "source",
+      "seed/typography": "source",
+      "mobile/core/colors": "source",
+      "mobile/core/dimensions": "source",
+      "mobile/core/typography": "source",
+      "mobile/light/primitives": "disabled",
+      "mobile/dark/primitives": "enabled",
+      "mobile/component": "enabled",
+      "mobile/semantic": "source",
+      "mobile/overrides/brands/Lime": "disabled",
+      "mobile/overrides/brands/Blueberries": "disabled",
+      "mobile/overrides/brands/Passion": "disabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "b9044e7127c42c03f6ced3054e403dd2a3a6e235",
+    "name": "Lime",
+    "group": "Brands",
+    "selectedTokenSets": {
+      "seed/colors": "source",
+      "seed/dimensions": "source",
+      "seed/typography": "source",
+      "mobile/core/colors": "source",
+      "mobile/core/dimensions": "source",
+      "mobile/core/typography": "source",
+      "mobile/light/primitives": "disabled",
+      "mobile/dark/primitives": "disabled",
+      "mobile/component": "disabled",
+      "mobile/semantic": "disabled",
+      "mobile/overrides/brands/Lime": "enabled",
+      "mobile/overrides/brands/Blueberries": "disabled",
+      "mobile/overrides/brands/Passion": "disabled"
+    },
+    "$figmaStyleReferences": {
+      "colors.onAccent.default": "S:f1e383388df356d352f4d887b01d3b21a0305338,",
+      "colors.accent.100": "S:0095b69bc98cc70a056e76daa92e3eebbdad43fe,",
+      "colors.accent.200": "S:dd5b11e73ace59bc2e8c7d772147aa03e89c76d8,",
+      "colors.accent.300": "S:13b59a6c04a1fba26f97ba361d4d312287b916ea,",
+      "colors.accent.400": "S:5051480629304e294261e4c5c4f74e287d3c0d9c,",
+      "colors.accent.500": "S:396c2ffe6dbd491560ef1b780b272874b814c5be,",
+      "colors.accent.600": "S:469cab34ba084bdadedc8e4e3562a8b540002df7,",
+      "colors.accent.700": "S:77d09af23fd40b295e498a4d20c78eb680ea653c,",
+      "colors.accent.800": "S:5ab2d4ca3ead8a4ab7dd305ca7677b925121b3d2,",
+      "colors.accent.900": "S:bac0316d7462f8be1bb791055cbfb12862428859,"
+    }
+  },
+  {
+    "id": "7ce36e29dfe536b40115230cf3b7dcfa5f532f8c",
+    "name": "Blueberries",
+    "group": "Brands",
+    "selectedTokenSets": {
+      "seed/colors": "source",
+      "seed/dimensions": "source",
+      "seed/typography": "source",
+      "mobile/core/colors": "source",
+      "mobile/core/dimensions": "source",
+      "mobile/core/typography": "source",
+      "mobile/light/primitives": "disabled",
+      "mobile/dark/primitives": "disabled",
+      "mobile/component": "disabled",
+      "mobile/semantic": "disabled",
+      "mobile/overrides/brands/Lime": "disabled",
+      "mobile/overrides/brands/Blueberries": "enabled",
+      "mobile/overrides/brands/Passion": "disabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "809dab4ba72b7a96a4fed1156d2b097f077d0726",
+    "name": "Passion",
+    "group": "Brands",
+    "selectedTokenSets": {
+      "seed/colors": "source",
+      "seed/dimensions": "source",
+      "seed/typography": "source",
+      "mobile/core/colors": "source",
+      "mobile/core/dimensions": "source",
+      "mobile/core/typography": "source",
+      "mobile/light/primitives": "disabled",
+      "mobile/dark/primitives": "disabled",
+      "mobile/component": "disabled",
+      "mobile/semantic": "disabled",
+      "mobile/overrides/brands/Lime": "disabled",
+      "mobile/overrides/brands/Blueberries": "disabled",
+      "mobile/overrides/brands/Passion": "source"
+    },
+    "$figmaStyleReferences": {}
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "button": {
+    "bg": {
+      "value": "{accent.bg.default}",
+      "type": "color"
+    },
+    "fg": {
+      "value": "{neutral.fg.icon.onAccent}",
+      "type": "color"
+    }
+  }
+}
