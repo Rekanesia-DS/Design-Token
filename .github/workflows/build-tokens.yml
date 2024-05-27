@@ -43,7 +43,7 @@ jobs:
 
       - name: Create branch master (if it doesnt exist)
         run: |
-          git checkout -b master  # Create branch master if it doesn't exist
+          git checkout -b build  # Create branch master if it doesn't exist
           echo "Created branch master (if it doesn't exist)."
 
       - name: Commit and Push changes (optional)
