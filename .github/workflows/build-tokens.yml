@@ -52,8 +52,23 @@ jobs:
         run: |
           git config user.name "GitHub Actions"  # Replace with your name if desired
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          echo "Config done..."
-          git add build/ || echo "Failed adding build directory to staging area."
-          git commit -m "Pushed build artifacts from workflow (SHA: ${{ github.sha }})" || echo "Failed committing changes."
-          git push origin master
+          echo "Config complete..."
+          
+          # Add build directory to staging area
+          git add build/ || { echo "Failed adding build directory to staging area."; exit 1; }
+          echo "Add build/ success.."
+          
+          # Check if there are any changes to commit
+          if git diff-index --quiet HEAD --; then
+            echo "No changes to commit."
+          else
+            # Commit changes
+            git commit -m "Pushed build artifacts from workflow (SHA: ${{ github.sha }})" || { echo "Failed committing changes."; exit 1; }
+            echo "Commit success.."
+            
+            # Push changes
+            git push origin master || { echo "Failed pushing changes."; exit 1; }
+            echo "Push success.."
+          fi
+
 
