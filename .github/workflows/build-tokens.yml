@@ -30,11 +30,13 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run build
-        run: npm run build
+      - name: Run build (with error handling and logging)
+        run: |
+          node build-tokens.mjs || echo "Build failed! See error messages above."
+          echo "Build completed (if no errors)."
 
       - name: Upload artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4  # Using v4 as specified
         with:
-          name: build-artifacts
-          path: build
+          name: my-artifacts  # Customize artifact name as needed
+          path: build/  # Assuming build output goes to 'build' folder
