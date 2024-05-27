@@ -48,16 +48,16 @@ jobs:
 
       - name: Commit and Push changes (optional)
         env:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "GitHub Actions"  # Replace with your name if desired
           git config user.email "github-actions[bot]@users.noreply.github.com"
           echo "Config complete..."
-          
+        
           # Add build directory to staging area
           git add build/ || { echo "Failed adding build directory to staging area."; exit 1; }
           echo "Add build/ success.."
-          
+        
           # Check if there are any changes to commit
           if git diff-index --quiet HEAD --; then
             echo "No changes to commit."
@@ -66,9 +66,10 @@ jobs:
             git commit -m "Pushed build artifacts from workflow (SHA: ${{ github.sha }})" || { echo "Failed committing changes."; exit 1; }
             echo "Commit success.."
             
+            # Set up remote URL with token authentication
+            git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
+        
             # Push changes
             git push origin master || { echo "Failed pushing changes."; exit 1; }
             echo "Push success.."
           fi
-
-
