@@ -52,8 +52,7 @@ jobs:
         run: |
           git config user.name "GitHub Actions"  # Replace with your name if desired
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add build/  # Add the build directory (assuming artifacts are there)
-          git commit -m "Pushed build artifacts from workflow (SHA: ${{ github.sha }})"
-          # Push changes to branch master (uncomment if desired)
+          git add build/ || echo "Failed adding build directory to staging area."
+          git commit -m "Pushed build artifacts from workflow (SHA: ${{ github.sha }})" || echo "Failed committing changes."
           git push origin master
 
