@@ -1,36 +1,72 @@
 {
-  "button": {
-    "bg": {
-      "value": "{accent.bg.default}",
-      "type": "color"
-    },
-    "fg": {
-      "value": "{neutral.fg.icon.onAccent}",
-      "type": "color"
-    }
-  },
-  "corner": {
-    "medium": {
-      "value": "{corner.m}",
-      "type": "borderRadius"
-    },
-    "small": {
-      "value": "{corner.s}",
-      "type": "borderRadius"
-    }
-  },
-  "padding": {
-    "horizontal": {
-      "medium": {
-        "value": "{core.mobile.spacing.m}",
-        "type": "spacing"
+  "sem": {
+    "mobile": {
+      "color": {
+        "bg": {
+          "accent": {
+            "value": "{mode.accent.bg.default}",
+            "type": "color"
+          }
+        }
+      },
+      "corner": {
+        "medium": {
+          "value": "{brand.corner.m}",
+          "type": "borderRadius"
+        },
+        "small": {
+          "value": "{brand.corner.s}",
+          "type": "borderRadius"
+        }
+      },
+      "padding": {
+        "horizontal": {
+          "medium": {
+            "value": "{core.mobile.spacing.m}",
+            "type": "spacing"
+          }
+        }
+      },
+      "gap": {
+        "medium": {
+          "value": "{core.mobile.spacing.m}",
+          "type": "spacing"
+        }
+      },
+      "text": {
+        "action": {
+          "small": {
+            "value": {
+              "fontFamily": "{brand.text.fontFamily.base}",
+              "fontWeight": "{core.mobile.font.semiBold}",
+              "fontSize": "{core.mobile.text.size.s}",
+              "textCase": "{core.mobile.text.tittleCase}",
+              "textDecoration": "{core.mobile.text.decoration.normal}"
+            },
+            "type": "typography"
+          },
+          "medium": {
+            "value": {
+              "fontFamily": "{brand.text.fontFamily.base}",
+              "fontWeight": "{core.mobile.font.semiBold}",
+              "fontSize": "{core.mobile.text.size.m}",
+              "textCase": "{core.mobile.text.tittleCase}",
+              "textDecoration": "{core.mobile.text.decoration.normal}"
+            },
+            "type": "typography"
+          },
+          "large": {
+            "value": {
+              "fontFamily": "{brand.text.fontFamily.base}",
+              "fontWeight": "{core.mobile.font.semiBold}",
+              "fontSize": "{core.mobile.text.size.l}",
+              "textCase": "{core.mobile.text.tittleCase}",
+              "textDecoration": "{core.mobile.text.decoration.normal}"
+            },
+            "type": "typography"
+          }
+        }
       }
-    }
-  },
-  "gap": {
-    "medium": {
-      "value": "{core.mobile.spacing.m}",
-      "type": "spacing"
     }
   }
 }
