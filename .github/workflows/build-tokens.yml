@@ -1,4 +1,4 @@
-name: Build with Node.js 20.6.1
+name: Build Tokens
 
 on:
   push:
@@ -32,3 +32,9 @@ jobs:
 
       - name: Run build
         run: npm run build
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: build-artifacts
+          path: dist

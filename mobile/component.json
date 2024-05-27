@@ -1,12 +1,14 @@
 {
-  "button": {
-    "bg": {
-      "value": "{accent.bg.default}",
-      "type": "color"
-    },
-    "fg": {
-      "value": "{neutral.fg.icon.onAccent}",
-      "type": "color"
+  "com": {
+    "mobile": {
+      "button": {
+        "medium": {
+          "value": {
+            "fill": "{sem.mobile.color.bg.accent}"
+          },
+          "type": "composition"
+        }
+      }
     }
   }
 }

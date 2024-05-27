@@ -3,17 +3,17 @@
     "mobile": {
       "size": {
         "m": {
-          "value": "{size.500}",
+          "value": "{seed.size.500}",
           "type": "sizing"
         },
         "s": {
-          "value": "{size.700}",
+          "value": "{seed.size.700}",
           "type": "sizing"
         }
       },
       "spacing": {
         "m": {
-          "value": "{spacing.500}",
+          "value": "{seed.spacing.500}",
           "type": "spacing"
         }
       }
