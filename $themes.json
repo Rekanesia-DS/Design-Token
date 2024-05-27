@@ -10,13 +10,10 @@
       "mobile/core/colors": "source",
       "mobile/core/dimensions": "source",
       "mobile/core/typography": "source",
-      "mobile/light/primitives": "enabled",
-      "mobile/dark/primitives": "disabled",
       "mobile/component": "enabled",
       "mobile/semantic": "source",
-      "mobile/overrides/brands/Lime": "disabled",
-      "mobile/overrides/brands/Blueberries": "disabled",
-      "mobile/overrides/brands/Passion": "disabled"
+      "mobile/theming/light/primitives": "enabled",
+      "mobile/theming/dark/primitives": "disabled"
     },
     "$figmaStyleReferences": {
       "button.primary.background": "S:b1650f470cb24f40fe4acb6df6c3eee8db58b444,",
@@ -50,13 +47,10 @@
       "mobile/core/colors": "source",
       "mobile/core/dimensions": "source",
       "mobile/core/typography": "source",
-      "mobile/light/primitives": "disabled",
-      "mobile/dark/primitives": "enabled",
       "mobile/component": "enabled",
       "mobile/semantic": "source",
-      "mobile/overrides/brands/Lime": "disabled",
-      "mobile/overrides/brands/Blueberries": "disabled",
-      "mobile/overrides/brands/Passion": "disabled"
+      "mobile/theming/light/primitives": "disabled",
+      "mobile/theming/dark/primitives": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -71,13 +65,9 @@
       "mobile/core/colors": "source",
       "mobile/core/dimensions": "source",
       "mobile/core/typography": "source",
-      "mobile/light/primitives": "disabled",
-      "mobile/dark/primitives": "disabled",
-      "mobile/component": "disabled",
-      "mobile/semantic": "disabled",
       "mobile/overrides/brands/Lime": "enabled",
-      "mobile/overrides/brands/Blueberries": "disabled",
-      "mobile/overrides/brands/Passion": "disabled"
+      "mobile/theming/light/primitives": "disabled",
+      "mobile/theming/dark/primitives": "disabled"
     },
     "$figmaStyleReferences": {
       "colors.onAccent.default": "S:f1e383388df356d352f4d887b01d3b21a0305338,",
@@ -103,13 +93,9 @@
       "mobile/core/colors": "source",
       "mobile/core/dimensions": "source",
       "mobile/core/typography": "source",
-      "mobile/light/primitives": "disabled",
-      "mobile/dark/primitives": "disabled",
-      "mobile/component": "disabled",
-      "mobile/semantic": "disabled",
-      "mobile/overrides/brands/Lime": "disabled",
       "mobile/overrides/brands/Blueberries": "enabled",
-      "mobile/overrides/brands/Passion": "disabled"
+      "mobile/theming/light/primitives": "disabled",
+      "mobile/theming/dark/primitives": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -124,13 +110,9 @@
       "mobile/core/colors": "source",
       "mobile/core/dimensions": "source",
       "mobile/core/typography": "source",
-      "mobile/light/primitives": "disabled",
-      "mobile/dark/primitives": "disabled",
-      "mobile/component": "disabled",
-      "mobile/semantic": "disabled",
-      "mobile/overrides/brands/Lime": "disabled",
-      "mobile/overrides/brands/Blueberries": "disabled",
-      "mobile/overrides/brands/Passion": "source"
+      "mobile/overrides/brands/Passion": "source",
+      "mobile/theming/light/primitives": "disabled",
+      "mobile/theming/dark/primitives": "disabled"
     },
     "$figmaStyleReferences": {}
   }
