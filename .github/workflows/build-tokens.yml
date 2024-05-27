@@ -70,6 +70,6 @@ jobs:
             git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
         
             # Push changes
-            git push origin master || { echo "Failed pushing changes."; exit 1; }
+            git push origin build || { echo "Failed pushing changes."; exit 1; }
             echo "Push success.."
           fi
