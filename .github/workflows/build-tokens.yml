@@ -48,7 +48,7 @@ jobs:
 
       - name: Commit and Push changes (optional)
         env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN_ACCESS }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "GitHub Actions"  # Replace with your name if desired
           git config user.email "github-actions[bot]@users.noreply.github.com"
