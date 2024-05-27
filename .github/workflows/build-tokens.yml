@@ -53,5 +53,5 @@ jobs:
           git add build/  # Add the build directory (assuming artifacts are there)
           git commit -m "Pushed build artifacts from workflow (SHA: ${{ github.sha }})"
           # Push changes to branch master (uncomment if desired)
-          # git push origin master
+          git push origin master
 
