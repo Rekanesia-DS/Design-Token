@@ -1,4 +1,4 @@
-name: Build with Node.js 20.6.1
+name: Build Tokens
 
 on:
   push:
