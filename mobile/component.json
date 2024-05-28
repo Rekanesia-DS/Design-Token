@@ -1,14 +1,103 @@
 {
-  "com": {
-    "mobile": {
+  "mob": {
+    "comp": {
       "button": {
-        "medium": {
-          "value": {
-            "fill": "{sem.mobile.color.bg.accent}"
+        "color": {
+          "container": {
+            "active": {
+              "value": "{sem.mobile.color.bg.accent}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{sem.mobile.color.bg.accent}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{sem.mobile.color.bg.accent}",
+              "type": "color"
+            }
           },
-          "type": "composition"
+          "border": {
+            "active": {
+              "value": "{sem.mobile.color.bg.accent}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{sem.mobile.color.bg.accent}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{sem.mobile.color.bg.accent}",
+              "type": "color"
+            }
+          },
+          "fg": {
+            "active": {
+              "value": "{sem.mobile.color.text.onAccent}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{sem.mobile.color.text.onAccent}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{sem.mobile.color.text.onAccent}",
+              "type": "color"
+            }
+          }
+        },
+        "text": {
+          "large": {
+            "value": "{sem.mobile.text.action.large}",
+            "type": "typography"
+          },
+          "medium": {
+            "value": "{sem.mobile.text.action.medium}",
+            "type": "typography"
+          }
+        },
+        "corner": {
+          "medium": {
+            "value": "{sem.mobile.corner.medium}",
+            "type": "borderRadius"
+          }
+        },
+        "padding": {
+          "medium": {
+            "value": "{sem.mobile.padding.horizontal.medium}",
+            "type": "spacing"
+          }
+        },
+        "gap": {
+          "medium": {
+            "value": "{sem.mobile.gap.medium}",
+            "type": "spacing"
+          }
+        },
+        "sizing": {
+          "fg": {
+            "m": {
+              "value": "{sem.size.element.m}",
+              "type": "sizing"
+            },
+            "s": {
+              "value": "{sem.size.element.s}",
+              "type": "sizing"
+            },
+            "xs": {
+              "value": "{core.mobile.size.xxs}",
+              "type": "sizing"
+            }
+          }
         }
       }
     }
+  },
+  "icon": {
+    "value": {
+      "color": "{brand.dark.accent.700}",
+      "width": "4"
+    },
+    "type": "border"
   }
 }

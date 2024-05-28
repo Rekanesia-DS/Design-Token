@@ -12,6 +12,10 @@
     "mobile/semantic",
     "mobile/overrides/brands/Lime",
     "mobile/overrides/brands/Blueberries",
-    "mobile/overrides/brands/Passion"
+    "mobile/overrides/brands/Passion",
+    "mobile/dark/primitives",
+    "mobile/light/primitives",
+    "package",
+    "package-lock"
   ]
 }
