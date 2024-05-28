@@ -62,6 +62,10 @@ jobs:
           git fetch origin
           git checkout master || git checkout -b master
 
+      - name: Remove all files in root except .git
+        run: |
+          find . -mindepth 1 -maxdepth 1 ! -name '.git' ! -name 'build' -exec rm -rf {} +
+
       - name: Move Artifacts to Root
         run: |
           mv build/* .  # Pindahkan semua file dari folder build ke root
@@ -84,7 +88,7 @@ jobs:
             git commit -m "Moved build artifacts from workflow (SHA: ${{ github.sha }})" || { echo "Failed committing changes."; exit 1; }
             
             # Set up remote URL with token authentication
-            git remote set-url origin https://x-access-token:${{ secrets.PAT }}@github.com/${{ github.repository }}.git
+            git remote set-url origin https://x-access-token:${{ secrets.ACCESS_TOKEN }}@github.com/${{ github.repository }}.git
         
             # Push changes
             git push origin master || { echo "Failed pushing changes."; exit 1; }
