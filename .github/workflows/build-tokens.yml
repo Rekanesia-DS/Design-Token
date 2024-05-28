@@ -47,14 +47,17 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: master  # Pastikan checkout ke branch build
 
       - name: Download Artifacts
         uses: actions/download-artifact@v4
         with:
           name: my-artifacts
           path: build/  # Pastikan folder tujuan sama dengan yang diupload sebelumnya
+
+      - name: Create or Switch to master branch
+        run: |
+          git fetch origin
+          git checkout master || git checkout -b master
 
       - name: Commit and Push changes
         env:
@@ -77,5 +80,5 @@ jobs:
             git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
         
             # Push changes
-            git push origin build || { echo "Failed pushing changes."; exit 1; }
+            git push origin master || { echo "Failed pushing changes."; exit 1; }
           fi
