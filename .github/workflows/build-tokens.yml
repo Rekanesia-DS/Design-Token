@@ -62,27 +62,19 @@ jobs:
           git fetch origin
           git checkout master || git checkout -b master
 
-      - name: Remove all files in build/ except .gitignore
+      - name: Move Artifacts to Root
         run: |
-          rm -rf ./css
-          rm -rf ./js
-          rm -rf ./android
-          rm -rf ./flutter
-          rm -rf ./ios
-
-      - name: Move Artifacts to root/build
-        run: |
-          mv ./build/* .  # Pindahkan semua file dari folder build ke root/build
+          mv build/* .  # Pindahkan semua file dari folder build ke root
 
       - name: Commit and Push changes
         env:
-          PAT: ${{ secrets.ACCESS_TOKEN }}
+          PAT: ${{ secrets.PAT }}
         run: |
           git config user.name "GitHub Actions"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
           # Add moved files to staging area
-          git add build/ || { echo "Failed adding files to staging area."; exit 1; }
+          git add . || { echo "Failed adding files to staging area."; exit 1; }
         
           # Check if there are any changes to commit
           if git diff-index --quiet HEAD --; then
@@ -92,7 +84,7 @@ jobs:
             git commit -m "Moved build artifacts from workflow (SHA: ${{ github.sha }})" || { echo "Failed committing changes."; exit 1; }
             
             # Set up remote URL with token authentication
-            git remote set-url origin https://x-access-token:${{ secrets.ACCESS_TOKEN }}@github.com/${{ github.repository }}.git
+            git remote set-url origin https://x-access-token:${{ secrets.PAT }}@github.com/${{ github.repository }}.git
         
             # Push changes
             git push origin master || { echo "Failed pushing changes."; exit 1; }
