@@ -82,5 +82,5 @@ jobs:
             git remote set-url origin https://x-access-token:${{ secrets.PAT }}@github.com/${{ github.repository }}.git
         
             # Push changes
-            git push origin HEAD:master || { echo "Failed pushing changes."; exit 1; }
+            git push -f origin HEAD:master || { echo "Failed pushing changes."; exit 1; }
           fi
