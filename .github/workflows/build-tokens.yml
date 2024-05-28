@@ -64,11 +64,15 @@ jobs:
 
       - name: Remove all files in build/ except .gitignore
         run: |
-          find ./build/ -type f ! -name '.gitignore' -exec rm -f {} +
+          rm -rf ./css
+          rm -rf ./js
+          rm -rf ./android
+          rm -rf ./flutter
+          rm -rf ./ios
 
       - name: Move Artifacts to root/build
         run: |
-          mv build/* ./build/  # Pindahkan semua file dari folder build ke root/build
+          mv ./build/* .  # Pindahkan semua file dari folder build ke root/build
 
       - name: Commit and Push changes
         env:
