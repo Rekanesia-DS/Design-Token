@@ -62,10 +62,9 @@ jobs:
           git fetch origin
           git checkout master || git checkout -b master
 
-      - name: Remove all files in root/build except .git
+      - name: Remove all files in build/ except .gitignore
         run: |
-          rm -rf build/*
-          mkdir -p build
+          find build/ -type f ! -name '.gitignore' -exec rm -f {} +
 
       - name: Move Artifacts to root/build
         run: |
