@@ -62,10 +62,6 @@ jobs:
           git fetch origin
           git checkout master || git checkout -b master
 
-      - name: Move Artifacts to Root
-        run: |
-          mv build/* .  # Pindahkan semua file dari folder build ke root
-
       - name: Commit and Push changes
         env:
           PAT: ${{ secrets.PAT }}
