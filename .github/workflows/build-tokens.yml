@@ -62,13 +62,14 @@ jobs:
           git fetch origin
           git checkout master || git checkout -b master
 
-      - name: Remove all files in root except .git
+      - name: Remove all files in root/build except .git
         run: |
-          find . -mindepth 1 -maxdepth 1 ! -name '.git' ! -name 'build' -exec rm -rf {} +
+          rm -rf build/*
+          mkdir -p build
 
-      - name: Move Artifacts to Root
+      - name: Move Artifacts to root/build
         run: |
-          mv build/* .  # Pindahkan semua file dari folder build ke root
+          mv build/* ./build/  # Pindahkan semua file dari folder build ke root/build
 
       - name: Commit and Push changes
         env:
@@ -78,7 +79,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
           # Add moved files to staging area
-          git add . || { echo "Failed adding files to staging area."; exit 1; }
+          git add build/ || { echo "Failed adding files to staging area."; exit 1; }
         
           # Check if there are any changes to commit
           if git diff-index --quiet HEAD --; then
