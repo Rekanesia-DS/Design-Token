@@ -40,7 +40,7 @@ jobs:
         with:
           name: my-artifacts
           path: |
-            build
+            build/flutter/rekanesia-light-lime.dart
 
       - name: Archive code coverage results
         uses: actions/upload-artifact@v4
