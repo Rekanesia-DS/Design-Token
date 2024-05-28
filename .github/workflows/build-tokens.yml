@@ -69,7 +69,7 @@ jobs:
 
       - name: Commit and Push changes
         env:
-          PAT: ${{ secrets.PAT }}
+          PAT: ${{ secrets.ACCESS_TOKEN }}
         run: |
           git config user.name "GitHub Actions"
           git config user.email "github-actions[bot]@users.noreply.github.com"
