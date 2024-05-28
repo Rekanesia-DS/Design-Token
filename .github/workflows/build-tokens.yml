@@ -64,7 +64,7 @@ jobs:
 
       - name: Remove all files in build/ except .gitignore
         run: |
-          find build/ -type f ! -name '.gitignore' -exec rm -f {} +
+          find ./build/ -type f ! -name '.gitignore' -exec rm -f {} +
 
       - name: Move Artifacts to root/build
         run: |
