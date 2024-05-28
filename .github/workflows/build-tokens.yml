@@ -67,9 +67,9 @@ jobs:
           git add .  # Menambahkan seluruh perubahan ke dalam staging area
           git commit -m "Moved build artifacts from workflow (SHA: ${{ github.sha }})"
 
-      - name: Push changes
+      - name: Commit and Push changes
         env:
-          PAT: ${{ secrets.ACCESS_TOKEN }}
+          PAT: ${{ secrets.PAT }}
         run: |
           git config user.name "GitHub Actions"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -85,7 +85,7 @@ jobs:
             git commit -m "Moved build artifacts from workflow (SHA: ${{ github.sha }})" || { echo "Failed committing changes."; exit 1; }
             
             # Set up remote URL with token authentication
-            git remote set-url origin https://x-access-token:${{ secrets.PAT }}@github.com/${{ github.repository }}.git
+            git remote set-url origin https://x-access-token:${{ PAT }}@github.com/${{ github.repository }}.git
         
             # Push changes
             git push origin master || { echo "Failed pushing changes."; exit 1; }
