@@ -84,6 +84,9 @@ jobs:
             # Commit changes
             git commit -m "Moved build artifacts from workflow (SHA: ${{ github.sha }})" || { echo "Failed committing changes."; exit 1; }
             
+            # Set up remote URL with token authentication
+            git remote set-url origin https://x-access-token:${{ secrets.PAT }}@github.com/${{ github.repository }}.git
+        
             # Push changes
             git push origin master || { echo "Failed pushing changes."; exit 1; }
           fi
