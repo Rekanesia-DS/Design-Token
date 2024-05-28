@@ -71,6 +71,9 @@ jobs:
           if git diff-index --quiet HEAD --; then
             echo "No changes to commit."
           else
+            # git pull
+            git pull 
+            
             # Commit changes
             git commit -m "Add build artifacts from workflow (SHA: ${{ github.sha }})" || { echo "Failed committing changes."; exit 1; }
             
