@@ -1,6 +1,14 @@
 {
   "seed": {
     "size": {
+      "15": {
+        "value": "8",
+        "type": "sizing"
+      },
+      "20": {
+        "value": "10",
+        "type": "sizing"
+      },
       "25": {
         "value": "14",
         "type": "sizing"
@@ -199,6 +207,26 @@
       },
       "500": {
         "value": "16",
+        "type": "spacing"
+      },
+      "600": {
+        "value": "18",
+        "type": "spacing"
+      },
+      "700": {
+        "value": "20",
+        "type": "spacing"
+      },
+      "800": {
+        "value": "22",
+        "type": "spacing"
+      },
+      "900": {
+        "value": "24",
+        "type": "spacing"
+      },
+      "00": {
+        "value": "0",
         "type": "spacing"
       }
     }

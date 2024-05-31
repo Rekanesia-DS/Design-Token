@@ -231,8 +231,8 @@
         "value": "{seed.borderradius.100}",
         "type": "borderRadius"
       },
-      "m": {
-        "value": "{seed.borderradius.200}",
+      "base": {
+        "value": "{seed.borderradius.1000}",
         "type": "borderRadius"
       },
       "l": {

@@ -1,36 +1,112 @@
 {
   "core": {
     "mobile": {
-      "size": {
-        "m": {
-          "value": "{seed.size.300}",
+      "cramped": {
+        "xs": {
+          "value": "{seed.size.25}",
           "type": "sizing"
         },
         "s": {
-          "value": "{seed.size.100}",
+          "value": "{seed.size.50}",
           "type": "sizing"
         },
-        "xs": {
+        "m": {
           "value": "{seed.size.80}",
           "type": "sizing"
         },
-        "xxs": {
-          "value": "{seed.size.50}",
+        "l": {
+          "value": "{seed.size.100}",
+          "type": "sizing"
+        },
+        "xl": {
+          "value": "{seed.size.300}",
           "type": "sizing"
         }
       },
-      "spacing": {
+      "compact": {
+        "xxs": {
+          "value": "{seed.spacing.25}",
+          "type": "spacing"
+        },
+        "xs": {
+          "value": "{seed.spacing.50}",
+          "type": "spacing"
+        },
+        "s": {
+          "value": "{seed.spacing.80}",
+          "type": "spacing"
+        },
         "m": {
-          "value": "{seed.spacing.500}",
+          "value": "{seed.spacing.100}",
+          "type": "spacing"
+        },
+        "l": {
+          "value": "{seed.spacing.200}",
+          "type": "spacing"
+        },
+        "xl": {
+          "value": "{seed.spacing.300}",
+          "type": "spacing"
+        },
+        "xxl": {
+          "value": "{seed.spacing.400}",
           "type": "spacing"
         }
       },
-      "gap": {
-        "m": {
+      "comfort": {
+        "xs": {
+          "value": "{seed.spacing.00}",
+          "type": "spacing"
+        },
+        "s": {
           "value": "{seed.spacing.50}",
           "type": "spacing"
+        },
+        "m": {
+          "value": "{seed.spacing.100}",
+          "type": "spacing"
+        },
+        "l": {
+          "value": "{seed.spacing.500}",
+          "type": "spacing"
+        },
+        "xl": {
+          "value": "{seed.spacing.700}",
+          "type": "spacing"
+        },
+        "xxl": {
+          "value": "{seed.spacing.900}",
+          "type": "spacing"
+        }
+      },
+      "relaxed": {
+        "xs": {
+          "value": "{seed.size.100}",
+          "type": "sizing"
+        },
+        "s": {
+          "value": "{seed.size.300}",
+          "type": "sizing"
+        },
+        "m": {
+          "value": "{seed.size.500}",
+          "type": "sizing"
+        },
+        "l": {
+          "value": "{seed.size.600}",
+          "type": "sizing"
+        },
+        "xl": {
+          "value": "{seed.size.700}",
+          "type": "sizing"
         }
       }
+    }
+  },
+  "border": {
+    "m": {
+      "value": "{seed.borderwidth.500}",
+      "type": "borderWidth"
     }
   }
 }

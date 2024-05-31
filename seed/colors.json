@@ -3,7 +3,8 @@
     "blueberries": {
       "100": {
         "value": "#ebedfb",
-        "type": "color"
+        "type": "color",
+        "description": "desc"
       },
       "200": {
         "value": "#cfd4f6",

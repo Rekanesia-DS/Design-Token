@@ -1,48 +1,32 @@
 {
   "mode": {
     "warning": {
+      "border": {
+        "default": {
+          "value": "{sys.light.warning.300}",
+          "type": "color"
+        },
+        "emphasis": {
+          "value": "{sys.light.warning.400}",
+          "type": "color"
+        },
+        "muted": {
+          "value": "{sys.light.warning.200}",
+          "type": "color"
+        }
+      },
       "fg": {
-        "border": {
-          "default": {
-            "value": "{sys.light.warning.300}",
-            "type": "color"
-          },
-          "emphasis": {
-            "value": "{sys.light.warning.400}",
-            "type": "color"
-          },
-          "muted": {
-            "value": "{sys.light.warning.200}",
-            "type": "color"
-          }
+        "default": {
+          "value": "{sys.light.warning.500}",
+          "type": "color"
         },
-        "icon": {
-          "default": {
-            "value": "{sys.light.warning.500}",
-            "type": "color"
-          },
-          "emphasis": {
-            "value": "{sys.light.warning.600}",
-            "type": "color"
-          },
-          "muted": {
-            "value": "{sys.light.warning.400}",
-            "type": "color"
-          }
+        "emphasis": {
+          "value": "{sys.light.warning.600}",
+          "type": "color"
         },
-        "text": {
-          "default": {
-            "value": "{sys.light.warning.500}",
-            "type": "color"
-          },
-          "emphasis": {
-            "value": "{sys.light.warning.600}",
-            "type": "color"
-          },
-          "muted": {
-            "value": "{sys.light.warning.400}",
-            "type": "color"
-          }
+        "muted": {
+          "value": "{sys.light.warning.400}",
+          "type": "color"
         }
       },
       "bg": {
@@ -65,64 +49,40 @@
       }
     },
     "neutral": {
+      "border": {
+        "muted": {
+          "value": "{brand.light.neutral.200}",
+          "type": "color"
+        },
+        "emphasis": {
+          "value": "{brand.light.neutral.400}",
+          "type": "color"
+        },
+        "default": {
+          "value": "{brand.light.neutral.300}",
+          "type": "color"
+        }
+      },
       "fg": {
-        "border": {
-          "muted": {
-            "value": "{brand.light.neutral.200}",
-            "type": "color"
-          },
-          "emphasis": {
-            "value": "{brand.light.neutral.400}",
-            "type": "color"
-          },
-          "default": {
-            "value": "{brand.light.neutral.300}",
-            "type": "color"
-          }
+        "onAccent": {
+          "value": "{brand.light.neutral.00}",
+          "type": "color"
         },
-        "icon": {
-          "onAccent": {
-            "value": "{brand.light.neutral.00}",
-            "type": "color"
-          },
-          "subtle": {
-            "value": "{brand.light.neutral.400}",
-            "type": "color"
-          },
-          "muted": {
-            "value": "{brand.light.neutral.500}",
-            "type": "color"
-          },
-          "emphasis": {
-            "value": "{brand.light.neutral.900}",
-            "type": "color"
-          },
-          "default": {
-            "value": "{brand.light.neutral.800}",
-            "type": "color"
-          }
+        "subtle": {
+          "value": "{brand.light.neutral.400}",
+          "type": "color"
         },
-        "text": {
-          "onAccent": {
-            "value": "{brand.light.neutral.00}",
-            "type": "color"
-          },
-          "subtle": {
-            "value": "{brand.light.neutral.400}",
-            "type": "color"
-          },
-          "muted": {
-            "value": "{brand.light.neutral.500}",
-            "type": "color"
-          },
-          "emphasis": {
-            "value": "{brand.light.neutral.900}",
-            "type": "color"
-          },
-          "default": {
-            "value": "{brand.light.neutral.800}",
-            "type": "color"
-          }
+        "muted": {
+          "value": "{brand.light.neutral.500}",
+          "type": "color"
+        },
+        "emphasis": {
+          "value": "{brand.light.neutral.900}",
+          "type": "color"
+        },
+        "default": {
+          "value": "{brand.light.neutral.800}",
+          "type": "color"
         }
       },
       "bg": {
@@ -153,64 +113,40 @@
       }
     },
     "accent": {
+      "border": {
+        "default": {
+          "value": "{brand.light.accent.300}",
+          "type": "color"
+        },
+        "emphasis": {
+          "value": "{brand.light.accent.400}",
+          "type": "color"
+        },
+        "muted": {
+          "value": "{brand.light.accent.200}",
+          "type": "color"
+        }
+      },
       "fg": {
-        "border": {
-          "default": {
-            "value": "{brand.light.accent.300}",
-            "type": "color"
-          },
-          "emphasis": {
-            "value": "{brand.light.accent.400}",
-            "type": "color"
-          },
-          "muted": {
-            "value": "{brand.light.accent.200}",
-            "type": "color"
-          }
+        "default": {
+          "value": "{brand.light.accent.500}",
+          "type": "color"
         },
-        "icon": {
-          "default": {
-            "value": "{brand.light.accent.500}",
-            "type": "color"
-          },
-          "emphasis": {
-            "value": "{brand.light.accent.700}",
-            "type": "color"
-          },
-          "muted": {
-            "value": "{brand.light.accent.400}",
-            "type": "color"
-          },
-          "subtle": {
-            "value": "{brand.light.accent.300}",
-            "type": "color"
-          },
-          "onAccent": {
-            "value": "{brand.light.accent.100}",
-            "type": "color"
-          }
+        "emphasis": {
+          "value": "{brand.light.accent.700}",
+          "type": "color"
         },
-        "text": {
-          "default": {
-            "value": "{brand.light.accent.500}",
-            "type": "color"
-          },
-          "emphasis": {
-            "value": "{brand.light.accent.700}",
-            "type": "color"
-          },
-          "muted": {
-            "value": "{brand.light.accent.400}",
-            "type": "color"
-          },
-          "subtle": {
-            "value": "{brand.light.accent.300}",
-            "type": "color"
-          },
-          "onAccent": {
-            "value": "{brand.light.accent.100}",
-            "type": "color"
-          }
+        "muted": {
+          "value": "{brand.light.accent.400}",
+          "type": "color"
+        },
+        "subtle": {
+          "value": "{brand.light.accent.300}",
+          "type": "color"
+        },
+        "onAccent": {
+          "value": "{brand.light.accent.100}",
+          "type": "color"
         }
       },
       "bg": {
@@ -237,48 +173,32 @@
       }
     },
     "error": {
+      "border": {
+        "default": {
+          "value": "{sys.light.danger.300}",
+          "type": "color"
+        },
+        "emphasis": {
+          "value": "{sys.light.danger.400}",
+          "type": "color"
+        },
+        "muted": {
+          "value": "{sys.light.danger.200}",
+          "type": "color"
+        }
+      },
       "fg": {
-        "border": {
-          "default": {
-            "value": "{sys.light.danger.300}",
-            "type": "color"
-          },
-          "emphasis": {
-            "value": "{sys.light.danger.400}",
-            "type": "color"
-          },
-          "muted": {
-            "value": "{sys.light.danger.200}",
-            "type": "color"
-          }
+        "default": {
+          "value": "{sys.light.danger.500}",
+          "type": "color"
         },
-        "icon": {
-          "default": {
-            "value": "{sys.light.danger.500}",
-            "type": "color"
-          },
-          "emphasis": {
-            "value": "{sys.light.danger.600}",
-            "type": "color"
-          },
-          "muted": {
-            "value": "{sys.light.danger.400}",
-            "type": "color"
-          }
+        "emphasis": {
+          "value": "{sys.light.danger.600}",
+          "type": "color"
         },
-        "text": {
-          "default": {
-            "value": "{sys.light.danger.500}",
-            "type": "color"
-          },
-          "emphasis": {
-            "value": "{sys.light.danger.600}",
-            "type": "color"
-          },
-          "muted": {
-            "value": "{sys.light.danger.400}",
-            "type": "color"
-          }
+        "muted": {
+          "value": "{sys.light.danger.400}",
+          "type": "color"
         }
       },
       "bg": {
@@ -301,48 +221,32 @@
       }
     },
     "success": {
+      "border": {
+        "default": {
+          "value": "{sys.light.success.300}",
+          "type": "color"
+        },
+        "emphasis": {
+          "value": "{sys.light.success.400}",
+          "type": "color"
+        },
+        "muted": {
+          "value": "{sys.light.success.200}",
+          "type": "color"
+        }
+      },
       "fg": {
-        "border": {
-          "default": {
-            "value": "{sys.light.success.300}",
-            "type": "color"
-          },
-          "emphasis": {
-            "value": "{sys.light.success.400}",
-            "type": "color"
-          },
-          "muted": {
-            "value": "{sys.light.success.200}",
-            "type": "color"
-          }
+        "default": {
+          "value": "{sys.light.success.500}",
+          "type": "color"
         },
-        "text": {
-          "default": {
-            "value": "{sys.light.success.500}",
-            "type": "color"
-          },
-          "emphasis": {
-            "value": "{sys.light.success.600}",
-            "type": "color"
-          },
-          "muted": {
-            "value": "{sys.light.success.400}",
-            "type": "color"
-          }
+        "emphasis": {
+          "value": "{sys.light.success.600}",
+          "type": "color"
         },
-        "icon": {
-          "default": {
-            "value": "{sys.light.success.500}",
-            "type": "color"
-          },
-          "emphasis": {
-            "value": "{sys.light.success.600}",
-            "type": "color"
-          },
-          "muted": {
-            "value": "{sys.light.success.400}",
-            "type": "color"
-          }
+        "muted": {
+          "value": "{sys.light.success.400}",
+          "type": "color"
         }
       },
       "bg": {

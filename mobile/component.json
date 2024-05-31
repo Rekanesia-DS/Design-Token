@@ -5,43 +5,51 @@
         "color": {
           "container": {
             "active": {
-              "value": "{sem.mobile.color.bg.accent}",
+              "value": "{sem.mobile.color.state.active.accent}",
               "type": "color"
             },
             "disabled": {
-              "value": "{sem.mobile.color.bg.accent}",
+              "value": "{sem.mobile.color.state.disabled.container}",
               "type": "color"
             },
             "pressed": {
-              "value": "{sem.mobile.color.bg.accent}",
+              "value": "{sem.mobile.color.state.pressed.accent}",
+              "type": "color"
+            },
+            "base": {
+              "value": "{sem.mobile.color.element.container.surface}",
               "type": "color"
             }
           },
           "border": {
             "active": {
-              "value": "{sem.mobile.color.bg.accent}",
+              "value": "{sem.mobile.color.element.container.accent}",
               "type": "color"
             },
             "disabled": {
-              "value": "{sem.mobile.color.bg.accent}",
+              "value": "{mob.comp.button.color.atribute.disabled}",
               "type": "color"
             },
             "pressed": {
-              "value": "{sem.mobile.color.bg.accent}",
+              "value": "{mode.accent.bg.emphasis}",
               "type": "color"
             }
           },
-          "fg": {
+          "atribute": {
             "active": {
-              "value": "{sem.mobile.color.text.onAccent}",
+              "value": "{sem.mobile.color.element.fg.onAccent}",
               "type": "color"
             },
             "disabled": {
-              "value": "{sem.mobile.color.text.onAccent}",
+              "value": "{sem.mobile.color.state.disabled.fg}",
               "type": "color"
             },
             "pressed": {
-              "value": "{sem.mobile.color.text.onAccent}",
+              "value": "{sem.mobile.color.state.pressed.fg}",
+              "type": "color"
+            },
+            "linePressed": {
+              "value": "{sem.mobile.color.state.pressed.accent}",
               "type": "color"
             }
           }
@@ -63,41 +71,52 @@
           }
         },
         "padding": {
+          "large": {
+            "value": "{sem.mobile.frame.high}",
+            "type": "spacing"
+          },
           "medium": {
-            "value": "{sem.mobile.padding.horizontal.medium}",
+            "value": "{sem.mobile.frame.low}",
             "type": "spacing"
           }
         },
         "gap": {
-          "medium": {
-            "value": "{sem.mobile.gap.medium}",
+          "large": {
+            "value": "{sem.mobile.gap.normal}",
             "type": "spacing"
           }
         },
         "sizing": {
           "fg": {
-            "m": {
-              "value": "{sem.size.element.m}",
+            "large": {
+              "value": "{sem.size.element.medium}",
               "type": "sizing"
             },
-            "s": {
-              "value": "{sem.size.element.s}",
+            "medium": {
+              "value": "{sem.size.element.small}",
               "type": "sizing"
             },
-            "xs": {
-              "value": "{core.mobile.size.xxs}",
+            "small": {
+              "value": "{sem.size.element.tiny}",
+              "type": "sizing"
+            }
+          },
+          "bg": {
+            "large": {
+              "value": "{sem.size.wrapper.large}",
+              "type": "sizing"
+            },
+            "medium": {
+              "value": "{sem.size.wrapper.medium}",
+              "type": "sizing"
+            },
+            "small": {
+              "value": "{sem.size.wrapper.small}",
               "type": "sizing"
             }
           }
         }
       }
     }
-  },
-  "icon": {
-    "value": {
-      "color": "{brand.dark.accent.700}",
-      "width": "4"
-    },
-    "type": "border"
   }
 }

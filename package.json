@@ -1,17 +1,46 @@
 {
-  "name": "tokens6",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build" : "node build-tokens.mjs"
+  "name": {
+    "value": "tokens6",
+    "type": "other"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "version": {
+    "value": "1.0.0",
+    "type": "other"
+  },
+  "description": {
+    "value": "",
+    "type": "other"
+  },
+  "main": {
+    "value": "index.js",
+    "type": "other"
+  },
+  "scripts": {
+    "test": {
+      "value": "echo \"Error: no test specified\" && exit 1",
+      "type": "other"
+    },
+    "build": {
+      "value": "node build-tokens.mjs",
+      "type": "other"
+    }
+  },
+  "author": {
+    "value": "",
+    "type": "other"
+  },
+  "license": {
+    "value": "ISC",
+    "type": "other"
+  },
   "dependencies": {
-    "@tokens-studio/sd-transforms": "^0.16.1",
-    "style-dictionary": "^4.0.0-prerelease.29"
+    "@tokens-studio/sd-transforms": {
+      "value": "^0.16.1",
+      "type": "other"
+    },
+    "style-dictionary": {
+      "value": "^4.0.0-prerelease.29",
+      "type": "other"
+    }
   }
 }
