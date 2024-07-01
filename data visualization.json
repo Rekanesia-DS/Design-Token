@@ -1,1 +1,6 @@
-{}
+{
+  "blue": {
+    "value": "{seed.blueberries.1200}",
+    "type": "color"
+  }
+}
