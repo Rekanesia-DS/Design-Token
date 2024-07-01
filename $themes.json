@@ -12,9 +12,8 @@
       "mobile/component": "enabled",
       "mobile/semantic": "source",
       "mobile/core/style/theme/light": "enabled",
-      "dataViz/core": "disabled",
-      "dataViz/semantic": "disabled",
-      "dataViz/component": "disabled"
+      "dataViz/core/theme/light": "disabled",
+      "dataViz/core/theme/dark": "disabled"
     },
     "$figmaStyleReferences": {
       "button.primary.background": "S:b1650f470cb24f40fe4acb6df6c3eee8db58b444,",
@@ -50,9 +49,8 @@
       "mobile/component": "enabled",
       "mobile/semantic": "source",
       "mobile/core/style/theme/dark": "enabled",
-      "dataViz/core": "disabled",
-      "dataViz/semantic": "disabled",
-      "dataViz/component": "disabled"
+      "dataViz/core/theme/light": "disabled",
+      "dataViz/core/theme/dark": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -67,9 +65,8 @@
       "mobile/core/dimensions": "source",
       "mobile/core/typography": "source",
       "mobile/core/style/brands/Lime": "enabled",
-      "dataViz/core": "disabled",
-      "dataViz/semantic": "disabled",
-      "dataViz/component": "disabled"
+      "dataViz/core/theme/light": "disabled",
+      "dataViz/core/theme/dark": "disabled"
     },
     "$figmaStyleReferences": {
       "colors.onAccent.default": "S:f1e383388df356d352f4d887b01d3b21a0305338,",
@@ -95,9 +92,8 @@
       "mobile/core/dimensions": "source",
       "mobile/core/typography": "source",
       "mobile/core/style/brands/Blueberries": "enabled",
-      "dataViz/core": "disabled",
-      "dataViz/semantic": "disabled",
-      "dataViz/component": "disabled"
+      "dataViz/core/theme/light": "disabled",
+      "dataViz/core/theme/dark": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -112,15 +108,14 @@
       "mobile/core/dimensions": "source",
       "mobile/core/typography": "source",
       "mobile/core/style/brands/Passion": "source",
-      "dataViz/core": "disabled",
-      "dataViz/semantic": "disabled",
-      "dataViz/component": "disabled"
+      "dataViz/core/theme/light": "disabled",
+      "dataViz/core/theme/dark": "disabled"
     },
     "$figmaStyleReferences": {}
   },
   {
     "id": "975c9353023eecfa3ec281e92eee507295d4a27b",
-    "name": "lever",
+    "name": "dark",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "seed/colors": "source",
@@ -133,7 +128,22 @@
       "mobile/core/style/brands/Passion": "enabled",
       "dataViz/core": "source",
       "dataViz/semantic": "source",
-      "dataViz/component": "enabled"
+      "dataViz/component": "enabled",
+      "dataViz/core/theme/dark": "source"
+    },
+    "group": "Data Viz"
+  },
+  {
+    "id": "1830274ccfff67c8c05c180b836ab141c263f63a",
+    "name": "light",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "dataViz/core": "enabled",
+      "dataViz/semantic": "enabled",
+      "seed/colors": "enabled",
+      "seed/dimensions": "enabled",
+      "seed/typography": "enabled",
+      "dataViz/core/theme/light": "source"
     },
     "group": "Data Viz"
   }

@@ -1,0 +1,16 @@
+{
+  "blue": {
+    "100": {
+      "value": "{seed.beet.200}",
+      "type": "color"
+    },
+    "200": {
+      "value": "{seed.blueberries.1200}",
+      "type": "color"
+    },
+    "300": {
+      "value": "{seed.blueberries.1200}",
+      "type": "color"
+    }
+  }
+}
