@@ -6,15 +6,13 @@
     "mobile/core/colors",
     "mobile/core/dimensions",
     "mobile/core/typography",
-    "mobile/theming/light/primitives",
-    "mobile/theming/dark/primitives",
-    "mobile/component",
+    "mobile/core/style/theme/light",
+    "mobile/core/style/theme/dark",
+    "mobile/core/style/brands/Lime",
+    "mobile/core/style/brands/Blueberries",
+    "mobile/core/style/brands/Passion",
     "mobile/semantic",
-    "mobile/brands/Lime",
-    "mobile/brands/Blueberries",
-    "mobile/brands/Passion",
-    "mobile/theme/dark",
-    "mobile/theme/light",
-    "Data Viz"
+    "mobile/component",
+    "data visualization"
   ]
 }
