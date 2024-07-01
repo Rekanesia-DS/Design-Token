@@ -12,11 +12,6 @@
     "mobile/core/style/brands/Blueberries",
     "mobile/core/style/brands/Passion",
     "mobile/semantic",
-    "mobile/component",
-    "dataViz/core",
-    "dataViz/core/theme/light",
-    "dataViz/core/theme/dark",
-    "dataViz/semantic",
-    "dataViz/component"
+    "mobile/component"
   ]
 }
