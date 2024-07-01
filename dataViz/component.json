@@ -1,0 +1,6 @@
+{
+  "blue": {
+    "value": "{data.blue.100}",
+    "type": "color"
+  }
+}

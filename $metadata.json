@@ -13,6 +13,8 @@
     "mobile/core/style/brands/Passion",
     "mobile/semantic",
     "mobile/component",
-    "data visualization"
+    "dataViz/core",
+    "dataViz/semantic",
+    "dataViz/component"
   ]
 }
