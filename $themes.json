@@ -7,11 +7,16 @@
       "seed/colors": "source",
       "seed/dimensions": "source",
       "seed/typography": "source",
-      "mobile/core/dimensions": "source",
-      "mobile/core/typography": "source",
-      "mobile/component": "enabled",
-      "mobile/semantic": "source",
-      "mobile/core/style/theme/light": "enabled"
+      "core/colors": "disabled",
+      "core/dimensions": "source",
+      "core/typography": "source",
+      "core/style/theme/light": "enabled",
+      "core/style/theme/dark": "disabled",
+      "core/style/brands/Lime": "disabled",
+      "core/style/brands/Blueberries": "disabled",
+      "core/style/brands/Passion": "disabled",
+      "semantic": "source",
+      "component": "enabled"
     },
     "$figmaStyleReferences": {
       "button.primary.background": "S:b1650f470cb24f40fe4acb6df6c3eee8db58b444,",
@@ -42,11 +47,16 @@
       "seed/colors": "source",
       "seed/dimensions": "source",
       "seed/typography": "source",
-      "mobile/core/dimensions": "source",
-      "mobile/core/typography": "source",
-      "mobile/component": "enabled",
-      "mobile/semantic": "source",
-      "mobile/core/style/theme/dark": "enabled"
+      "core/colors": "disabled",
+      "core/dimensions": "source",
+      "core/typography": "source",
+      "core/style/theme/light": "disabled",
+      "core/style/theme/dark": "enabled",
+      "core/style/brands/Lime": "disabled",
+      "core/style/brands/Blueberries": "disabled",
+      "core/style/brands/Passion": "disabled",
+      "semantic": "source",
+      "component": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -58,9 +68,16 @@
       "seed/colors": "source",
       "seed/dimensions": "source",
       "seed/typography": "source",
-      "mobile/core/dimensions": "source",
-      "mobile/core/typography": "source",
-      "mobile/core/style/brands/Lime": "enabled"
+      "core/colors": "disabled",
+      "core/dimensions": "source",
+      "core/typography": "source",
+      "core/style/theme/light": "disabled",
+      "core/style/theme/dark": "disabled",
+      "core/style/brands/Lime": "enabled",
+      "core/style/brands/Blueberries": "disabled",
+      "core/style/brands/Passion": "disabled",
+      "semantic": "disabled",
+      "component": "disabled"
     },
     "$figmaStyleReferences": {
       "colors.onAccent.default": "S:f1e383388df356d352f4d887b01d3b21a0305338,",
@@ -83,9 +100,16 @@
       "seed/colors": "source",
       "seed/dimensions": "source",
       "seed/typography": "source",
-      "mobile/core/dimensions": "source",
-      "mobile/core/typography": "source",
-      "mobile/core/style/brands/Blueberries": "enabled"
+      "core/colors": "disabled",
+      "core/dimensions": "source",
+      "core/typography": "source",
+      "core/style/theme/light": "disabled",
+      "core/style/theme/dark": "disabled",
+      "core/style/brands/Lime": "disabled",
+      "core/style/brands/Blueberries": "enabled",
+      "core/style/brands/Passion": "disabled",
+      "semantic": "disabled",
+      "component": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -97,37 +121,17 @@
       "seed/colors": "source",
       "seed/dimensions": "source",
       "seed/typography": "source",
-      "mobile/core/dimensions": "source",
-      "mobile/core/typography": "source",
-      "mobile/core/style/brands/Passion": "source"
+      "core/colors": "disabled",
+      "core/dimensions": "source",
+      "core/typography": "source",
+      "core/style/theme/light": "disabled",
+      "core/style/theme/dark": "disabled",
+      "core/style/brands/Lime": "disabled",
+      "core/style/brands/Blueberries": "disabled",
+      "core/style/brands/Passion": "source",
+      "semantic": "disabled",
+      "component": "disabled"
     },
     "$figmaStyleReferences": {}
-  },
-  {
-    "id": "975c9353023eecfa3ec281e92eee507295d4a27b",
-    "name": "dark",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "seed/colors": "source",
-      "seed/dimensions": "source",
-      "seed/typography": "source",
-      "mobile/core/style/theme/light": "enabled",
-      "mobile/core/style/theme/dark": "enabled",
-      "mobile/core/style/brands/Lime": "enabled",
-      "mobile/core/style/brands/Blueberries": "enabled",
-      "mobile/core/style/brands/Passion": "enabled"
-    },
-    "group": "Data Viz"
-  },
-  {
-    "id": "1830274ccfff67c8c05c180b836ab141c263f63a",
-    "name": "light",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "seed/colors": "enabled",
-      "seed/dimensions": "enabled",
-      "seed/typography": "enabled"
-    },
-    "group": "Data Viz"
   }
 ]

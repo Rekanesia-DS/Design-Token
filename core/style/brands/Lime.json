@@ -1,0 +1,244 @@
+{
+  "brand": {
+    "light": {
+      "primary": {
+        "100": {
+          "value": "{colors.seed.lime.100}",
+          "type": "color"
+        },
+        "200": {
+          "value": "{colors.seed.lime.200}",
+          "type": "color"
+        },
+        "300": {
+          "value": "{colors.seed.lime.600}",
+          "type": "color"
+        },
+        "400": {
+          "value": "{colors.seed.lime.900}",
+          "type": "color"
+        },
+        "500": {
+          "value": "{colors.seed.lime.1200}",
+          "type": "color"
+        },
+        "600": {
+          "value": "{colors.seed.lime.1300}",
+          "type": "color"
+        },
+        "700": {
+          "value": "{colors.seed.lime.1500}",
+          "type": "color"
+        },
+        "800": {
+          "value": "{colors.seed.lime.1700}",
+          "type": "color"
+        }
+      },
+      "neutral": {
+        "100": {
+          "value": "{colors.seed.morras.200}",
+          "type": "color"
+        },
+        "200": {
+          "value": "{colors.seed.morras.300}",
+          "type": "color"
+        },
+        "300": {
+          "value": "{colors.seed.morras.400}",
+          "type": "color"
+        },
+        "400": {
+          "value": "{colors.seed.morras.700}",
+          "type": "color"
+        },
+        "500": {
+          "value": "{colors.seed.morras.1700}",
+          "type": "color"
+        },
+        "600": {
+          "value": "{colors.seed.morras.1800}",
+          "type": "color"
+        },
+        "700": {
+          "value": "{colors.seed.morras.2000}",
+          "type": "color"
+        },
+        "800": {
+          "value": "{colors.seed.morras.2100}",
+          "type": "color"
+        },
+        "900": {
+          "value": "{colors.seed.morras.2200}",
+          "type": "color"
+        },
+        "00": {
+          "value": "{colors.seed.morras.100}",
+          "type": "color"
+        }
+      }
+    },
+    "dark": {
+      "primary": {
+        "100": {
+          "value": "{colors.seed.lime.2100}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {}
+          }
+        },
+        "200": {
+          "value": "{colors.seed.lime.2000}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {}
+          }
+        },
+        "300": {
+          "value": "{colors.seed.lime.1600}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {}
+          }
+        },
+        "400": {
+          "value": "{colors.seed.lime.1300}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {}
+          }
+        },
+        "500": {
+          "value": "{colors.seed.lime.1100}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {}
+          }
+        },
+        "600": {
+          "value": "{colors.seed.lime.1000}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {}
+          }
+        },
+        "700": {
+          "value": "{colors.seed.lime.800}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {}
+          }
+        },
+        "800": {
+          "value": "{colors.seed.lime.600}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {}
+          }
+        }
+      },
+      "neutral": {
+        "100": {
+          "value": "{colors.seed.morras.2100}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {}
+          }
+        },
+        "200": {
+          "value": "{colors.seed.morras.2000}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {}
+          }
+        },
+        "300": {
+          "value": "{colors.seed.morras.1900}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {}
+          }
+        },
+        "400": {
+          "value": "{colors.seed.morras.1700}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {}
+          }
+        },
+        "500": {
+          "value": "{colors.seed.morras.1100}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {}
+          }
+        },
+        "600": {
+          "value": "{colors.seed.morras.1000}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {}
+          }
+        },
+        "700": {
+          "value": "{colors.seed.morras.300}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {}
+          }
+        },
+        "800": {
+          "value": "{colors.seed.morras.200}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {}
+          }
+        },
+        "900": {
+          "value": "{colors.seed.morras.100}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {}
+          }
+        },
+        "00": {
+          "value": "{colors.seed.morras.2200}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {}
+          }
+        }
+      }
+    },
+    "text": {
+      "fontFamily": {
+        "base": {
+          "value": "{seed.fontFamily.sans.400}",
+          "type": "fontFamilies"
+        },
+        "tittle": {
+          "value": "{seed.fontFamily.sans.400}",
+          "type": "fontFamilies"
+        },
+        "heading": {
+          "value": "{seed.fontFamily.special.slab}",
+          "type": "fontFamilies"
+        }
+      }
+    },
+    "corner": {
+      "s": {
+        "value": "{seed.borderradius.100}",
+        "type": "borderRadius"
+      },
+      "base": {
+        "value": "{seed.borderradius.1000}",
+        "type": "borderRadius"
+      },
+      "l": {
+        "value": "{seed.borderradius.300}",
+        "type": "borderRadius"
+      }
+    }
+  }
+}

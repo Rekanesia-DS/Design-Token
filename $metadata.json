@@ -3,15 +3,15 @@
     "seed/colors",
     "seed/dimensions",
     "seed/typography",
-    "mobile/core/colors",
-    "mobile/core/dimensions",
-    "mobile/core/typography",
-    "mobile/core/style/theme/light",
-    "mobile/core/style/theme/dark",
-    "mobile/core/style/brands/Lime",
-    "mobile/core/style/brands/Blueberries",
-    "mobile/core/style/brands/Passion",
-    "mobile/semantic",
-    "mobile/component"
+    "core/colors",
+    "core/dimensions",
+    "core/typography",
+    "core/style/theme/light",
+    "core/style/theme/dark",
+    "core/style/brands/Lime",
+    "core/style/brands/Blueberries",
+    "core/style/brands/Passion",
+    "semantic",
+    "component"
   ]
 }
