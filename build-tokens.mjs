@@ -44,7 +44,7 @@ const configs = Object.entries(themes).map(([name, tokensets]) => ({
     },
     flutter: {
       transformGroup: 'tokens-studio',
-      transforms: ['name/camel'],
+      transforms: ['name/camel','color/hex8flutter','size/flutter/remToDouble'],
       options: {
         outputReferences: true,
       },
