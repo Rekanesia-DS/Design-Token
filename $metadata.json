@@ -10,10 +10,11 @@
     "mobile/theming/dark/primitives",
     "mobile/component",
     "mobile/semantic",
-    "mobile/overrides/brands/Lime",
-    "mobile/overrides/brands/Blueberries",
-    "mobile/overrides/brands/Passion",
-    "mobile/dark/primitives",
-    "mobile/light/primitives"
+    "mobile/brands/Lime",
+    "mobile/brands/Blueberries",
+    "mobile/brands/Passion",
+    "mobile/theme/dark",
+    "mobile/theme/light",
+    "Data Viz"
   ]
 }

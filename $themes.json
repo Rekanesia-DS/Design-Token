@@ -63,7 +63,7 @@
       "mobile/core/colors": "source",
       "mobile/core/dimensions": "source",
       "mobile/core/typography": "source",
-      "mobile/overrides/brands/Lime": "enabled"
+      "mobile/brands/Lime": "enabled"
     },
     "$figmaStyleReferences": {
       "colors.onAccent.default": "S:f1e383388df356d352f4d887b01d3b21a0305338,",
@@ -89,7 +89,7 @@
       "mobile/core/colors": "source",
       "mobile/core/dimensions": "source",
       "mobile/core/typography": "source",
-      "mobile/overrides/brands/Blueberries": "enabled"
+      "mobile/brands/Blueberries": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -104,7 +104,7 @@
       "mobile/core/colors": "source",
       "mobile/core/dimensions": "source",
       "mobile/core/typography": "source",
-      "mobile/overrides/brands/Passion": "source"
+      "mobile/brands/Passion": "source"
     },
     "$figmaStyleReferences": {}
   }
