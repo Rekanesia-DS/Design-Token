@@ -7,14 +7,9 @@
       "seed/colors": "source",
       "seed/dimensions": "source",
       "seed/typography": "source",
-      "core/colors": "disabled",
       "core/dimensions": "source",
       "core/typography": "source",
       "core/style/theme/light": "enabled",
-      "core/style/theme/dark": "disabled",
-      "core/style/brands/Lime": "disabled",
-      "core/style/brands/Blueberries": "disabled",
-      "core/style/brands/Passion": "disabled",
       "semantic": "source",
       "component": "enabled"
     },
@@ -47,14 +42,9 @@
       "seed/colors": "source",
       "seed/dimensions": "source",
       "seed/typography": "source",
-      "core/colors": "disabled",
       "core/dimensions": "source",
       "core/typography": "source",
-      "core/style/theme/light": "disabled",
       "core/style/theme/dark": "enabled",
-      "core/style/brands/Lime": "disabled",
-      "core/style/brands/Blueberries": "disabled",
-      "core/style/brands/Passion": "disabled",
       "semantic": "source",
       "component": "enabled"
     },
@@ -63,21 +53,16 @@
   {
     "id": "b9044e7127c42c03f6ced3054e403dd2a3a6e235",
     "name": "Lime",
-    "group": "Brands",
     "selectedTokenSets": {
       "seed/colors": "source",
       "seed/dimensions": "source",
       "seed/typography": "source",
-      "core/colors": "disabled",
       "core/dimensions": "source",
       "core/typography": "source",
-      "core/style/theme/light": "disabled",
-      "core/style/theme/dark": "disabled",
       "core/style/brands/Lime": "enabled",
-      "core/style/brands/Blueberries": "disabled",
-      "core/style/brands/Passion": "disabled",
-      "semantic": "disabled",
-      "component": "disabled"
+      "semantic": "source",
+      "component": "enabled",
+      "core/colors": "source"
     },
     "$figmaStyleReferences": {
       "colors.onAccent.default": "S:f1e383388df356d352f4d887b01d3b21a0305338,",
@@ -90,48 +75,41 @@
       "colors.accent.700": "S:77d09af23fd40b295e498a4d20c78eb680ea653c,",
       "colors.accent.800": "S:5ab2d4ca3ead8a4ab7dd305ca7677b925121b3d2,",
       "colors.accent.900": "S:bac0316d7462f8be1bb791055cbfb12862428859,"
-    }
+    },
+    "group": "Brands"
   },
   {
     "id": "7ce36e29dfe536b40115230cf3b7dcfa5f532f8c",
     "name": "Blueberries",
-    "group": "Brands",
     "selectedTokenSets": {
       "seed/colors": "source",
       "seed/dimensions": "source",
       "seed/typography": "source",
-      "core/colors": "disabled",
       "core/dimensions": "source",
       "core/typography": "source",
-      "core/style/theme/light": "disabled",
-      "core/style/theme/dark": "disabled",
-      "core/style/brands/Lime": "disabled",
       "core/style/brands/Blueberries": "enabled",
-      "core/style/brands/Passion": "disabled",
-      "semantic": "disabled",
-      "component": "disabled"
+      "core/colors": "source",
+      "component": "enabled",
+      "semantic": "source"
     },
-    "$figmaStyleReferences": {}
+    "$figmaStyleReferences": {},
+    "group": "Brands"
   },
   {
     "id": "809dab4ba72b7a96a4fed1156d2b097f077d0726",
     "name": "Passion",
-    "group": "Brands",
     "selectedTokenSets": {
       "seed/colors": "source",
       "seed/dimensions": "source",
       "seed/typography": "source",
-      "core/colors": "disabled",
       "core/dimensions": "source",
       "core/typography": "source",
-      "core/style/theme/light": "disabled",
-      "core/style/theme/dark": "disabled",
-      "core/style/brands/Lime": "disabled",
-      "core/style/brands/Blueberries": "disabled",
       "core/style/brands/Passion": "source",
-      "semantic": "disabled",
-      "component": "disabled"
+      "core/colors": "source",
+      "semantic": "source",
+      "component": "enabled"
     },
-    "$figmaStyleReferences": {}
+    "$figmaStyleReferences": {},
+    "group": "Brands"
   }
 ]
