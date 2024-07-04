@@ -29,4 +29,4 @@ jobs:
     - name: Deploy via GCS
       run: |
         gsutil -m rm -rf gs://cdn-test-rekan/ui-rekan-ipubers/* || echo "$?"
-        gsutil -m cp -r * gs://cdn-test-rekan/ui-rekan-ipubers
+        gsutil -m cp -r build/* gs://cdn-test-rekan/ui-rekan-ipubers
