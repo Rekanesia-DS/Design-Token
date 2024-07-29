@@ -1,0 +1,17 @@
+{
+  "tokenSetOrder": [
+    "seed/colors",
+    "seed/dimensions",
+    "seed/typography",
+    "core/colors",
+    "core/dimensions",
+    "core/typography",
+    "theming/mode/light",
+    "theming/mode/dark",
+    "theming/brands/Lime",
+    "theming/brands/Blueberries",
+    "theming/brands/Passion",
+    "theming/brands/Mint",
+    "semantic"
+  ]
+}

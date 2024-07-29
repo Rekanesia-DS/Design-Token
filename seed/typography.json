@@ -1,0 +1,240 @@
+{
+  "500": {
+    "value": "Harmony Sans",
+    "type": "fontFamilies"
+  },
+  "seed": {
+    "fontFamily": {
+      "500": {
+        "value": "Harmony Sans",
+        "type": "fontFamilies"
+      },
+      "sans": {
+        "100": {
+          "value": "Noto Sans",
+          "type": "fontFamilies"
+        },
+        "200": {
+          "value": "Sofia Sans",
+          "type": "fontFamilies"
+        },
+        "300": {
+          "value": "Inter",
+          "type": "fontFamilies"
+        },
+        "400": {
+          "value": "Radio Canada",
+          "type": "fontFamilies"
+        }
+      },
+      "special": {
+        "monospace": {
+          "value": "Roboto Mono",
+          "type": "fontFamilies"
+        },
+        "slab": {
+          "value": "Bricolage Grotesque",
+          "type": "fontFamilies"
+        }
+      }
+    },
+    "fontWeight": {
+      "300": {
+        "value": "300",
+        "type": "fontWeights"
+      },
+      "400": {
+        "value": "400",
+        "type": "fontWeights"
+      },
+      "500": {
+        "value": "500",
+        "type": "fontWeights"
+      },
+      "600": {
+        "value": "600",
+        "type": "fontWeights"
+      },
+      "700": {
+        "value": "700",
+        "type": "fontWeights"
+      },
+      "800": {
+        "value": "800",
+        "type": "fontWeights"
+      }
+    },
+    "fontSize": {
+      "300": {
+        "value": "11.06",
+        "type": "fontSizes"
+      },
+      "400": {
+        "value": "12.44",
+        "type": "fontSizes"
+      },
+      "500": {
+        "value": "14",
+        "type": "fontSizes"
+      },
+      "600": {
+        "value": "15.75",
+        "type": "fontSizes"
+      },
+      "700": {
+        "value": "17.72px",
+        "type": "fontSizes"
+      },
+      "800": {
+        "value": "19.93",
+        "type": "fontSizes"
+      },
+      "900": {
+        "value": "22.43",
+        "type": "fontSizes"
+      },
+      "1000": {
+        "value": "25.23",
+        "type": "fontSizes"
+      },
+      "1100": {
+        "value": "28.38",
+        "type": "fontSizes"
+      }
+    },
+    "lineHeight": {
+      "100": {
+        "value": "0",
+        "type": "lineHeights"
+      },
+      "200": {
+        "value": "0",
+        "type": "lineHeights"
+      },
+      "300": {
+        "value": "0",
+        "type": "lineHeights"
+      },
+      "400": {
+        "value": "0",
+        "type": "lineHeights"
+      },
+      "500": {
+        "value": "0",
+        "type": "lineHeights"
+      },
+      "600": {
+        "value": "0",
+        "type": "lineHeights"
+      },
+      "700": {
+        "value": "0",
+        "type": "lineHeights"
+      },
+      "800": {
+        "value": "0",
+        "type": "lineHeights"
+      },
+      "900": {
+        "value": "0",
+        "type": "lineHeights"
+      }
+    },
+    "letterSpacing": {
+      "400": {
+        "value": "-0.9",
+        "type": "letterSpacing"
+      },
+      "500": {
+        "value": "0",
+        "type": "letterSpacing"
+      },
+      "600": {
+        "value": "0.2",
+        "type": "letterSpacing"
+      },
+      "700": {
+        "value": "0.5",
+        "type": "letterSpacing"
+      },
+      "800": {
+        "value": "1",
+        "type": "letterSpacing"
+      },
+      "900": {
+        "value": "1.2",
+        "type": "letterSpacing"
+      }
+    },
+    "paragraphSpacing": {
+      "100": {
+        "value": "0",
+        "type": "paragraphSpacing"
+      },
+      "200": {
+        "value": "0",
+        "type": "paragraphSpacing"
+      },
+      "300": {
+        "value": "0",
+        "type": "paragraphSpacing"
+      },
+      "400": {
+        "value": "0",
+        "type": "paragraphSpacing"
+      },
+      "500": {
+        "value": "0",
+        "type": "paragraphSpacing"
+      },
+      "600": {
+        "value": "0",
+        "type": "paragraphSpacing"
+      },
+      "700": {
+        "value": "0",
+        "type": "paragraphSpacing"
+      },
+      "800": {
+        "value": "0",
+        "type": "paragraphSpacing"
+      },
+      "900": {
+        "value": "0",
+        "type": "paragraphSpacing"
+      }
+    },
+    "decoration": {
+      "normal": {
+        "value": "None",
+        "type": "textDecoration"
+      },
+      "under": {
+        "value": "Underline",
+        "type": "textDecoration"
+      },
+      "strike": {
+        "value": "Strikethrough",
+        "type": "textDecoration"
+      }
+    },
+    "textCase": {
+      "normal": {
+        "value": "Sentence case",
+        "type": "textCase"
+      },
+      "up": {
+        "value": "Uppercase",
+        "type": "textCase"
+      },
+      "low": {
+        "value": "Lowercase",
+        "type": "textCase"
+      },
+      "cap": {
+        "value": "Capitalize",
+        "type": "textCase"
+      }
+    }
+  }
+}
