@@ -88,11 +88,11 @@
           },
           "type": "typography"
         },
-        "heading": {
+        "h1": {
           "value": {
             "fontFamily": "{brand.text.fontFamily.base}",
             "fontWeight": "{core.font.bold}",
-            "fontSize": "{seed.fontSize.700}",
+            "fontSize": "{seed.fontSize.600}",
             "textCase": "{core.text.tittleCase}",
             "textDecoration": "{core.text.decoration.normal}"
           },
@@ -225,6 +225,10 @@
             "value": "{mode.primary.bg.default}",
             "type": "color"
           },
+          "containerLow": {
+            "value": "{mode.primary.bg.subtle}",
+            "type": "color"
+          },
           "border": {
             "value": "{mode.primary.bg.default}",
             "type": "color"
@@ -234,13 +238,53 @@
             "type": "color"
           },
           "OnAccent": {
+            "value": "{mode.neutral.fg.onAccent}",
+            "type": "color"
+          }
+        },
+        "pressed": {
+          "container": {
+            "value": "{mode.primary.bg.emphasis}",
+            "type": "color"
+          },
+          "containerLow": {
+            "value": "{mode.primary.bg.subtle}",
+            "type": "color"
+          },
+          "border": {
             "value": "{mode.primary.bg.default}",
+            "type": "color"
+          },
+          "attribute": {
+            "value": "{mode.primary.bg.default}",
+            "type": "color"
+          },
+          "OnAccent": {
+            "value": "{mode.primary.fg.onAccent}",
+            "type": "color"
+          }
+        },
+        "disabled": {
+          "container": {
+            "value": "{mode.neutral.bg.muted}",
+            "type": "color"
+          },
+          "border": {
+            "value": "{mode.neutral.border.default}",
+            "type": "color"
+          },
+          "attribute": {
+            "value": "{mode.neutral.fg.default}",
             "type": "color"
           }
         },
         "enabled": {
           "container": {
-            "value": "{mode.primary.bg.default}",
+            "value": "{mode.neutral.bg.canvas}",
+            "type": "color"
+          },
+          "containerLow": {
+            "value": "{mode.primary.bg.subtle}",
             "type": "color"
           },
           "border": {
@@ -252,19 +296,63 @@
             "type": "color"
           },
           "OnAccent": {
-            "value": "{mode.primary.bg.default}",
+            "value": "{mode.neutral.fg.onAccent}",
             "type": "color"
           }
         }
       },
       "static": {
-        "canvas": {
-          "base": {
+        "background": {
+          "surface": {
+            "value": "{mode.neutral.bg.surface}",
+            "type": "color"
+          },
+          "canvas": {
             "value": "{mode.neutral.bg.canvas}",
             "type": "color"
           },
-          "soft": {
-            "value": "{mode.neutral.bg.canvas}",
+          "subtle": {
+            "value": "{mode.neutral.bg.subtle}",
+            "type": "color"
+          },
+          "low": {
+            "value": "{mode.neutral.bg.low}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{mode.neutral.border.default}",
+            "type": "color"
+          },
+          "muted": {
+            "value": "{mode.neutral.border.muted}",
+            "type": "color"
+          },
+          "emphasis": {
+            "value": "{mode.neutral.border.emphasis}",
+            "type": "color"
+          }
+        },
+        "foreground": {
+          "onDark": {
+            "value": "{mode.neutral.fg.onAccent}",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{mode.neutral.fg.subtle}",
+            "type": "color"
+          },
+          "muted": {
+            "value": "{mode.neutral.fg.muted}",
+            "type": "color"
+          },
+          "emphasis": {
+            "value": "{mode.neutral.fg.emphasis}",
+            "type": "color"
+          },
+          "default": {
+            "value": "{mode.neutral.fg.default}",
             "type": "color"
           }
         }

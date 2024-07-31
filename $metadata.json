@@ -12,6 +12,9 @@
     "theming/brands/Blueberries",
     "theming/brands/Passion",
     "theming/brands/Mint",
-    "semantic"
+    "semantic",
+    "component/mobile",
+    "component/web",
+    "component/data"
   ]
 }

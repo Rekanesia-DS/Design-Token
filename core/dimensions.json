@@ -108,5 +108,15 @@
       "value": "{seed.borderwidth.500}",
       "type": "borderWidth"
     }
+  },
+  "opacity": {
+    "500": {
+      "value": "{seed.opacity.600}",
+      "type": "opacity"
+    },
+    "600": {
+      "value": "{seed.opacity.700}",
+      "type": "opacity"
+    }
   }
 }
