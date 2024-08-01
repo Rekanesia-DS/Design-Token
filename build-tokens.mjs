@@ -4,15 +4,7 @@ import { register, permutateThemes } from '@tokens-studio/sd-transforms';
 
 // sd-transforms, 2nd parameter for options can be added
 // See docs: https://github.com/tokens-studio/sd-transforms
-register(StyleDictionary, {
-  expand: {
-    composition: true,
-    typography: false,
-    border: false,
-    shadow: false,
-  },
-  excludeParentKeys: false,
-});
+register(StyleDictionary);
 
 const $themes = JSON.parse(readFileSync('$themes.json', 'utf-8'));
 const themes = permutateThemes($themes, { seperator: '_' });
@@ -41,8 +33,9 @@ const configs = Object.entries(themes).map(([name, tokensets]) => ({
       ],
     },
     Flutter: {
-      buildPath: 'flutter/',
-      prefix: 'flutter',
+      buildPath: 'build/flutter/',
+      prefix: 'sd',
+      transformGroup: 'flutter',
       files: [
         {
           destination: `flutter-${name}.dart`,
@@ -51,12 +44,13 @@ const configs = Object.entries(themes).map(([name, tokensets]) => ({
       ],
     },
     Swift: {
-      buildPath: 'swift/',
-      prefix: 'swift',
+      buildPath: 'build/swift/',
+      prefix: 'sd',
+      transformGroup: 'ios-swift',
       files: [
         {
-          destination: `variables-${name}.swift`,
-          format: 'ios-swift/class.swift',
+          destination: `class-${name}.swift`,
+          format: 'flutter/class.dart',
         },
       ],
     },

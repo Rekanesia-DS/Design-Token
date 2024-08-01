@@ -1,0 +1,17 @@
+{
+  "name": "tokens6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build" : "node build-tokens.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tokens-studio/sd-transforms": "^1.0.0",
+    "style-dictionary": "^4.0.0"
+  }
+}
