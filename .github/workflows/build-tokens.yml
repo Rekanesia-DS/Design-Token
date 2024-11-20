@@ -71,7 +71,7 @@ jobs:
             echo "No changes to commit."
           else
             git commit -m "Add build artifacts from workflow (SHA: ${{ github.sha }})"
-            git remote set-url origin https://x-access-token:${{ secrets.PAT }}@github.com/${{ github.repository }}.git
+            git remote set-url origin https://x-access-token:${{ secrets.ACCESS_TOKEN }}@github.com/${{ github.repository }}.git
             git push -f origin HEAD:master
           fi
 
@@ -79,8 +79,8 @@ jobs:
         id: create-pull-request
         uses: peter-evans/create-pull-request@v5
         with:
-          source-branch: master
-          target-branch: main-cdn
+          base: main-cdn         # Branch target (sebelumnya `target-branch`)
+          head: master           # Branch source (sebelumnya `source-branch`)
           title: 'Sync master to main-cdn'
           body: |
             This pull request is automatically created to sync changes from `master` to `main-cdn`.
