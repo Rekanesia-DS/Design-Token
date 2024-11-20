@@ -1,0 +1,388 @@
+{
+  "seed": {
+    "fontFamily": {
+      "sansSerif": {
+        "harmony": {
+          "value": "Harmony Sans",
+          "type": "fontFamilies"
+        },
+        "noto": {
+          "value": "Noto Sans",
+          "type": "fontFamilies"
+        },
+        "sofia": {
+          "value": "Sofia Sans",
+          "type": "fontFamilies"
+        },
+        "inter": {
+          "value": "Inter",
+          "type": "fontFamilies"
+        },
+        "canada": {
+          "value": "Radio Canada",
+          "type": "fontFamilies"
+        }
+      },
+      "special": {
+        "monospace": {
+          "value": "Roboto Mono",
+          "type": "fontFamilies"
+        },
+        "slab": {
+          "value": "Bricolage Grotesque",
+          "type": "fontFamilies"
+        },
+        "display": {
+          "value": "Pacifico",
+          "type": "fontFamilies"
+        },
+        "serif": {
+          "value": "Merriweather",
+          "type": "fontFamilies"
+        }
+      }
+    },
+    "fontWeight": {
+      "100": {
+        "value": "100",
+        "type": "fontWeights"
+      },
+      "200": {
+        "value": "200",
+        "type": "fontWeights"
+      },
+      "300": {
+        "value": "300",
+        "type": "fontWeights"
+      },
+      "400": {
+        "value": "400",
+        "type": "fontWeights"
+      },
+      "500": {
+        "value": "500",
+        "type": "fontWeights"
+      },
+      "600": {
+        "value": "600",
+        "type": "fontWeights"
+      },
+      "700": {
+        "value": "700",
+        "type": "fontWeights"
+      },
+      "800": {
+        "value": "800",
+        "type": "fontWeights"
+      },
+      "900": {
+        "value": "900",
+        "type": "fontWeights"
+      }
+    },
+    "fontSize": {
+      "300": {
+        "value": "11.06px",
+        "type": "fontSizes"
+      },
+      "400": {
+        "value": "12.44px",
+        "type": "fontSizes"
+      },
+      "500": {
+        "value": "14px",
+        "type": "fontSizes"
+      },
+      "600": {
+        "value": "15.75px",
+        "type": "fontSizes"
+      },
+      "700": {
+        "value": "17.72px",
+        "type": "fontSizes"
+      },
+      "800": {
+        "value": "19.93px",
+        "type": "fontSizes"
+      },
+      "900": {
+        "value": "22.43px",
+        "type": "fontSizes"
+      },
+      "1000": {
+        "value": "25.23px",
+        "type": "fontSizes"
+      },
+      "1100": {
+        "value": "28.38px",
+        "type": "fontSizes"
+      }
+    },
+    "lineHeight": {
+      "100": {
+        "value": "1",
+        "type": "lineHeights"
+      },
+      "200": {
+        "value": "1.15",
+        "type": "lineHeights"
+      },
+      "300": {
+        "value": "1.25",
+        "type": "lineHeights"
+      },
+      "400": {
+        "value": "1.5",
+        "type": "lineHeights"
+      },
+      "500": {
+        "value": "1.75",
+        "type": "lineHeights"
+      },
+      "600": {
+        "value": "2",
+        "type": "lineHeights"
+      },
+      "700": {
+        "value": "2.5",
+        "type": "lineHeights"
+      },
+      "800": {
+        "value": "3",
+        "type": "lineHeights"
+      },
+      "900": {
+        "value": "4",
+        "type": "lineHeights"
+      }
+    },
+    "letterSpacing": {
+      "300": {
+        "value": "-0.5px",
+        "type": "letterSpacing"
+      },
+      "400": {
+        "value": "-0.25px",
+        "type": "letterSpacing"
+      },
+      "500": {
+        "value": "0px",
+        "type": "letterSpacing"
+      },
+      "600": {
+        "value": "0.25px",
+        "type": "letterSpacing"
+      },
+      "700": {
+        "value": "0.5px",
+        "type": "letterSpacing"
+      },
+      "800": {
+        "value": "0.75px",
+        "type": "letterSpacing"
+      },
+      "900": {
+        "value": "1px",
+        "type": "letterSpacing"
+      }
+    },
+    "paragraphSpacing": {
+      "300": {
+        "value": "8px",
+        "type": "paragraphSpacing"
+      },
+      "400": {
+        "value": "12px",
+        "type": "paragraphSpacing"
+      },
+      "500": {
+        "value": "16px",
+        "type": "paragraphSpacing"
+      },
+      "600": {
+        "value": "20px",
+        "type": "paragraphSpacing"
+      },
+      "700": {
+        "value": "24px",
+        "type": "paragraphSpacing"
+      },
+      "800": {
+        "value": "32px",
+        "type": "paragraphSpacing"
+      },
+      "900": {
+        "value": "40px",
+        "type": "paragraphSpacing"
+      }
+    },
+    "textIndent": {
+      "100": {
+        "value": "0px",
+        "type": "textIndent"
+      },
+      "200": {
+        "value": "8px",
+        "type": "textIndent"
+      },
+      "300": {
+        "value": "16px",
+        "type": "textIndent"
+      },
+      "400": {
+        "value": "24px",
+        "type": "textIndent"
+      },
+      "500": {
+        "value": "32px",
+        "type": "textIndent"
+      }
+    },
+    "decoration": {
+      "none": {
+        "value": "none",
+        "type": "textDecoration"
+      },
+      "underline": {
+        "value": "underline",
+        "type": "textDecoration"
+      },
+      "strikethrough": {
+        "value": "line-through",
+        "type": "textDecoration"
+      },
+      "overline": {
+        "value": "overline",
+        "type": "textDecoration"
+      }
+    },
+    "textCase": {
+      "normal": {
+        "value": "none",
+        "type": "textCase"
+      },
+      "uppercase": {
+        "value": "uppercase",
+        "type": "textCase"
+      },
+      "lowercase": {
+        "value": "lowercase",
+        "type": "textCase"
+      },
+      "capitalize": {
+        "value": "capitalize",
+        "type": "textCase"
+      }
+    },
+    "textAlign": {
+      "left": {
+        "value": "left",
+        "type": "textAlign"
+      },
+      "right": {
+        "value": "right",
+        "type": "textAlign"
+      },
+      "center": {
+        "value": "center",
+        "type": "textAlign"
+      },
+      "justify": {
+        "value": "justify",
+        "type": "textAlign"
+      }
+    },
+    "fontStyle": {
+      "normal": {
+        "value": "normal",
+        "type": "fontStyle"
+      },
+      "italic": {
+        "value": "italic",
+        "type": "fontStyle"
+      },
+      "oblique": {
+        "value": "oblique",
+        "type": "fontStyle"
+      }
+    },
+    "textTransform": {
+      "none": {
+        "value": "none",
+        "type": "textTransform"
+      },
+      "uppercase": {
+        "value": "uppercase",
+        "type": "textTransform"
+      },
+      "lowercase": {
+        "value": "lowercase",
+        "type": "textTransform"
+      },
+      "capitalize": {
+        "value": "capitalize",
+        "type": "textTransform"
+      }
+    },
+    "baselineShift": {
+      "normal": {
+        "value": "baseline",
+        "type": "baselineShift"
+      },
+      "subscript": {
+        "value": "subscript",
+        "type": "baselineShift"
+      },
+      "superscript": {
+        "value": "superscript",
+        "type": "baselineShift"
+      }
+    },
+    "fontVariant": {
+      "normal": {
+        "value": "normal",
+        "type": "fontVariant"
+      },
+      "small-caps": {
+        "value": "small-caps",
+        "type": "fontVariant"
+      },
+      "all-small-caps": {
+        "value": "all-small-caps",
+        "type": "fontVariant"
+      }
+    },
+    "textOverflow": {
+      "clip": {
+        "value": "clip",
+        "type": "textOverflow"
+      },
+      "ellipsis": {
+        "value": "ellipsis",
+        "type": "textOverflow"
+      }
+    },
+    "whiteSpace": {
+      "normal": {
+        "value": "normal",
+        "type": "whiteSpace"
+      },
+      "nowrap": {
+        "value": "nowrap",
+        "type": "whiteSpace"
+      },
+      "pre": {
+        "value": "pre",
+        "type": "whiteSpace"
+      },
+      "pre-wrap": {
+        "value": "pre-wrap",
+        "type": "whiteSpace"
+      },
+      "pre-line": {
+        "value": "pre-line",
+        "type": "whiteSpace"
+      }
+    }
+  }
+}
