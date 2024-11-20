@@ -1,0 +1,162 @@
+[
+  {
+    "id": "43b2c9447eb68ed0a6aab60e1083fc10fff87772",
+    "name": "light",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "seed/colors": "source",
+      "seed/dimensions": "source",
+      "seed/typography": "source",
+      "core/override/mode/light": "enabled",
+      "core/dimensions": "enabled",
+      "core/typography": "enabled",
+      "semantic/color": "enabled",
+      "semantic/dimension": "enabled",
+      "semantic/text": "enabled",
+      "component/mobile": "enabled",
+      "component/web": "enabled",
+      "component/data": "enabled"
+    },
+    "group": "mode"
+  },
+  {
+    "id": "3ff6f7e868656e8fbeb12b7d1523c95ca03955ac",
+    "name": "dark",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "seed/colors": "source",
+      "seed/dimensions": "source",
+      "seed/typography": "source",
+      "core/override/mode/dark": "enabled",
+      "core/dimensions": "enabled",
+      "core/typography": "enabled",
+      "semantic/color": "enabled",
+      "semantic/dimension": "enabled",
+      "semantic/text": "enabled",
+      "component/mobile": "enabled",
+      "component/web": "enabled",
+      "component/data": "enabled"
+    },
+    "group": "mode"
+  },
+  {
+    "id": "c9f16e2622f339bfccbf949b68bf88f3627ab6eb",
+    "name": "default",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "seed/colors": "source",
+      "seed/dimensions": "source",
+      "seed/typography": "source",
+      "core/override/contrast/default": "enabled",
+      "core/dimensions": "enabled",
+      "core/typography": "enabled",
+      "semantic/color": "enabled",
+      "semantic/dimension": "enabled",
+      "semantic/text": "enabled",
+      "component/mobile": "enabled",
+      "component/web": "enabled",
+      "component/data": "enabled"
+    },
+    "group": "contrast"
+  },
+  {
+    "id": "17254ad18c0391284ee230b30d99b3ff35251e21",
+    "name": "highContrast",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "seed/colors": "source",
+      "seed/dimensions": "source",
+      "seed/typography": "source",
+      "core/override/contrast/highContrast": "enabled",
+      "component/data": "enabled",
+      "component/web": "enabled",
+      "component/mobile": "enabled",
+      "semantic/text": "enabled",
+      "semantic/dimension": "enabled",
+      "semantic/color": "enabled",
+      "core/typography": "enabled",
+      "core/dimensions": "enabled"
+    },
+    "group": "contrast"
+  },
+  {
+    "id": "d0a2dfddf3794a77515030419a6c6c4f07de463c",
+    "name": "lime",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "seed/colors": "source",
+      "seed/dimensions": "source",
+      "seed/typography": "source",
+      "core/override/brands/Lime": "enabled",
+      "component/data": "enabled",
+      "component/web": "enabled",
+      "component/mobile": "enabled",
+      "semantic/text": "enabled",
+      "semantic/dimension": "enabled",
+      "semantic/color": "enabled",
+      "core/typography": "enabled",
+      "core/dimensions": "enabled"
+    },
+    "group": "brand"
+  },
+  {
+    "id": "615f307478e7c2d804b4205c672dd9fc8d5c9349",
+    "name": "blueberries",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "seed/colors": "source",
+      "seed/dimensions": "source",
+      "seed/typography": "source",
+      "core/override/brands/Blueberries": "enabled",
+      "component/data": "enabled",
+      "component/web": "enabled",
+      "component/mobile": "enabled",
+      "semantic/text": "enabled",
+      "semantic/dimension": "enabled",
+      "semantic/color": "enabled",
+      "core/typography": "enabled",
+      "core/dimensions": "enabled"
+    },
+    "group": "brand"
+  },
+  {
+    "id": "326de43d0aa36166ed2d664e09865776990e0d52",
+    "name": "morras",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "seed/colors": "source",
+      "seed/dimensions": "source",
+      "seed/typography": "source",
+      "core/override/brands/Morras": "enabled",
+      "component/data": "enabled",
+      "component/web": "enabled",
+      "component/mobile": "enabled",
+      "semantic/text": "enabled",
+      "semantic/dimension": "enabled",
+      "semantic/color": "enabled",
+      "core/typography": "enabled",
+      "core/dimensions": "enabled"
+    },
+    "group": "brand"
+  },
+  {
+    "id": "d655e2abdf966171fb2b6822f18fbb678a9432ba",
+    "name": "mint",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "seed/colors": "source",
+      "seed/dimensions": "source",
+      "seed/typography": "source",
+      "core/override/brands/Mint": "enabled",
+      "component/data": "enabled",
+      "component/web": "enabled",
+      "component/mobile": "enabled",
+      "semantic/text": "enabled",
+      "semantic/dimension": "enabled",
+      "semantic/color": "enabled",
+      "core/typography": "enabled",
+      "core/dimensions": "enabled"
+    },
+    "group": "brand"
+  }
+]

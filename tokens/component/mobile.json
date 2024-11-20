@@ -1,0 +1,11 @@
+{
+  "button": {
+    "container": {
+      "value": {
+        "fill": "{sem.dynamic.background.bolder.active}",
+        "borderColor": "{sem.dynamic.border.bolder.hover}"
+      },
+      "type": "composition"
+    }
+  }
+}
