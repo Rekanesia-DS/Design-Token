@@ -55,7 +55,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: my-artifacts
-          path: ./  # Mengunduh langsung ke direktori saat ini tanpa perlu folder tambahan
+          path: ./build  # Mengunduh langsung ke direktori saat ini tanpa perlu folder tambahan
 
       - name: Pull latest master
         run: git pull 
