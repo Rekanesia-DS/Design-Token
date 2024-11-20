@@ -76,15 +76,13 @@ jobs:
           fi
 
       - name: Create Pull Request to main-cdn
-        id: create-pull-request
         uses: peter-evans/create-pull-request@v5
         with:
-          base: main-cdn         # Branch target (sebelumnya `target-branch`)
-          head: master           # Branch source (sebelumnya `source-branch`)
+          base: main-cdn
+          branch: auto-sync-master-to-main-cdn
           title: 'Sync master to main-cdn'
           body: |
             This pull request is automatically created to sync changes from `master` to `main-cdn`.
-          branch: auto-sync-master-to-main-cdn
           delete-branch: true
 
   deploy:
