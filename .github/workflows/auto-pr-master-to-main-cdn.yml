@@ -1,0 +1,32 @@
+name: Auto Pull Request to main-cdn
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  create-pull-request:
+    name: Create Pull Request
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Create Pull Request
+        id: create-pull-request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          source-branch: master
+          target-branch: main-cdn
+          title: 'Sync master to main-cdn'
+          body: |
+            This pull request is automatically created to sync changes from `master` to `main-cdn`.
+          branch: auto-sync-master-to-main-cdn
+          delete-branch: true
