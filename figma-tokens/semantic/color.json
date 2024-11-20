@@ -159,12 +159,81 @@
           }
         }
       }
-    }
-  },
-  "color": {
-    "test": {
-      "value": "{core.colors.brand.primary.400}",
-      "type": "color"
+    },
+    "static": {
+      "background": {
+        "canvas": {
+          "subtle": {
+            "value": "{core.colors.brand.neutral.200}",
+            "type": "color"
+          },
+          "subtlest": {
+            "value": "{core.colors.brand.neutral.100}",
+            "type": "color"
+          }
+        },
+        "accent": {
+          "subtle": {
+            "blue": {
+              "value": "{core.colors.accent.blue.100}",
+              "type": "color"
+            }
+          }
+        },
+        "surface": {
+          "subtle": {
+            "value": "{core.colors.brand.neutral.00}",
+            "type": "color"
+          }
+        }
+      },
+      "foreground": {
+        "text": {
+          "microContent": {
+            "heading": {
+              "value": "{core.colors.brand.neutral.900}",
+              "type": "color"
+            },
+            "desc": {
+              "value": "{core.colors.brand.neutral.500}",
+              "type": "color"
+            },
+            "list": {
+              "value": "{core.colors.brand.neutral.700}",
+              "type": "color"
+            },
+            "inverse": {
+              "value": "{colors.blanket.1000}",
+              "type": "color"
+            }
+          },
+          "microCopy": {
+            "label": {
+              "value": "{core.colors.brand.neutral.800}",
+              "type": "color"
+            },
+            "helper": {
+              "value": "{core.colors.brand.neutral.500}",
+              "type": "color"
+            },
+            "dataTile": {
+              "tittle": {
+                "value": "{core.colors.brand.neutral.500}",
+                "type": "color"
+              },
+              "value": {
+                "value": "{core.colors.brand.neutral.900}",
+                "type": "color"
+              }
+            },
+            "headline": {
+              "value": "{core.colors.brand.neutral.900}",
+              "type": "color",
+              "description": "di copy app bar"
+            }
+          }
+        }
+      }
     }
   }
 }

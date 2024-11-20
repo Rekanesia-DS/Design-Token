@@ -2,7 +2,7 @@
   "core": {
     "fontFamily": {
       "primary": {
-        "value": "{seed.fontFamily.sansSerif.inter}",
+        "value": "{brand.text.fontFamily.base}",
         "type": "fontFamilies"
       },
       "secondary": {

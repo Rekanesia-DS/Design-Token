@@ -213,7 +213,6 @@
             "fontFamily": "{core.fontFamily.primary}",
             "fontWeight": "{core.fontWeight.semiBold}",
             "fontSize": "{core.fontSize.md}",
-            "lineHeight": "{core.lineHeight.normal}",
             "letterSpacing": "{core.letterSpacing.normal}",
             "textCase": "{core.textCase.capitalize}",
             "textDecoration": "{core.textDecoration.none}"

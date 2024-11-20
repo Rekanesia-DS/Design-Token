@@ -169,7 +169,7 @@
     "text": {
       "fontFamily": {
         "base": {
-          "value": "{seed.fontFamily.sansSerif.harmony}",
+          "value": "{seed.fontFamily.sansSerif.inter}",
           "type": "fontFamilies"
         },
         "tittle": {
