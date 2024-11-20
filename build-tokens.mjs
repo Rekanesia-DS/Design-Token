@@ -13,7 +13,7 @@ const configs = Object.entries(themes).map(([name, tokensets]) => ({
   platforms: {
     css: {
       transformGroup: 'tokens-studio',
-      prefix: 'sd',
+      transforms: ['name/kebab'],
       buildPath: 'build/css/',
       files: [
         {
@@ -29,28 +29,6 @@ const configs = Object.entries(themes).map(([name, tokensets]) => ({
         {
           destination: `variables-${name}.js`,
           format: 'javascript/es6',
-        },
-      ],
-    },
-    Flutter: {
-      buildPath: 'build/flutter/',
-      prefix: 'sd',
-      transformGroup: 'flutter',
-      files: [
-        {
-          destination: `flutter-${name}.dart`,
-          format: 'flutter/class.dart',
-        },
-      ],
-    },
-    Swift: {
-      buildPath: 'build/swift/',
-      prefix: 'sd',
-      transformGroup: 'ios-swift',
-      files: [
-        {
-          destination: `class-${name}.swift`,
-          format: 'flutter/class.dart',
         },
       ],
     },
