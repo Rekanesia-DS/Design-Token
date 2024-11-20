@@ -9,7 +9,7 @@ permissions:
 
 jobs:
   build-and-deploy:
-    name: Build and Deploy to GCS
+    name: Build, Push Artifacts, and Deploy to GCS
     runs-on: ubuntu-latest
 
     steps:
@@ -42,6 +42,19 @@ jobs:
         run: |
           node build-tokens.mjs || echo "Build failed! See error messages above."
           echo "Build completed (if no errors)."
+
+      # Push build artifacts to master
+      - name: Push Artifacts to Master
+        env:
+          PAT: ${{ secrets.ACCESS_TOKEN }}
+        run: |
+          echo "Pushing build artifacts to master..."
+          git config user.name "GitHub Actions"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add build/
+          git commit -m "Add build artifacts from workflow (SHA: ${{ github.sha }})" || echo "No changes to commit."
+          git remote set-url origin https://x-access-token:${{ secrets.PAT }}@github.com/${{ github.repository }}.git
+          git push origin HEAD:master || echo "Failed to push artifacts."
 
       # Setup Google Cloud CLI
       - name: Setup gcloud CLI
