@@ -14,6 +14,9 @@ const configs = Object.entries(themes).map(([name, tokensets]) => ({
     css: {
       transformGroup: 'tokens-studio',
       transforms: ['name/kebab'],
+      options: {
+        outputReferences: true,
+      },
       buildPath: 'build/css/',
       files: [
         {
@@ -25,6 +28,9 @@ const configs = Object.entries(themes).map(([name, tokensets]) => ({
     js: {
       transformGroup: 'tokens-studio',
       buildPath: 'build/js/',
+      options: {
+        outputReferences: true,
+      },
       files: [
         {
           destination: `variables-${name}.js`,
