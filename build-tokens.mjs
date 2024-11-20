@@ -6,10 +6,10 @@ import { register, permutateThemes } from '@tokens-studio/sd-transforms';
 // See docs: https://github.com/tokens-studio/sd-transforms
 register(StyleDictionary);
 
-const $themes = JSON.parse(readFileSync('tokens/$themes.json', 'utf-8'));
+const $themes = JSON.parse(readFileSync('figma-tokens/$themes.json', 'utf-8'));
 const themes = permutateThemes($themes, { seperator: '_' });
 const configs = Object.entries(themes).map(([name, tokensets]) => ({
-  source: tokensets.map((tokenset) => `tokens/${tokenset}.json`),
+  source: tokensets.map((tokenset) => `figma-tokens/${tokenset}.json`),
   platforms: {
     css: {
       transformGroup: 'tokens-studio',
