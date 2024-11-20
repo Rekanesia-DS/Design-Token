@@ -2,8 +2,7 @@ name: Auto Pull Request to main-cdn
 
 on:
   push:
-    branches:
-      - master
+    branches: [master]
 
 jobs:
   create-pull-request:
