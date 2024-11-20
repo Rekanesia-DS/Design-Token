@@ -1,9 +1,7 @@
-name: Build Tokens
+name: Main to CDN Deployment
 
 on:
   push:
-    branches: [main]
-  pull_request:
     branches: [main]
 
 permissions:
@@ -11,17 +9,19 @@ permissions:
 
 jobs:
   build:
+    name: Build Tokens
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
       - name: Use Node.js 20.6.1
         uses: actions/setup-node@v3
         with:
           node-version: '20.6.1'
 
-      - name: Cache npm dependencies (optional)
+      - name: Cache npm dependencies
         uses: actions/cache@v3
         with:
           path: ~/.npm
@@ -33,7 +33,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run build (with error handling and logging)
+      - name: Run build
         run: |
           node build-tokens.mjs || echo "Build failed! See error messages above."
           echo "Build completed (if no errors)."
@@ -41,46 +41,69 @@ jobs:
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: my-artifacts
-          path: build/  # Pastikan folder ini adalah output dari build script Anda
+          name: build-artifacts
+          path: build/  # Folder hasil build
 
-  deploy:
+  create-pull-request:
+    name: Auto Pull Request to main-cdn
     needs: build
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout Repository
+        uses: actions/checkout@v3
 
       - name: Download Artifacts
         uses: actions/download-artifact@v4
         with:
-          name: my-artifacts
-          path: ./build  # Mengunduh langsung ke direktori saat ini tanpa perlu folder tambahan
+          name: build-artifacts
+          path: ./build
 
-      - name: Pull latest master
-        run: git pull 
-        
-      - name: Commit and Push changes
+      - name: Commit and Push changes to master
         env:
           PAT: ${{ secrets.ACCESS_TOKEN }}
         run: |
           git config user.name "GitHub Actions"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
-          # Add all files to staging area
           git add --all || { echo "Failed adding files to staging area."; exit 1; }
-        
-          # Check if there are any changes to commit
           if git diff-index --quiet HEAD --; then
             echo "No changes to commit."
           else
-            
-            # Commit changes
-            git commit -m "Add build artifacts from workflow (SHA: ${{ github.sha }})" || { echo "Failed committing changes."; exit 1; }
-            
-            # Set up remote URL with token authentication
+            git commit -m "Add build artifacts from workflow (SHA: ${{ github.sha }})"
             git remote set-url origin https://x-access-token:${{ secrets.PAT }}@github.com/${{ github.repository }}.git
-        
-            # Push changes
-            git push -f origin HEAD:master || { echo "Failed pushing changes."; exit 1; }
+            git push -f origin HEAD:master
           fi
+
+      - name: Create Pull Request to main-cdn
+        id: create-pull-request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          source-branch: master
+          target-branch: main-cdn
+          title: 'Sync master to main-cdn'
+          body: |
+            This pull request is automatically created to sync changes from `master` to `main-cdn`.
+          branch: auto-sync-master-to-main-cdn
+          delete-branch: true
+
+  deploy:
+    name: Deploy to GCS
+    needs: create-pull-request
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup gcloud CLI
+        uses: google-github-actions/setup-gcloud@v0
+        with:
+          service_account_email: ${{ secrets.GCP_SA_EMAIL }}
+          service_account_key: ${{ secrets.GCP_SA_KEY }}
+          project_id: durable-fact-310601
+
+      - name: Deploy via GCS
+        run: |
+          gsutil -m rm -rf gs://cdn-test-rekan/ui-rekan-ipubers/* || echo "$?"
+          gsutil -m cp -r build/* gs://cdn-test-rekan/ui-rekan-ipubers
