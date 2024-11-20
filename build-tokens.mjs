@@ -38,6 +38,19 @@ const configs = Object.entries(themes).map(([name, tokensets]) => ({
         },
       ],
     },
+    compose: {
+      buildPath: "build/compose/",
+      transformGroup: "compose",
+      options: {
+        outputReferences: true,
+      },
+      files: [
+        {
+          destination: `variables-${name}.kt`,
+          format: "compose/object"
+        }
+      ]
+    }
   },
 }));
 
