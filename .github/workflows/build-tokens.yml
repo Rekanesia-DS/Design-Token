@@ -43,16 +43,18 @@ jobs:
           node build-tokens.mjs || echo "Build failed! See error messages above."
           echo "Build completed (if no errors)."
 
-      # Setup Google Cloud SDK
-      - name: Set up Cloud SDK
-        uses: google-github-actions/setup-gcloud@v2.1.2
+      # Setup Google Cloud CLI
+      - name: Setup gcloud CLI
+        uses: google-github-actions/setup-gcloud@v0
         with:
-          project_id: ${{ secrets.GCP_PROJECT_ID }}
+          service_account_email: ${{ secrets.GCP_SA_EMAIL }}
           service_account_key: ${{ secrets.GCP_SA_KEY }}
+          project_id: durable-fact-310601
 
       # Upload build artifacts to GCS
       - name: Upload to GCS
-        uses: google-github-actions/upload-cloud-storage@v1
-        with:
-          path: build/
-          destination: gs://cdn-test-rekan/ui-rekan-ipubers/
+        run: |
+          echo "Removing old files from GCS bucket..."
+          gsutil -m rm -rf gs://cdn-test-rekan/ui-rekan-ipubers/* || echo "No files to remove."
+          echo "Uploading new build artifacts..."
+          gsutil -m cp -r build/* gs://cdn-test-rekan/ui-rekan-ipubers
