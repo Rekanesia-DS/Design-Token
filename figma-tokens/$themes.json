@@ -2278,12 +2278,48 @@
     }
   },
   {
-    "id": "092033ee5ef1321cb5874f62efd37eeae1c23180",
-    "name": "figma",
+    "id": "0cfb94673aa8d1741eca892a73c844c0c59eb43f",
+    "name": "data",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
+      "seed/colors": "source",
+      "seed/dimensions": "source",
+      "seed/typography": "source",
+      "semantic/color": "enabled",
+      "semantic/dimension": "enabled",
+      "semantic/text": "enabled",
+      "component/data": "enabled"
+    },
+    "group": "platform"
+  },
+  {
+    "id": "f4480c86e942d62f0ada2ad54a4d683f6abe2c83",
+    "name": "mobile",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "seed/colors": "source",
+      "seed/dimensions": "source",
+      "seed/typography": "source",
+      "semantic/color": "enabled",
+      "semantic/dimension": "enabled",
+      "semantic/text": "enabled",
       "component/mobile": "enabled"
     },
-    "group": "variable"
+    "group": "platform"
+  },
+  {
+    "id": "11e1ee90b6b4e7ddef32430a5f6f8e8b17677d82",
+    "name": "web",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "seed/colors": "source",
+      "seed/dimensions": "source",
+      "seed/typography": "source",
+      "semantic/color": "enabled",
+      "semantic/dimension": "enabled",
+      "semantic/text": "enabled",
+      "component/web": "enabled"
+    },
+    "group": "platform"
   }
 ]

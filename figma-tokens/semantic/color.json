@@ -83,19 +83,19 @@
         "text": {
           "onBolder": {
             "active": {
-              "value": "{core.colors.brand.primary.500}",
+              "value": "{core.colors.brand.neutral.00}",
               "type": "color"
             },
             "hover": {
-              "value": "{core.colors.brand.primary.600}",
+              "value": "{core.colors.brand.primary.50}",
               "type": "color"
             },
             "pressed": {
-              "value": "{core.colors.brand.primary.700}",
+              "value": "{core.colors.brand.primary.50}",
               "type": "color"
             },
             "selected": {
-              "value": "{core.colors.brand.primary.800}",
+              "value": "{core.colors.brand.neutral.00}",
               "type": "color"
             },
             "disabled": {
@@ -103,7 +103,11 @@
               "type": "color"
             },
             "focused": {
-              "value": "{core.colors.brand.primary.400}",
+              "value": "{core.colors.brand.primary.50}",
+              "type": "color"
+            },
+            "loading": {
+              "value": "{core.colors.brand.primary.100}",
               "type": "color"
             }
           }
