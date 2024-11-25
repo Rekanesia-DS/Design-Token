@@ -1,1 +1,22 @@
-{}
+{
+  "button": {
+    "container": {
+      "active": {
+        "value": "{sem.dynamic.background.bolder.active}",
+        "type": "color"
+      },
+      "pressed": {
+        "value": "{sem.dynamic.background.bolder.pressed}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{sem.dynamic.background.bolder.disabled}",
+        "type": "color"
+      },
+      "loading": {
+        "value": "{sem.dynamic.background.bolder.loading}",
+        "type": "color"
+      }
+    }
+  }
+}

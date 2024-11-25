@@ -118,11 +118,5 @@
       "value": "{seed.opacity.700}",
       "type": "opacity"
     }
-  },
-  "borderRadius": {
-    "l": {
-      "value": "{brand.corner.comp.m}",
-      "type": "borderRadius"
-    }
   }
 }

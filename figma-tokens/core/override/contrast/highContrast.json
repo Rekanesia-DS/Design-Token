@@ -38,6 +38,24 @@
           "800": {
             "value": "{colors.seed.carrot.1700}",
             "type": "color"
+          },
+          "gradient": {
+            "100": {
+              "value": "linear-gradient(0deg, {colors.seed.carrot.50} 0%, {colors.seed.carrot.200} 100%)",
+              "type": "color"
+            },
+            "200": {
+              "value": "linear-gradient(0deg, {colors.seed.carrot.200} 0%, {colors.seed.carrot.50} 100%)",
+              "type": "color"
+            },
+            "300": {
+              "value": "#",
+              "type": "color"
+            },
+            "400": {
+              "value": "#",
+              "type": "color"
+            }
           }
         },
         "destructive": {
