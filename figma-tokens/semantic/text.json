@@ -200,8 +200,7 @@
           "value": {
             "fontFamily": "{core.fontFamily.primary}",
             "fontWeight": "{core.fontWeight.semiBold}",
-            "fontSize": "{core.fontSize.sm}",
-            "lineHeight": "{core.lineHeight.normal}",
+            "fontSize": "{core.fontSize.xs}",
             "letterSpacing": "{core.letterSpacing.normal}",
             "textCase": "{core.textCase.capitalize}",
             "textDecoration": "{core.textDecoration.none}"
@@ -212,8 +211,7 @@
           "value": {
             "fontFamily": "{core.fontFamily.primary}",
             "fontWeight": "{core.fontWeight.semiBold}",
-            "fontSize": "{core.fontSize.md}",
-            "lineHeight": "{core.lineHeight.normal}",
+            "fontSize": "{core.fontSize.sm}",
             "letterSpacing": "{core.letterSpacing.normal}",
             "textCase": "{core.textCase.capitalize}",
             "textDecoration": "{core.textDecoration.none}"
@@ -224,8 +222,7 @@
           "value": {
             "fontFamily": "{core.fontFamily.primary}",
             "fontWeight": "{core.fontWeight.bold}",
-            "fontSize": "{core.fontSize.lg}",
-            "lineHeight": "{core.lineHeight.tight}",
+            "fontSize": "{core.fontSize.md}",
             "letterSpacing": "{core.letterSpacing.normal}",
             "textCase": "{core.textCase.capitalize}",
             "textDecoration": "{core.textDecoration.none}"
