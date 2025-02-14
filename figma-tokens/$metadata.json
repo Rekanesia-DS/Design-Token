@@ -12,7 +12,6 @@
     "core/override/mode/light",
     "core/override/mode/dark",
     "core/dimensions",
-    "core/typography",
     "semantic/color",
     "semantic/dimension",
     "semantic/text",

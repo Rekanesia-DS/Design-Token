@@ -415,6 +415,48 @@
           }
         }
       }
+    },
+    "blanket": {
+      "1": {
+        "value": "{colors.blanket.100}",
+        "type": "color"
+      },
+      "2": {
+        "value": "{colors.blanket.200}",
+        "type": "color"
+      },
+      "3": {
+        "value": "{colors.blanket.300}",
+        "type": "color"
+      },
+      "4": {
+        "value": "{colors.blanket.400}",
+        "type": "color"
+      },
+      "5": {
+        "value": "{colors.blanket.500}",
+        "type": "color"
+      },
+      "6": {
+        "value": "{colors.blanket.600}",
+        "type": "color"
+      },
+      "7": {
+        "value": "{colors.blanket.700}",
+        "type": "color"
+      },
+      "8": {
+        "value": "{colors.blanket.800}",
+        "type": "color"
+      },
+      "9": {
+        "value": "{colors.blanket.900}",
+        "type": "color"
+      },
+      "10": {
+        "value": "{colors.blanket.1000}",
+        "type": "color"
+      }
     }
   }
 }

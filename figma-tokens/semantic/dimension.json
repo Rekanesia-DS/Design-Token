@@ -1,17 +1,17 @@
 {
   "sem": {
     "corner": {
-      "comp": {
+      "comfort": {
         "medium": {
-          "value": "{brand.corner.comp.m}",
+          "value": "{brand.corner.comfort.m}",
           "type": "borderRadius"
         },
         "large": {
-          "value": "{brand.corner.comp.l}",
+          "value": "{brand.corner.comfort.l}",
           "type": "borderRadius"
         },
         "small": {
-          "value": "{brand.corner.comp.s}",
+          "value": "{brand.corner.comfort.s}",
           "type": "borderRadius"
         }
       }

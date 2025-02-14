@@ -3,7 +3,7 @@
     "fontFamily": {
       "sansSerif": {
         "harmony": {
-          "value": "Harmony Sans",
+          "value": "HarmonyOS Sans",
           "type": "fontFamilies"
         },
         "noto": {
@@ -42,118 +42,82 @@
         }
       }
     },
-    "fontWeight": {
-      "100": {
+    "font Weight": {
+      "thin": {
         "value": "100",
         "type": "fontWeights"
       },
-      "200": {
+      "extraLight": {
         "value": "200",
         "type": "fontWeights"
       },
-      "300": {
+      "light": {
         "value": "300",
         "type": "fontWeights"
       },
-      "400": {
+      "regular": {
         "value": "400",
         "type": "fontWeights"
       },
-      "500": {
+      "medium": {
         "value": "500",
         "type": "fontWeights"
       },
-      "600": {
+      "semiBold": {
         "value": "600",
         "type": "fontWeights"
       },
-      "700": {
+      "Bold": {
         "value": "700",
         "type": "fontWeights"
       },
-      "800": {
+      "Extra Bold": {
         "value": "800",
         "type": "fontWeights"
       },
-      "900": {
+      "black": {
         "value": "900",
         "type": "fontWeights"
       }
     },
-    "fontSize": {
-      "300": {
-        "value": "11.06px",
-        "type": "fontSizes"
-      },
-      "400": {
-        "value": "12.44px",
-        "type": "fontSizes"
-      },
-      "500": {
-        "value": "14px",
-        "type": "fontSizes"
-      },
-      "600": {
-        "value": "15.75px",
-        "type": "fontSizes"
-      },
-      "700": {
-        "value": "17.72px",
-        "type": "fontSizes"
-      },
-      "800": {
-        "value": "19.93px",
-        "type": "fontSizes"
-      },
-      "900": {
-        "value": "22.43px",
-        "type": "fontSizes"
-      },
-      "1000": {
-        "value": "25.23px",
-        "type": "fontSizes"
-      },
-      "1100": {
-        "value": "28.38px",
-        "type": "fontSizes"
-      }
-    },
     "lineHeight": {
-      "100": {
-        "value": "1",
+      "normal": {
+        "value": "100%",
         "type": "lineHeights"
       },
-      "200": {
-        "value": "1.15",
+      "compact": {
+        "value": "125%",
         "type": "lineHeights"
       },
-      "300": {
-        "value": "1.25",
+      "comfort": {
+        "value": "150%",
         "type": "lineHeights"
       },
-      "400": {
-        "value": "1.5",
-        "type": "lineHeights"
-      },
-      "500": {
-        "value": "1.75",
-        "type": "lineHeights"
-      },
-      "600": {
-        "value": "2",
-        "type": "lineHeights"
-      },
-      "700": {
-        "value": "2.5",
-        "type": "lineHeights"
-      },
-      "800": {
-        "value": "3",
-        "type": "lineHeights"
-      },
-      "900": {
-        "value": "4",
-        "type": "lineHeights"
+      "size": {
+        "xs": {
+          "value": "18",
+          "type": "lineHeights"
+        },
+        "sm": {
+          "value": "20",
+          "type": "lineHeights"
+        },
+        "md": {
+          "value": "24",
+          "type": "lineHeights"
+        },
+        "lg": {
+          "value": "26",
+          "type": "lineHeights"
+        },
+        "1xl": {
+          "value": "28",
+          "type": "lineHeights"
+        },
+        "2xl": {
+          "value": "30",
+          "type": "lineHeights"
+        }
       }
     },
     "letterSpacing": {
@@ -382,6 +346,48 @@
       "pre-line": {
         "value": "pre-line",
         "type": "whiteSpace"
+      }
+    },
+    "fontSize": {
+      "xs": {
+        "value": "12.5",
+        "type": "fontSizes"
+      },
+      "sm": {
+        "value": "14",
+        "type": "fontSizes"
+      },
+      "md": {
+        "value": "16",
+        "type": "fontSizes"
+      },
+      "lg": {
+        "value": "18",
+        "type": "fontSizes"
+      },
+      "1xl": {
+        "value": "20",
+        "type": "fontSizes"
+      },
+      "2xl": {
+        "value": "24",
+        "type": "fontSizes"
+      },
+      "3xl": {
+        "value": "28",
+        "type": "fontSizes"
+      },
+      "4xl": {
+        "value": "32",
+        "type": "fontSizes"
+      },
+      "5xl": {
+        "value": "40",
+        "type": "fontSizes"
+      },
+      "6xl": {
+        "value": "52",
+        "type": "fontSizes"
       }
     }
   }

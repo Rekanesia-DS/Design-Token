@@ -757,7 +757,7 @@
       },
       "carrot": {
         "50": {
-          "value": "#fff6eb",
+          "value": "#FFFAF5",
           "type": "color"
         },
         "100": {
@@ -847,7 +847,7 @@
       },
       "chilli": {
         "50": {
-          "value": "#fbeded",
+          "value": "#FDF7F7",
           "type": "color"
         },
         "100": {
@@ -937,7 +937,7 @@
       },
       "cucumber": {
         "50": {
-          "value": "#effbf2",
+          "value": "#F7FDF8",
           "type": "color"
         },
         "100": {
@@ -1117,7 +1117,7 @@
       },
       "sky": {
         "50": {
-          "value": "#ebf9ff",
+          "value": "#F5FCFF",
           "type": "color"
         },
         "100": {
@@ -1388,6 +1388,10 @@
     },
     "blanket": {
       "50": {
+        "value": "rgba(255,255,255,0.04)",
+        "type": "color"
+      },
+      "100": {
         "value": "rgba(255,255,255,0.09)",
         "type": "color"
       },
@@ -1425,6 +1429,10 @@
       },
       "1000": {
         "value": "rgba(255,255,255,1)",
+        "type": "color"
+      },
+      "1050": {
+        "value": "rgba(0,0,0,0.04)",
         "type": "color"
       },
       "1100": {

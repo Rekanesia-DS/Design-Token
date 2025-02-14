@@ -169,7 +169,7 @@
     "text": {
       "fontFamily": {
         "base": {
-          "value": "{seed.fontFamily.sansSerif.harmony}",
+          "value": "{seed.fontFamily.sansSerif.inter}",
           "type": "fontFamilies"
         },
         "tittle": {
@@ -179,22 +179,6 @@
         "heading": {
           "value": "{seed.fontFamily.special.slab}",
           "type": "fontFamilies"
-        }
-      }
-    },
-    "corner": {
-      "comp": {
-        "s": {
-          "value": "{seed.borderradius.700}",
-          "type": "borderRadius"
-        },
-        "m": {
-          "value": "{seed.borderradius.900}",
-          "type": "borderRadius"
-        },
-        "l": {
-          "value": "{seed.borderradius.1000}",
-          "type": "borderRadius"
         }
       }
     },
@@ -375,6 +359,36 @@
             "value": "{colors.seed.cyan.2200}",
             "type": "color"
           }
+        }
+      }
+    },
+    "corner": {
+      "comfort": {
+        "s": {
+          "value": "{seed.borderradius.700}",
+          "type": "borderRadius"
+        },
+        "m": {
+          "value": "{seed.borderradius.900}",
+          "type": "borderRadius"
+        },
+        "l": {
+          "value": "{seed.borderradius.1000}",
+          "type": "borderRadius"
+        }
+      },
+      "compact": {
+        "s": {
+          "value": "{seed.borderradius.700}",
+          "type": "borderRadius"
+        },
+        "m": {
+          "value": "{seed.borderradius.900}",
+          "type": "borderRadius"
+        },
+        "l": {
+          "value": "{seed.borderradius.1000}",
+          "type": "borderRadius"
         }
       }
     }
