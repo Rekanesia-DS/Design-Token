@@ -1,0 +1,122 @@
+{
+  "sem": {
+    "corner": {
+      "comfort": {
+        "medium": {
+          "value": "{brand.corner.comfort.m}",
+          "type": "borderRadius"
+        },
+        "large": {
+          "value": "{brand.corner.comfort.l}",
+          "type": "borderRadius"
+        },
+        "small": {
+          "value": "{brand.corner.comfort.s}",
+          "type": "borderRadius"
+        }
+      }
+    },
+    "gap": {
+      "none": {
+        "value": "{core.comfort.xs}",
+        "type": "spacing"
+      },
+      "low": {
+        "value": "{core.compact.xxs}",
+        "type": "spacing"
+      },
+      "normal": {
+        "value": "{core.compact.xs}",
+        "type": "spacing"
+      },
+      "high": {
+        "value": "{core.compact.m}",
+        "type": "spacing"
+      }
+    },
+    "frame": {
+      "low": {
+        "value": "{core.comfort.m}",
+        "type": "spacing"
+      },
+      "normal": {
+        "value": "{core.compact.xl}",
+        "type": "spacing"
+      },
+      "high": {
+        "value": "{core.comfort.l}",
+        "type": "spacing"
+      },
+      "max": {
+        "value": "{core.comfort.xl}",
+        "type": "spacing"
+      }
+    },
+    "stack": {
+      "none": {
+        "value": "{core.comfort.xs}",
+        "type": "spacing"
+      },
+      "low": {
+        "value": "{core.cramped.xs}",
+        "type": "spacing"
+      },
+      "normal": {
+        "value": "{core.cramped.m}",
+        "type": "spacing"
+      },
+      "high": {
+        "value": "{core.compact.xl}",
+        "type": "spacing"
+      },
+      "max": {
+        "value": "{core.comfort.xl}",
+        "type": "spacing"
+      }
+    },
+    "size": {
+      "element": {
+        "tiny": {
+          "value": "{core.cramped.s}",
+          "type": "sizing"
+        },
+        "small": {
+          "value": "{core.cramped.m}",
+          "type": "sizing"
+        },
+        "medium": {
+          "value": "{core.cramped.l}",
+          "type": "sizing"
+        },
+        "large": {
+          "value": "{core.cramped.xl}",
+          "type": "sizing"
+        }
+      },
+      "wrapper": {
+        "tiny": {
+          "value": "{core.cramped.l}",
+          "type": "sizing"
+        },
+        "small": {
+          "value": "{core.cramped.xl}",
+          "type": "sizing"
+        },
+        "medium": {
+          "value": "{core.mobile.relaxed.m}",
+          "type": "sizing"
+        },
+        "large": {
+          "value": "{core.mobile.relaxed.xl}",
+          "type": "sizing"
+        }
+      }
+    },
+    "border": {
+      "normal": {
+        "value": "{border.m}",
+        "type": "borderWidth"
+      }
+    }
+  }
+}

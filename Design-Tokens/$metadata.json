@@ -1,0 +1,21 @@
+{
+  "tokenSetOrder": [
+    "seed/colors",
+    "seed/dimensions",
+    "seed/typography",
+    "core/override/contrast/default",
+    "core/override/contrast/highContrast",
+    "core/override/brands/Lime",
+    "core/override/brands/Blueberries",
+    "core/override/brands/Morras",
+    "core/override/brands/Mint",
+    "core/override/mode/light",
+    "core/override/mode/dark",
+    "core/dimensions",
+    "semantic/color",
+    "semantic/dimension",
+    "semantic/text",
+    "component/code",
+    "component/graphic"
+  ]
+}
