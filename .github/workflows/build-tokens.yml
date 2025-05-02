@@ -98,16 +98,17 @@ jobs:
 
       # Setup Google Cloud CLI
       - name: Setup gcloud CLI
-        uses: google-github-actions/setup-gcloud@v2
+        uses: google-github-actions/setup-gcloud@v0
         with:
           service_account_email: ${{ secrets.GCP_SA_EMAIL }}
           service_account_key: ${{ secrets.GCP_SA_KEY }}
           project_id: durable-fact-310601
-
-      # Upload build artifacts to GCS
+          export_default_credentials: true  # Baru ditambahkan
+      # Upload build artifacts to GCS  
       - name: Upload to GCS
         run: |
-          echo "Removing old files from GCS bucket..."
+          echo "Removing old files..."
           gsutil -m rm -rf gs://cdn-test-rekan/ui-rekan-ipubers/* || echo "No files to remove."
-          echo "Uploading new build artifacts..."
-          gsutil -m cp -r build/* gs://cdn-test-rekan/ui-rekan-ipubers
+          
+          echo "Uploading new files..."
+          gsutil -m cp -r "$(pwd)/build/*" gs://cdn-test-rekan/ui-rekan-ipubers/
