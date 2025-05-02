@@ -95,25 +95,33 @@ jobs:
             # Push changes
             git push -f origin HEAD:master || { echo "Failed pushing changes."; exit 1; }
           fi
-
-      # Setup Google Cloud CLI
-      - name: Setup gcloud CLI
-        uses: google-github-actions/setup-gcloud@v2  # Versi terbaru
+          
+      # Autentikasi menggunakan Service Account Key JSON
+      - uses: google-github-actions/auth@v2
         with:
-          service_account_key: ${{ secrets.GCP_SA_KEY }}
+          credentials_json: ${{ secrets.GCP_SA_KEY }}
+          
+      # Setup gcloud dengan konfigurasi khusus
+      - uses: google-github-actions/setup-gcloud@v2
+        with:
           project_id: durable-fact-310601
-          export_default_credentials: true
-
-      - name: Verify GCP Authentication  # Langkah verifikasi baru
+          export_default_credentials: true 
+          install_components: 'gsutil'     
+          
+      # Verifikasi autentikasi
+      - name: Verify GCP Access
         run: |
           gcloud auth list
           gsutil ls gs://cdn-test-rekan
-
-      # Upload build artifacts to GCS  
+          
+      # Upload ke GCS dengan optimasi
       - name: Upload to GCS
         run: |
           echo "Cleaning bucket..."
           gsutil -m rm -r gs://cdn-test-rekan/ui-rekan-ipubers/** || true
           
-          echo "Uploading files..."
-          gsutil -m cp -Z -r "$(pwd)/build/" gs://cdn-test-rekan/ui-rekan-ipubers/
+          echo "Uploading artifacts..."
+          gsutil -m \
+            -o "GSUtil:parallel_process_count=1" \
+            cp -Z -r "$(pwd)/build/*" \
+            gs://cdn-test-rekan/ui-rekan-ipubers/
