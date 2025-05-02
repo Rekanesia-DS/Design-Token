@@ -1,0 +1,1511 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --400: #;
+  --300: #;
+  --hovered: #;
+  --default: #;
+  --hovered: #;
+  --default: #;
+  --hovered: #;
+  --default: #;
+  --hovered: #;
+  --default: #;
+  --hovered: #;
+  --default: #;
+  --hovered: #;
+  --default: #;
+  --hovered: #;
+  --default: #;
+  --hovered: #;
+  --default: #;
+  --hovered: #;
+  --default: #;
+  --hovered: #;
+  --default: #;
+  --hovered: #;
+  --default: #;
+  --hovered: #;
+  --default: #;
+  --hovered: #;
+  --default: #;
+  --hovered: #;
+  --default: #;
+  --hovered: #;
+  --default: #;
+  --hovered: #;
+  --default: #;
+  --hovered: #;
+  --default: #;
+  --hovered: #;
+  --default: #;
+  --hovered: #;
+  --default: #;
+  --hovered: #;
+  --default: #;
+  --hovered: #;
+  --default: #;
+  --hovered: #;
+  --default: #;
+  --hovered: #;
+  --default: #;
+  --hovered: #;
+  --default: #;
+  --6xl: 52;
+  --5xl: 40;
+  --4xl: 32;
+  --3xl: 28;
+  --2xl: 24;
+  --1xl: 20;
+  --lg: 18;
+  --md: 16;
+  --sm: 14;
+  --xs: 12.5;
+  --pre-line: pre-line;
+  --pre-wrap: pre-wrap;
+  --pre: pre;
+  --nowrap: nowrap;
+  --normal: normal;
+  --ellipsis: ellipsis;
+  --clip: clip;
+  --all-small-caps: all-small-caps;
+  --small-caps: small-caps;
+  --normal: normal;
+  --superscript: superscript;
+  --subscript: subscript;
+  --normal: baseline;
+  --capitalize: capitalize;
+  --lowercase: lowercase;
+  --uppercase: uppercase;
+  --none: none;
+  --oblique: oblique;
+  --italic: italic;
+  --normal: normal;
+  --justify: justify;
+  --center: center;
+  --right: right;
+  --left: left;
+  --capitalize: capitalize;
+  --lowercase: lowercase;
+  --uppercase: uppercase;
+  --normal: none;
+  --overline: overline;
+  --strikethrough: line-through;
+  --underline: underline;
+  --none: none;
+  --500: 32px;
+  --400: 24px;
+  --300: 16px;
+  --200: 8px;
+  --100: 0px;
+  --900: 40px;
+  --800: 32px;
+  --700: 24px;
+  --600: 20px;
+  --500: 16px;
+  --400: 12px;
+  --300: 8px;
+  --900: 1px;
+  --800: 0.75px;
+  --700: 0.5px;
+  --600: 0.25px;
+  --500: 0px;
+  --400: -0.25px;
+  --300: -0.5px;
+  --2xl: 30;
+  --1xl: 28;
+  --lg: 26;
+  --md: 24;
+  --sm: 20;
+  --xs: 18;
+  --comfort: 150%;
+  --compact: 125%;
+  --normal: 100%;
+  --black: 900;
+  --Extra Bold: 800;
+  --Bold: 700;
+  --semiBold: 600;
+  --medium: 500;
+  --regular: 400;
+  --light: 300;
+  --extraLight: 200;
+  --thin: 100;
+  --serif: Merriweather;
+  --display: Pacifico;
+  --slab: Bricolage Grotesque;
+  --monospace: Roboto Mono;
+  --canada: Radio Canada;
+  --inter: Inter;
+  --sofia: Sofia Sans;
+  --noto: Noto Sans;
+  --harmony: HarmonyOS Sans;
+  --800: [object Object],[object Object];
+  --700: [object Object],[object Object];
+  --600: [object Object],[object Object];
+  --500: [object Object],[object Object];
+  --400: [object Object],[object Object];
+  --300: [object Object],[object Object];
+  --200: [object Object],[object Object];
+  --100: [object Object],[object Object];
+  --50: [object Object],[object Object];
+  --00: 0;
+  --900: 24;
+  --800: 22;
+  --700: 20;
+  --600: 18;
+  --500: 16;
+  --400: 14;
+  --300: 12;
+  --200: 10;
+  --100: 8;
+  --80: 6;
+  --50: 4;
+  --25: 2;
+  --000: 0;
+  --1000: 90;
+  --900: 81;
+  --800: 72;
+  --700: 63;
+  --600: 54;
+  --500: 45;
+  --400: 38;
+  --300: 32;
+  --200: 18;
+  --100: 9;
+  --700: 1.5;
+  --600: 1.2;
+  --500: 1;
+  --400: 0.7;
+  --300: 6;
+  --200: 4;
+  --100: 0;
+  --00: 0;
+  --1100: 28;
+  --1000: 24;
+  --900: 20;
+  --800: 18;
+  --700: 16;
+  --600: 14;
+  --500: 12;
+  --450: 10;
+  --400: 8;
+  --300: 6;
+  --200: 4;
+  --100: 2;
+  --800: 62;
+  --700: 48;
+  --600: 44;
+  --500: 40;
+  --400: 36;
+  --300: 32;
+  --200: 28;
+  --100: 24;
+  --80: 20;
+  --50: 16;
+  --25: 14;
+  --20: 10;
+  --15: 8;
+  --2100: rgba(0,0,0,1);
+  --2000: rgba(0,0,0,0.9);
+  --1900: rgba(0,0,0,0.81);
+  --1800: rgba(0,0,0,0.72);
+  --1700: rgba(0,0,0,0.63);
+  --1600: rgba(0,0,0,0.54);
+  --1500: rgba(0,0,0,0.45);
+  --1400: rgba(0,0,0,0.38);
+  --1300: rgba(0,0,0,0.32);
+  --1200: rgba(0,0,0,0.18);
+  --1100: rgba(0,0,0,0.09);
+  --1050: rgba(0,0,0,0.04);
+  --1000: rgba(255,255,255,1);
+  --900: rgba(255,255,255,0.81);
+  --800: rgba(255,255,255,0.72);
+  --700: rgba(255,255,255,0.63);
+  --600: rgba(255,255,255,0.54);
+  --500: rgba(255,255,255,0.45);
+  --400: rgba(255,255,255,0.33);
+  --300: rgba(255,255,255,0.3);
+  --200: rgba(255,255,255,0.18);
+  --100: rgba(255,255,255,0.09);
+  --50: rgba(255,255,255,0.04);
+  --black: #000;
+  --white: #fff;
+  --2100: #130313;
+  --2000: #230523;
+  --1900: #340834;
+  --1800: #450a45;
+  --1700: #560c55;
+  --1600: #670f66;
+  --1500: #741173;
+  --1400: #80127e;
+  --1300: #9a1698;
+  --1200: #ab19a9;
+  --1100: #bc1bba;
+  --1000: #c230c0;
+  --900: #c844c6;
+  --800: #d05fcf;
+  --700: #d266d1;
+  --600: #da82d9;
+  --500: #e096df;
+  --400: #e6abe6;
+  --300: #ecc0ec;
+  --200: #f2d4f2;
+  --100: #faedfa;
+  --50: #faedfa;
+  --2100: #0c0319;
+  --2000: #17062f;
+  --1900: #220946;
+  --1800: #2d0b5c;
+  --1700: #380e73;
+  --1600: #431189;
+  --1500: #4c139b;
+  --1400: #5315aa;
+  --1300: #6419cd;
+  --1200: #6f1ce3;
+  --1100: #7a1ffa;
+  --1000: #8633fa;
+  --900: #9247fb;
+  --800: #a262fb;
+  --700: #a669fc;
+  --600: #b684fc;
+  --500: #c298fd;
+  --400: #ceacfd;
+  --300: #dac1fe;
+  --200: #e6d5fe;
+  --100: #f5edff;
+  --50: #f5edff;
+  --2100: #00131a;
+  --2000: #002230;
+  --1900: #003347;
+  --1800: #00435e;
+  --1700: #005475;
+  --1600: #01648c;
+  --1500: #01719e;
+  --1400: #017cad;
+  --1300: #0196d1;
+  --1200: #01a6e8;
+  --1100: #01b7ff;
+  --1000: #18bdff;
+  --900: #2fc4ff;
+  --800: #4dccff;
+  --700: #55cfff;
+  --600: #74d7ff;
+  --500: #8adeff;
+  --400: #a1e4ff;
+  --300: #b8ebff;
+  --200: #cff1ff;
+  --100: #ebf9ff;
+  --50: #F5FCFF;
+  --2100: #131313;
+  --2000: #251e06;
+  --1900: #362d09;
+  --1800: #483b0c;
+  --1700: #59490f;
+  --1600: #6b5812;
+  --1500: #796314;
+  --1400: #846d16;
+  --1300: #a0831b;
+  --1200: #b1921e;
+  --1100: #c3a021;
+  --1000: #c8a935;
+  --900: #ceb149;
+  --800: #d5bc63;
+  --700: #d7bf6a;
+  --600: #decb85;
+  --500: #e3d399;
+  --400: #e9dcad;
+  --300: #eee5c1;
+  --200: #f4edd5;
+  --100: #faf8ee;
+  --50: #faf8ee;
+  --2100: #051509;
+  --2000: #0a2711;
+  --1900: #0e391a;
+  --1800: #134c22;
+  --1700: #175e2a;
+  --1600: #1c7133;
+  --1500: #207f39;
+  --1400: #238b3e;
+  --1300: #2aa84b;
+  --1200: #2ebb54;
+  --1100: #33cd5c;
+  --1000: #45d26b;
+  --900: #58d679;
+  --800: #70dc8d;
+  --700: #76dd92;
+  --600: #8fe4a6;
+  --500: #a1e8b4;
+  --400: #b4edc3;
+  --300: #c6f1d2;
+  --200: #d9f6e0;
+  --100: #effbf2;
+  --50: #F7FDF8;
+  --2100: #140303;
+  --2000: #250505;
+  --1900: #370808;
+  --1800: #490a0a;
+  --1700: #5b0c0c;
+  --1600: #6d0f0f;
+  --1500: #7b1111;
+  --1400: #861212;
+  --1300: #a21616;
+  --1200: #b41919;
+  --1100: #c61b1b;
+  --1000: #cb3030;
+  --900: #d04444;
+  --800: #d75f5f;
+  --700: #d96666;
+  --600: #e08282;
+  --500: #e59696;
+  --400: #eaabab;
+  --300: #efc0c0;
+  --200: #f4d4d4;
+  --100: #fbeded;
+  --50: #FDF7F7;
+  --2100: #1a0f00;
+  --2000: #301b00;
+  --1900: #472800;
+  --1800: #5e3500;
+  --1700: #754300;
+  --1600: #8c5001;
+  --1500: #9e5a01;
+  --1400: #ad6201;
+  --1300: #d17701;
+  --1200: #e88401;
+  --1100: #ff9101;
+  --1000: #ff9b18;
+  --900: #ffa52f;
+  --800: #ffb24d;
+  --700: #ffb555;
+  --600: #ffc374;
+  --500: #ffcd8a;
+  --400: #ffd6a1;
+  --300: #ffe0b8;
+  --200: #ffeacf;
+  --100: #fff6eb;
+  --50: #FFFAF5;
+  --2200: #101111;
+  --2100: #1e1f1f;
+  --2000: #2c2d2d;
+  --1900: #3a3c3c;
+  --1800: #484b4b;
+  --1700: #575959;
+  --1600: #626565;
+  --1500: #6b6f6f;
+  --1400: #818686;
+  --1300: #909494;
+  --1200: #9ea3a3;
+  --1100: #a7abab;
+  --1000: #afb4b4;
+  --900: #bbbebe;
+  --800: #bec1c1;
+  --700: #cacccc;
+  --600: #d2d5d5;
+  --500: #dbdddd;
+  --400: #e4e5e5;
+  --300: #edeeee;
+  --200: #f5f6f6;
+  --150: #F7F8F8;
+  --100: #ffffff;
+  --2150: #011314;
+  --2100: #011314;
+  --2000: #032425;
+  --1900: #043536;
+  --1800: #054648;
+  --1700: #065759;
+  --1600: #08686b;
+  --1500: #097579;
+  --1400: #098084;
+  --1300: #0b9ba0;
+  --1200: #0dacb1;
+  --1100: #0ebdc3;
+  --1000: #24c3c8;
+  --900: #39c9ce;
+  --800: #56d1d5;
+  --700: #5dd3d7;
+  --600: #7bdbde;
+  --500: #90e1e3;
+  --400: #a6e7e9;
+  --300: #bcedee;
+  --200: #d2f3f4;
+  --100: #ecfafa;
+  --50: #F3FCFC;
+  --2200: #111111;
+  --2100: #201f1f;
+  --2000: #302e2e;
+  --1900: #3f3d3e;
+  --1800: #4e4c4d;
+  --1700: #5e5b5c;
+  --1600: #646161;
+  --1500: #747171;
+  --1400: #8c8889;
+  --1300: #9c9798;
+  --1200: #aba6a7;
+  --1100: #b3aeaf;
+  --1000: #bab6b7;
+  --900: #c4c1c1;
+  --800: #c7c3c4;
+  --700: #d1cecf;
+  --600: #d8d6d7;
+  --500: #e0dedf;
+  --400: #e8e6e6;
+  --300: #efeeee;
+  --200: #f6f6f6;
+  --150: #F7F7F7;
+  --100: #ffffff;
+  --2150: #090104;
+  --2100: #0d0206;
+  --2000: #18040a;
+  --1900: #23060f;
+  --1800: #2f0814;
+  --1700: #3a0b19;
+  --1600: #460d1e;
+  --1500: #4f0e22;
+  --1400: #561025;
+  --1300: #68132d;
+  --1200: #741532;
+  --1100: #7f1737;
+  --1000: #8b2c49;
+  --900: #96415b;
+  --800: #a55c73;
+  --700: #a96379;
+  --600: #b98091;
+  --500: #c495a3;
+  --400: #d0a9b5;
+  --300: #dbbec7;
+  --200: #e7d3d9;
+  --100: #f5edef;
+  --50: #FAF5F6;
+  --2200: #121312;
+  --2100: #222322;
+  --2000: #323332;
+  --1900: #424442;
+  --1800: #535452;
+  --1700: #636562;
+  --1600: #70726e;
+  --1500: #7a7d79;
+  --1400: #949792;
+  --1300: #a4a7a2;
+  --1200: #b4b8b2;
+  --1100: #bbbeb9;
+  --1000: #c2c5c0;
+  --900: #cacdc9;
+  --800: #cacdc9;
+  --700: #cdcfcb;
+  --600: #dddedc;
+  --500: #e3e5e3;
+  --400: #eaebea;
+  --300: #f1f2f1;
+  --200: #f7f8f7;
+  --150: #FAFAFA;
+  --100: #ffffff;
+  --2150: #040802;
+  --2100: #0a1304;
+  --2000: #122408;
+  --1900: #1b350c;
+  --1800: #244610;
+  --1700: #2d5814;
+  --1600: #366918;
+  --1500: #3d761b;
+  --1400: #42821e;
+  --1300: #509d24;
+  --1200: #59ae28;
+  --1100: #62bf2c;
+  --1000: #70c53f;
+  --900: #7ecb52;
+  --800: #91d26b;
+  --700: #96d472;
+  --600: #a9dc8b;
+  --500: #b7e29e;
+  --400: #c5e7b1;
+  --300: #d3edc4;
+  --200: #e1f3d7;
+  --100: #f3faee;
+  --50: #f9fdf7;
+  --2200: #131313;
+  --2100: #232324;
+  --2000: #343435;
+  --1900: #454546;
+  --1800: #555558;
+  --1700: #666669;
+  --1600: #737376;
+  --1500: #7e7e82;
+  --1400: #98989d;
+  --1300: #a9a9ae;
+  --1200: #bababf;
+  --1100: #c0c0c5;
+  --1000: #c6c6cb;
+  --900: #cfcfd2;
+  --800: #d1d1d4;
+  --700: #d9d9dc;
+  --600: #dfdfe2;
+  --500: #e6e6e7;
+  --400: #ececed;
+  --300: #f2f2f3;
+  --200: #f8f8f8;
+  --150: #FAFAFA;
+  --100: #ffffff;
+  --2150: #00010A;
+  --2100: #000215;
+  --2000: #000527;
+  --1900: #000739;
+  --1800: #00094c;
+  --1700: #000b5e;
+  --1600: #000d71;
+  --1500: #000f7f;
+  --1400: #00108b;
+  --1300: #0014a8;
+  --1200: #0016bb;
+  --1100: #0018cd;
+  --1000: #172dd2;
+  --900: #2e42d6;
+  --800: #4c5ddc;
+  --700: #5464dd;
+  --600: #7380e4;
+  --500: #8a95e8;
+  --400: #a1aaed;
+  --300: #b8bff1;
+  --200: #cfd4f6;
+  --100: #ebedfb; /* desc */
+  --50: #f6f7fd; /* desc */
+  --l: var(--1000);
+  --m: var(--900);
+  --s: var(--700);
+  --l: var(--1000);
+  --m: var(--900);
+  --s: var(--700);
+  --00: var(--2200);
+  --900: var(--100);
+  --800: var(--100);
+  --700: var(--1000);
+  --600: var(--1000);
+  --500: var(--1700);
+  --400: var(--1700);
+  --300: var(--2000);
+  --200: var(--2000);
+  --100: var(--2200);
+  --800: var(--600);
+  --700: var(--600);
+  --600: var(--600);
+  --500: var(--1100);
+  --400: var(--1100);
+  --300: var(--2000);
+  --200: var(--2000);
+  --100: var(--2100);
+  --50: var(--2150);
+  --00: var(--100);
+  --900: var(--2200);
+  --800: var(--2200);
+  --700: var(--2100);
+  --600: var(--2100);
+  --500: var(--1700);
+  --400: var(--1700);
+  --300: var(--400);
+  --200: var(--400);
+  --100: var(--100);
+  --800: var(--1700);
+  --700: var(--1700);
+  --600: var(--1700);
+  --500: var(--1200);
+  --400: var(--1200);
+  --300: var(--800);
+  --200: var(--800);
+  --100: var(--1000);
+  --50: var(--1000);
+  --heading: var(--slab);
+  --tittle: var(--canada);
+  --base: var(--inter);
+  --00: var(--2200);
+  --900: var(--100);
+  --800: var(--200);
+  --700: var(--300);
+  --600: var(--1000);
+  --500: var(--1100);
+  --400: var(--1700);
+  --300: var(--1900);
+  --200: var(--2000);
+  --100: var(--2100);
+  --800: var(--600);
+  --700: var(--800);
+  --600: var(--1000);
+  --500: var(--1100);
+  --400: var(--1300);
+  --300: var(--1600);
+  --200: var(--2000);
+  --100: var(--2100);
+  --50: var(--2100);
+  --00: var(--100);
+  --900: var(--2200);
+  --800: var(--2100);
+  --700: var(--2000);
+  --600: var(--1800);
+  --500: var(--1700);
+  --400: var(--700);
+  --300: var(--400);
+  --200: var(--300);
+  --100: var(--200);
+  --800: var(--1700);
+  --700: var(--1500);
+  --600: var(--1300);
+  --500: var(--1200);
+  --400: var(--900);
+  --300: var(--600);
+  --200: var(--200);
+  --100: var(--100);
+  --50: var(--50);
+  --1000: var(--200);
+  --800: var(--500);
+  --500: var(--1100);
+  --300: var(--1800);
+  --100: var(--2100);
+  --1000: var(--200);
+  --800: var(--500);
+  --500: var(--1100);
+  --300: var(--1800);
+  --100: var(--2100);
+  --1000: var(--200);
+  --800: var(--500);
+  --500: var(--1100);
+  --300: var(--1800);
+  --100: var(--2100);
+  --1000: var(--200);
+  --800: var(--500);
+  --500: var(--1100);
+  --300: var(--1800);
+  --100: var(--2100);
+  --1000: var(--200);
+  --800: var(--500);
+  --500: var(--1100);
+  --300: var(--1800);
+  --100: var(--2100);
+  --1000: var(--200);
+  --800: var(--500);
+  --500: var(--1100);
+  --300: var(--1800);
+  --100: var(--2100);
+  --1000: var(--200);
+  --800: var(--500);
+  --500: var(--1100);
+  --300: var(--1800);
+  --100: var(--2100);
+  --1000: var(--200);
+  --800: var(--500);
+  --500: var(--1100);
+  --300: var(--1800);
+  --100: var(--2100);
+  --800: var(--1700);
+  --700: var(--1700);
+  --600: var(--1000);
+  --500: var(--1000);
+  --400: var(--1300);
+  --300: var(--1300);
+  --200: var(--2100);
+  --100: var(--2100);
+  --50: var(--2100);
+  --800: var(--1700);
+  --700: var(--1700);
+  --600: var(--1000);
+  --500: var(--1000);
+  --400: var(--1300);
+  --300: var(--1300);
+  --200: var(--2100);
+  --100: var(--2100);
+  --50: var(--2100);
+  --800: var(--1700);
+  --700: var(--1700);
+  --600: var(--1000);
+  --500: var(--1000);
+  --400: var(--1300);
+  --300: var(--1300);
+  --200: var(--2100);
+  --100: var(--2100);
+  --50: var(--2100);
+  --800: var(--1700);
+  --700: var(--1700);
+  --600: var(--1000);
+  --500: var(--1000);
+  --400: var(--1300);
+  --300: var(--1300);
+  --200: var(--2100);
+  --100: var(--2100);
+  --50: var(--2100);
+  --1000: var(--1900);
+  --800: var(--1700);
+  --500: var(--1400);
+  --300: var(--800);
+  --100: var(--50);
+  --1000: var(--1900);
+  --800: var(--1700);
+  --500: var(--1400);
+  --300: var(--800);
+  --100: var(--50);
+  --1000: var(--1900);
+  --800: var(--1700);
+  --500: var(--1400);
+  --300: var(--800);
+  --100: var(--50);
+  --1000: var(--1900);
+  --800: var(--1700);
+  --500: var(--1400);
+  --300: var(--800);
+  --100: var(--50);
+  --1000: var(--1900);
+  --800: var(--1700);
+  --500: var(--1400);
+  --300: var(--800);
+  --100: var(--50);
+  --1000: var(--1900);
+  --800: var(--1700);
+  --500: var(--1400);
+  --300: var(--800);
+  --100: var(--50);
+  --1000: var(--1900);
+  --800: var(--1700);
+  --500: var(--1400);
+  --300: var(--800);
+  --100: var(--50);
+  --1000: var(--1900);
+  --800: var(--1700);
+  --500: var(--1400);
+  --300: var(--800);
+  --100: var(--50);
+  --800: var(--1700);
+  --700: var(--1700);
+  --600: var(--1200);
+  --500: var(--1200);
+  --400: var(--900);
+  --300: var(--900);
+  --200: var(--100);
+  --100: var(--100);
+  --50: var(--1000);
+  --800: var(--1700);
+  --700: var(--1700);
+  --600: var(--1200);
+  --500: var(--1200);
+  --400: var(--900);
+  --300: var(--900);
+  --200: var(--100);
+  --100: var(--100);
+  --50: var(--1000);
+  --800: var(--1700);
+  --700: var(--1700);
+  --600: var(--1200);
+  --500: var(--1200);
+  --400: var(--900);
+  --300: var(--900);
+  --200: var(--100);
+  --100: var(--100);
+  --50: var(--1000);
+  --200: linear-gradient(0deg, var(--200) 0%, var(--50) 100%);
+  --100: linear-gradient(0deg, var(--50) 0%, var(--200) 100%);
+  --800: var(--1700);
+  --700: var(--1700);
+  --600: var(--1200);
+  --500: var(--1200);
+  --400: var(--900);
+  --300: var(--900);
+  --200: var(--100);
+  --100: var(--100);
+  --50: var(--1000);
+  --body: var(--normal);
+  --heading: var(--capitalize);
+  --label: var(--capitalize);
+  --dataTile: var(--capitalize);
+  --action: var(--capitalize);
+  --bg: var(--1800);
+  --toast: var(--1800);
+  --overlay: var(--1300);
+  --inverse: var(--1000);
+  --600: var(--700);
+  --500: var(--600);
+  --m: var(--500);
+  --xl: var(--700);
+  --l: var(--600);
+  --m: var(--500);
+  --s: var(--300);
+  --xs: var(--100);
+  --xxl: var(--900);
+  --xl: var(--700);
+  --l: var(--500);
+  --m: var(--100);
+  --s: var(--50);
+  --xs: var(--00);
+  --xxl: var(--400);
+  --xl: var(--300);
+  --l: var(--200);
+  --m: var(--100);
+  --s: var(--80);
+  --xs: var(--50);
+  --xxs: var(--25);
+  --xl: var(--300);
+  --l: var(--100);
+  --m: var(--80);
+  --s: var(--50);
+  --xs: var(--25);
+  --10: var(--2000);
+  --9: var(--1900);
+  --8: var(--1800);
+  --7: var(--1700);
+  --6: var(--1600);
+  --5: var(--1500);
+  --4: var(--1400);
+  --3: var(--1300);
+  --2: var(--1200);
+  --1: var(--1100);
+  --base: var(--white);
+  --l: var(--xl);
+  --m: var(--xl);
+  --s: var(--l);
+  --00: var(--00);
+  --900: var(--900);
+  --800: var(--800);
+  --700: var(--700);
+  --600: var(--600);
+  --500: var(--500);
+  --400: var(--400);
+  --300: var(--300);
+  --200: var(--200);
+  --100: var(--100);
+  --800: var(--800);
+  --700: var(--700);
+  --600: var(--600);
+  --500: var(--500);
+  --400: var(--400);
+  --300: var(--300);
+  --200: var(--200);
+  --100: var(--100);
+  --50: var(--50);
+  --00: var(--00);
+  --900: var(--900);
+  --800: var(--800);
+  --700: var(--700);
+  --600: var(--600);
+  --500: var(--500);
+  --400: var(--400);
+  --300: var(--300);
+  --200: var(--200);
+  --100: var(--100);
+  --800: var(--800);
+  --700: var(--700);
+  --600: var(--600);
+  --500: var(--500);
+  --400: var(--400);
+  --300: var(--300);
+  --200: var(--200);
+  --100: var(--100);
+  --50: var(--50);
+  --bold: TextStyle(
+var(--base)
+var(--Bold)
+var(--xs)
+var(--xs)px
+);
+  --semiBold: TextStyle(
+var(--base)
+var(--semiBold)
+var(--xs)
+var(--xs)px
+);
+  --medium: TextStyle(
+var(--base)
+var(--medium)
+var(--xs)
+var(--xs)px
+);
+  --regular: TextStyle(
+var(--base)
+var(--regular)
+var(--xs)
+var(--xs)px
+);
+  --bold: TextStyle(
+var(--base)
+var(--Bold)
+var(--sm)
+var(--sm)px
+);
+  --semiBold: TextStyle(
+var(--base)
+var(--semiBold)
+var(--sm)
+var(--sm)px
+);
+  --medium: TextStyle(
+var(--base)
+var(--medium)
+var(--sm)
+var(--sm)px
+);
+  --regular: TextStyle(
+var(--base)
+var(--regular)
+var(--sm)
+var(--sm)px
+);
+  --bold: TextStyle(
+var(--base)
+var(--Bold)
+var(--md)
+var(--md)px
+);
+  --semiBold: TextStyle(
+var(--base)
+var(--semiBold)
+var(--md)
+var(--md)px
+);
+  --medium: TextStyle(
+var(--base)
+var(--medium)
+var(--md)
+var(--md)px
+);
+  --regular: TextStyle(
+var(--base)
+var(--regular)
+var(--md)
+var(--md)px
+);
+  --bold: TextStyle(
+var(--base)
+var(--Bold)
+var(--lg)
+var(--lg)px
+);
+  --semiBold: TextStyle(
+var(--base)
+var(--semiBold)
+var(--lg)
+var(--lg)px
+);
+  --medium: TextStyle(
+var(--base)
+var(--medium)
+var(--lg)
+var(--lg)px
+);
+  --regular: TextStyle(
+var(--base)
+var(--regular)
+var(--lg)
+var(--lg)px
+);
+  --bold: TextStyle(
+var(--base)
+var(--Bold)
+var(--1xl)
+var(--1xl)px
+);
+  --semiBold: TextStyle(
+var(--base)
+var(--semiBold)
+var(--1xl)
+var(--1xl)px
+);
+  --medium: TextStyle(
+var(--base)
+var(--medium)
+var(--1xl)
+var(--1xl)px
+);
+  --regular: TextStyle(
+var(--base)
+var(--regular)
+var(--1xl)
+var(--1xl)px
+);
+  --bold: TextStyle(
+var(--base)
+var(--Bold)
+var(--2xl)
+var(--2xl)px
+);
+  --semiBold: TextStyle(
+var(--base)
+var(--semiBold)
+var(--2xl)
+var(--2xl)px
+);
+  --medium: TextStyle(
+var(--base)
+var(--medium)
+var(--2xl)
+var(--2xl)px
+);
+  --regular: TextStyle(
+var(--base)
+var(--regular)
+var(--2xl)
+var(--2xl)px
+);
+  --bold: TextStyle(
+var(--base)
+var(--Bold)
+1.25
+var(--3xl)px
+);
+  --semiBold: TextStyle(
+var(--base)
+var(--semiBold)
+1.25
+var(--3xl)px
+);
+  --medium: TextStyle(
+var(--base)
+var(--medium)
+1.25
+var(--3xl)px
+);
+  --regular: TextStyle(
+var(--base)
+var(--regular)
+1.25
+var(--3xl)px
+);
+  --bold: TextStyle(
+var(--base)
+var(--Bold)
+1.25
+var(--4xl)px
+);
+  --semiBold: TextStyle(
+var(--base)
+var(--semiBold)
+1.25
+var(--4xl)px
+);
+  --medium: TextStyle(
+var(--base)
+var(--medium)
+1.25
+var(--4xl)px
+);
+  --regular: TextStyle(
+var(--base)
+var(--regular)
+1.25
+var(--4xl)px
+);
+  --bold: TextStyle(
+var(--base)
+var(--Bold)
+1.25
+var(--5xl)px
+);
+  --semiBold: TextStyle(
+var(--base)
+var(--semiBold)
+1.25
+var(--5xl)px
+);
+  --medium: TextStyle(
+var(--base)
+var(--medium)
+1.25
+var(--5xl)px
+);
+  --regular: TextStyle(
+var(--base)
+var(--regular)
+1.25
+var(--5xl)px
+);
+  --bold: TextStyle(
+var(--base)
+var(--Bold)
+1.25
+var(--6xl)px
+);
+  --semiBold: TextStyle(
+var(--base)
+var(--semiBold)
+1.25
+var(--6xl)px
+);
+  --medium: TextStyle(
+var(--base)
+var(--medium)
+1.25
+var(--6xl)px
+);
+  --regular: TextStyle(
+var(--base)
+var(--regular)
+1.25
+var(--6xl)px
+);
+  --normal: var(--m);
+  --large: var(--xl);
+  --medium: var(--m);
+  --small: var(--xl);
+  --tiny: var(--l);
+  --large: var(--xl);
+  --medium: var(--l);
+  --small: var(--m);
+  --tiny: var(--s);
+  --max: var(--xl);
+  --high: var(--xl);
+  --normal: var(--m);
+  --low: var(--xs);
+  --none: var(--xs);
+  --max: var(--xl);
+  --high: var(--l);
+  --normal: var(--xl);
+  --low: var(--m);
+  --high: var(--m);
+  --normal: var(--xs);
+  --low: var(--xxs);
+  --none: var(--xs);
+  --small: var(--s);
+  --large: var(--l);
+  --medium: var(--m);
+  --stepper: var(--l);
+  --large: var(--l);
+  --small: var(--s);
+  --medium: var(--m);
+  --compact: var(--m);
+  --comfort: var(--s);
+  --1000: var(--1000);
+  --800: var(--800);
+  --500: var(--500);
+  --300: var(--300);
+  --100: var(--100);
+  --1000: var(--1000);
+  --800: var(--800);
+  --500: var(--500);
+  --300: var(--300);
+  --100: var(--100);
+  --1000: var(--1000);
+  --800: var(--800);
+  --500: var(--500);
+  --300: var(--300);
+  --100: var(--100);
+  --1000: var(--1000);
+  --800: var(--800);
+  --500: var(--500);
+  --300: var(--300);
+  --100: var(--100);
+  --1000: var(--1000);
+  --800: var(--800);
+  --500: var(--500);
+  --300: var(--300);
+  --100: var(--100);
+  --1000: var(--1000);
+  --800: var(--800);
+  --500: var(--500);
+  --300: var(--300);
+  --100: var(--100);
+  --1000: var(--1000);
+  --800: var(--800);
+  --500: var(--500);
+  --300: var(--300);
+  --100: var(--100);
+  --1000: var(--1000);
+  --800: var(--800);
+  --500: var(--500);
+  --300: var(--300);
+  --100: var(--100);
+  --800: var(--800);
+  --700: var(--700);
+  --600: var(--600);
+  --500: var(--500);
+  --400: var(--400);
+  --300: var(--300);
+  --200: var(--200);
+  --100: var(--100);
+  --50: var(--50);
+  --800: var(--800);
+  --700: var(--700);
+  --600: var(--600);
+  --500: var(--500);
+  --400: var(--400);
+  --300: var(--300);
+  --200: var(--200);
+  --100: var(--100);
+  --50: var(--50);
+  --800: var(--800);
+  --700: var(--700);
+  --600: var(--600);
+  --500: var(--500);
+  --400: var(--400);
+  --300: var(--300);
+  --200: var(--200);
+  --100: var(--100);
+  --50: var(--50);
+  --800: var(--800);
+  --700: var(--700);
+  --600: var(--600);
+  --500: var(--500);
+  --400: var(--400);
+  --300: var(--300);
+  --200: var(--200);
+  --100: var(--100);
+  --50: var(--50);
+  --preventive: var(--500);
+  --destructive: var(--500);
+  --constructive: var(--500);
+  --destruotive: var(--400);
+  --preventive: var(--400);
+  --informative: var(--400);
+  --contructive: var(--400);
+  --heading: var(--500);
+  --icon: var(--500);
+  --border: var(--300);
+  --bg: var(--50);
+  --heading: var(--500);
+  --icon: var(--500);
+  --border: var(--300);
+  --bg: var(--50);
+  --heading: var(--500);
+  --icon: var(--500);
+  --border: var(--300);
+  --bg: var(--50);
+  --heading: var(--500);
+  --icon: var(--500);
+  --border: var(--300);
+  --bg: var(--50);
+  --blue: var(--100);
+  --full: var(--500);
+  --destruotive: var(--400);
+  --preventive: var(--400);
+  --informative: var(--400);
+  --contructive: var(--400);
+  --icon: var(--500);
+  --border: var(--100);
+  --pattern: var(--100);
+  --bg: var(--50);
+  --icon: var(--500);
+  --border: var(--200);
+  --pattern: var(--100);
+  --bg: var(--50);
+  --icon: var(--500);
+  --border: var(--200);
+  --pattern: var(--100);
+  --bg: var(--50);
+  --icon: var(--500);
+  --border: var(--200);
+  --pattern: var(--100);
+  --bg: var(--50);
+  --text-destructive: var(--600);
+  --text-destructive: var(--700);
+  --text-destructive: var(--500);
+  --asterisk: var(--500);
+  --helper: var(--500);
+  --icon: var(--500);
+  --border: var(--300);
+  --bg: var(--50);
+  --supporting: var(--medium);
+  --main: var(--bold);
+  --header: var(--semiBold);
+  --2: var(--regular);
+  --1: var(--regular);
+  --4: var(--bold);
+  --3: var(--bold);
+  --2: var(--bold);
+  --1: var(--bold);
+  --desc: var(--medium);
+  --title: var(--semiBold);
+  --large: var(--medium);
+  --medium: var(--medium);
+  --small: var(--medium);
+  --table: [object Object];
+  --desc: var(--medium);
+  --title: var(--semiBold);
+  --body: var(--medium);
+  --heading: var(--bold);
+  --large: var(--bold);
+  --medium: var(--bold);
+  --section: var(--regular);
+  --title: var(--semiBold);
+  --unselected: var(--medium);
+  --selected: var(--semiBold);
+  --unselected: var(--medium);
+  --selected: var(--semiBold);
+  --dataTile: [object Object];
+  --unselected: var(--medium);
+  --selected: var(--semiBold);
+  --trailing: var(--bold);
+  --helper: var(--medium);
+  --label: var(--regular);
+  --placeholder: var(--regular);
+  --input: var(--medium);
+  --desc: var(--medium);
+  --title: var(--bold);
+  --xtraLarge: var(--bold);
+  --large: var(--bold);
+  --small: var(--bold);
+  --medium: var(--bold);
+  --00: var(--00);
+  --900: var(--900);
+  --800: var(--800);
+  --700: var(--700);
+  --600: var(--600);
+  --500: var(--500);
+  --400: var(--400);
+  --300: var(--300);
+  --200: var(--200);
+  --100: var(--100);
+  --800: var(--800);
+  --700: var(--700);
+  --600: var(--600);
+  --500: var(--500);
+  --400: var(--400);
+  --300: var(--300);
+  --200: var(--200);
+  --100: var(--100);
+  --50: var(--50);
+  --close: var(--00);
+  --description: var(--200);
+  --heading: var(--00);
+  --supporting: var(--500);
+  --sperator: var(--900);
+  --heading: var(--700);
+  --main: var(--700);
+  --interaction: var(--50);
+  --text: var(--500);
+  --icon: var(--500);
+  --interaction: var(--50);
+  --border: var(--500);
+  --text: var(--500);
+  --icon: var(--500);
+  --interaction: var(--50);
+  --text: var(--500);
+  --icon: var(--500);
+  --interaction: var(--50);
+  --border: var(--500);
+  --text: var(--500);
+  --icon: var(--500);
+  --subtle: var(--900);
+  --base: var(--500);
+  --subtle: var(--100);
+  --base: var(--00);
+  --state: var(--500);
+  --tittle: var(--700);
+  --soon: var(--400);
+  --complete: var(--500);
+  --description: var(--600);
+  --heading: var(--700);
+  --border: var(--300);
+  --bg: var(--100);
+  --knob: var(--00);
+  --icon: var(--500);
+  --bg: var(--300);
+  --knob: var(--00);
+  --icon: var(--500);
+  --bg: var(--300);
+  --knob: var(--00);
+  --interaction: var(--200);
+  --icon: var(--500);
+  --bg: var(--500);
+  --knob: var(--50);
+  --interaction: var(--100);
+  --icon: var(--500);
+  --bg: var(--600);
+  --knob: var(--00);
+  --icon: var(--500);
+  --bg: var(--500);
+  --knob: var(--50);
+  --icon: var(--500);
+  --bg: var(--500);
+  --border: var(--300);
+  --icon: var(--600);
+  --bg: var(--400);
+  --interaction: var(--200);
+  --border: var(--400);
+  --interaction: var(--50);
+  --icon: var(--00);
+  --bg: var(--500);
+  --product: var(--200);
+  --headline: var(--900); /* di copy app bar */
+  --dataTile: [object Object];
+  --helper: var(--500);
+  --label: var(--800);
+  --list: var(--700);
+  --desc: var(--500);
+  --heading: var(--900);
+  --subtlest: var(--100);
+  --subtle: var(--50);
+  --surface: var(--00);
+  --subtlest: var(--100);
+  --subtle: var(--200);
+  --subtle: var(--400);
+  --bold: var(--900);
+  --onDark: var(--00);
+  --onLight: var(--900);
+  --base: var(--700);
+  --subtle: var(--700);
+  --subtlest: var(--400);
+  --accent: var(--400);
+  --sperator: var(--100);
+  --text: var(--500);
+  --subtlest: var(--300);
+  --subtle: var(--400);
+  --indicator: var(--500);
+  --bg: var(--00);
+  --label: var(--500);
+  --border: var(--400);
+  --label: var(--500);
+  --bg: var(--100);
+  --icon: var(--600);
+  --text: var(--800);
+  --border: var(--300);
+  --bg: var(--100);
+  --icon: var(--500);
+  --text: var(--600);
+  --border: var(--300);
+  --bg: var(--50);
+  --iconActive: var(--500);
+  --icon: var(--500);
+  --text: var(--500);
+  --border: var(--300);
+  --bg: var(--100);
+  --subheading: var(--600);
+  --heading: var(--800);
+  --icon: var(--00);
+  --text-onAccent: var(--00);
+  --border: var(--400);
+  --text: var(--600);
+  --bg: var(--600);
+  --icon: var(--600);
+  --text-destructive: var(--600);
+  --text: var(--500);
+  --border: var(--300);
+  --bg: var(--200);
+  --icon: var(--00);
+  --text-onAccent: var(--00);
+  --border: var(--500);
+  --text: var(--700);
+  --bg: var(--700);
+  --icon: var(--00);
+  --text-onAccent: var(--00);
+  --border: var(--400);
+  --text: var(--500);
+  --bg: var(--500);
+  --tittle: var(--600);
+  --helper: var(--500);
+  --unit: var(--700);
+  --text: var(--800);
+  --icon: var(--600);
+  --text: var(--800);
+  --border: var(--300);
+  --bg: var(--100);
+  --icon: var(--500);
+  --text: var(--600);
+  --border: var(--300);
+  --bg: var(--50);
+  --icon: var(--500);
+  --text: var(--500);
+  --border: var(--300);
+  --bg: var(--100);
+  --900: rgba(var(--600),0.81);
+  --800: rgba(var(--600),0.72);
+  --700: rgba(var(--600),0.63);
+  --600: rgba(var(--600),0.54);
+  --500: rgba(var(--600),0.45);
+  --400: rgba(var(--600),0.38);
+  --300: rgba(var(--600),0.32);
+  --200: rgba(var(--600),0.18);
+  --100: rgba( var(--600) ,0.09);
+}
