@@ -15,7 +15,8 @@
     "semantic/color",
     "semantic/dimension",
     "semantic/text",
-    "component/code",
-    "component/graphic"
+    "output/component",
+    "output/dataViz",
+    "output/graphic"
   ]
 }

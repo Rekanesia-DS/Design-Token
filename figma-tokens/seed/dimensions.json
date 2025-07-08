@@ -54,7 +54,7 @@
         "type": "sizing"
       }
     },
-    "borderradius": {
+    "borderRadius": {
       "100": {
         "value": "2",
         "type": "borderRadius"
@@ -106,36 +106,6 @@
       "00": {
         "value": "0",
         "type": "borderRadius"
-      }
-    },
-    "borderwidth": {
-      "100": {
-        "value": "0",
-        "type": "borderWidth"
-      },
-      "200": {
-        "value": "4",
-        "type": "borderWidth"
-      },
-      "300": {
-        "value": "6",
-        "type": "borderWidth"
-      },
-      "400": {
-        "value": "0.7",
-        "type": "borderWidth"
-      },
-      "500": {
-        "value": "1",
-        "type": "borderWidth"
-      },
-      "600": {
-        "value": "1.2",
-        "type": "borderWidth"
-      },
-      "700": {
-        "value": "1.5",
-        "type": "borderWidth"
       }
     },
     "opacity": {
@@ -238,7 +208,7 @@
         "type": "spacing"
       }
     },
-    "shadow": {
+    "boxShadow": {
       "50": {
         "value": [
           {
@@ -428,6 +398,16 @@
         ],
         "type": "boxShadow"
       }
+    }
+  },
+  "border": {
+    "test": {
+      "value": {
+        "style": "dotted",
+        "color": "#c7c7c7",
+        "width": "1"
+      },
+      "type": "border"
     }
   }
 }

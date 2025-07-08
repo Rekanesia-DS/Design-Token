@@ -4,390 +4,429 @@
       "sansSerif": {
         "harmony": {
           "value": "HarmonyOS Sans",
+          "description": "iPubers app primary font family",
           "type": "fontFamilies"
         },
         "noto": {
           "value": "Noto Sans",
+          "description": "Rekan app primary font family",
           "type": "fontFamilies"
         },
         "sofia": {
           "value": "Sofia Sans",
+          "description": "Markisa app primary font family",
           "type": "fontFamilies"
         },
         "inter": {
           "value": "Inter",
+          "description": "SND app primary font family",
           "type": "fontFamilies"
         },
         "canada": {
           "value": "Radio Canada",
+          "description": "WCM app primary font family",
           "type": "fontFamilies"
         }
       },
       "special": {
         "monospace": {
           "value": "Roboto Mono",
+          "description": "Monospace font for code blocks and technical content",
           "type": "fontFamilies"
         },
         "slab": {
           "value": "Bricolage Grotesque",
+          "description": "Slab serif font for headings and display text",
           "type": "fontFamilies"
         },
         "display": {
           "value": "Pacifico",
+          "description": "Display font for creative and decorative purposes",
           "type": "fontFamilies"
         },
         "serif": {
           "value": "Merriweather",
+          "description": "Serif font for traditional and readable text",
           "type": "fontFamilies"
         }
       }
     },
-    "font Weight": {
+    "fontWeight": {
       "thin": {
         "value": "100",
+        "description": "Thin weight - minimal visual impact",
         "type": "fontWeights"
       },
       "extraLight": {
         "value": "200",
+        "description": "Extra light weight - subtle emphasis",
         "type": "fontWeights"
       },
       "light": {
         "value": "300",
+        "description": "Light weight - soft appearance",
         "type": "fontWeights"
       },
       "regular": {
         "value": "400",
+        "description": "Regular weight - default body text",
         "type": "fontWeights"
       },
       "medium": {
         "value": "500",
+        "description": "Medium weight - moderate emphasis",
         "type": "fontWeights"
       },
       "semiBold": {
         "value": "600",
+        "description": "Semi-bold weight - strong emphasis",
         "type": "fontWeights"
       },
-      "Bold": {
+      "bold": {
         "value": "700",
+        "description": "Bold weight - high emphasis and headings",
         "type": "fontWeights"
       },
-      "Extra Bold": {
+      "extraBold": {
         "value": "800",
+        "description": "Extra bold weight - very strong emphasis",
         "type": "fontWeights"
       },
       "black": {
         "value": "900",
+        "description": "Black weight - maximum emphasis",
         "type": "fontWeights"
       }
     },
+    "fontSize": {
+      "xs": {
+        "value": "12px",
+        "description": "Extra small - captions, labels, small print",
+        "type": "fontSizes"
+      },
+      "sm": {
+        "value": "14px",
+        "description": "Small - secondary text, helper text",
+        "type": "fontSizes"
+      },
+      "base": {
+        "value": "16px",
+        "description": "Base - default body text size",
+        "type": "fontSizes"
+      },
+      "lg": {
+        "value": "18px",
+        "description": "Large - emphasized body text",
+        "type": "fontSizes"
+      },
+      "xl": {
+        "value": "20px",
+        "description": "Extra large - small headings",
+        "type": "fontSizes"
+      },
+      "2xl": {
+        "value": "24px",
+        "description": "2X large - sub-headings",
+        "type": "fontSizes"
+      },
+      "3xl": {
+        "value": "30px",
+        "description": "3X large - medium headings",
+        "type": "fontSizes"
+      },
+      "4xl": {
+        "value": "36px",
+        "description": "4X large - large headings",
+        "type": "fontSizes"
+      },
+      "5xl": {
+        "value": "48px",
+        "description": "5X large - hero headings",
+        "type": "fontSizes"
+      },
+      "6xl": {
+        "value": "60px",
+        "description": "6X large - display headings",
+        "type": "fontSizes"
+      },
+      "7xl": {
+        "value": "72px",
+        "description": "7X large - large display text",
+        "type": "fontSizes"
+      },
+      "8xl": {
+        "value": "96px",
+        "description": "8X large - massive display text",
+        "type": "fontSizes"
+      },
+      "9xl": {
+        "value": "128px",
+        "description": "9X large - extreme display text",
+        "type": "fontSizes"
+      }
+    },
     "lineHeight": {
+      "none": {
+        "value": "1",
+        "description": "No line height - tight spacing",
+        "type": "lineHeights"
+      },
+      "tight": {
+        "value": "1.25",
+        "description": "Tight line height - compact text",
+        "type": "lineHeights"
+      },
+      "snug": {
+        "value": "1.375",
+        "description": "Snug line height - slightly compact",
+        "type": "lineHeights"
+      },
       "normal": {
-        "value": "100%",
+        "value": "1.5",
+        "description": "Normal line height - balanced readability",
         "type": "lineHeights"
       },
-      "compact": {
-        "value": "125%",
+      "relaxed": {
+        "value": "1.625",
+        "description": "Relaxed line height - comfortable reading",
         "type": "lineHeights"
       },
-      "comfort": {
-        "value": "150%",
+      "loose": {
+        "value": "2",
+        "description": "Loose line height - generous spacing",
         "type": "lineHeights"
       },
-      "size": {
-        "xs": {
-          "value": "18",
+      "fixed": {
+        "3": {
+          "value": "12px",
+          "description": "Fixed 12px line height",
           "type": "lineHeights"
         },
-        "sm": {
-          "value": "20",
+        "4": {
+          "value": "16px",
+          "description": "Fixed 16px line height",
           "type": "lineHeights"
         },
-        "md": {
-          "value": "24",
+        "5": {
+          "value": "20px",
+          "description": "Fixed 20px line height",
           "type": "lineHeights"
         },
-        "lg": {
-          "value": "26",
+        "6": {
+          "value": "24px",
+          "description": "Fixed 24px line height",
           "type": "lineHeights"
         },
-        "1xl": {
-          "value": "28",
+        "7": {
+          "value": "28px",
+          "description": "Fixed 28px line height",
           "type": "lineHeights"
         },
-        "2xl": {
-          "value": "30",
+        "8": {
+          "value": "32px",
+          "description": "Fixed 32px line height",
+          "type": "lineHeights"
+        },
+        "9": {
+          "value": "36px",
+          "description": "Fixed 36px line height",
+          "type": "lineHeights"
+        },
+        "10": {
+          "value": "40px",
+          "description": "Fixed 40px line height",
           "type": "lineHeights"
         }
       }
     },
     "letterSpacing": {
-      "300": {
-        "value": "-0.5px",
+      "tighter": {
+        "value": "-0.05em",
+        "description": "Tighter letter spacing - condensed text",
         "type": "letterSpacing"
       },
-      "400": {
-        "value": "-0.25px",
+      "tight": {
+        "value": "-0.025em",
+        "description": "Tight letter spacing - slightly condensed",
         "type": "letterSpacing"
       },
-      "500": {
-        "value": "0px",
+      "normal": {
+        "value": "0em",
+        "description": "Normal letter spacing - default spacing",
         "type": "letterSpacing"
       },
-      "600": {
-        "value": "0.25px",
+      "wide": {
+        "value": "0.025em",
+        "description": "Wide letter spacing - slightly expanded",
         "type": "letterSpacing"
       },
-      "700": {
-        "value": "0.5px",
+      "wider": {
+        "value": "0.05em",
+        "description": "Wider letter spacing - expanded text",
         "type": "letterSpacing"
       },
-      "800": {
-        "value": "0.75px",
-        "type": "letterSpacing"
-      },
-      "900": {
-        "value": "1px",
+      "widest": {
+        "value": "0.1em",
+        "description": "Widest letter spacing - maximum expansion",
         "type": "letterSpacing"
       }
     },
     "paragraphSpacing": {
-      "300": {
-        "value": "8px",
-        "type": "paragraphSpacing"
-      },
-      "400": {
-        "value": "12px",
-        "type": "paragraphSpacing"
-      },
-      "500": {
-        "value": "16px",
-        "type": "paragraphSpacing"
-      },
-      "600": {
-        "value": "20px",
-        "type": "paragraphSpacing"
-      },
-      "700": {
-        "value": "24px",
-        "type": "paragraphSpacing"
-      },
-      "800": {
-        "value": "32px",
-        "type": "paragraphSpacing"
-      },
-      "900": {
-        "value": "40px",
-        "type": "paragraphSpacing"
-      }
-    },
-    "textIndent": {
-      "100": {
+      "0": {
         "value": "0px",
-        "type": "textIndent"
+        "description": "No paragraph spacing",
+        "type": "paragraphSpacing"
       },
-      "200": {
+      "1": {
+        "value": "4px",
+        "description": "Minimal paragraph spacing",
+        "type": "paragraphSpacing"
+      },
+      "2": {
         "value": "8px",
-        "type": "textIndent"
+        "description": "Small paragraph spacing",
+        "type": "paragraphSpacing"
       },
-      "300": {
+      "3": {
+        "value": "12px",
+        "description": "Medium paragraph spacing",
+        "type": "paragraphSpacing"
+      },
+      "4": {
         "value": "16px",
-        "type": "textIndent"
+        "description": "Default paragraph spacing",
+        "type": "paragraphSpacing"
       },
-      "400": {
+      "5": {
+        "value": "20px",
+        "description": "Large paragraph spacing",
+        "type": "paragraphSpacing"
+      },
+      "6": {
         "value": "24px",
-        "type": "textIndent"
+        "description": "Extra large paragraph spacing",
+        "type": "paragraphSpacing"
       },
-      "500": {
+      "8": {
         "value": "32px",
-        "type": "textIndent"
+        "description": "Double paragraph spacing",
+        "type": "paragraphSpacing"
+      },
+      "10": {
+        "value": "40px",
+        "description": "Maximum paragraph spacing",
+        "type": "paragraphSpacing"
       }
     },
-    "decoration": {
+    "paragraphIndent": {
+      "0": {
+        "5": {
+          "value": "2px",
+          "description": "Minimal paragraph indent",
+          "type": "paragraphIndent"
+        },
+        "value": "0px",
+        "description": "No paragraph indent",
+        "type": "paragraphIndent"
+      },
+      "1": {
+        "5": {
+          "value": "6px",
+          "description": "Small-medium paragraph indent",
+          "type": "paragraphIndent"
+        },
+        "value": "4px",
+        "description": "Small paragraph indent",
+        "type": "paragraphIndent"
+      },
+      "2": {
+        "5": {
+          "value": "10px",
+          "description": "Medium-large paragraph indent",
+          "type": "paragraphIndent"
+        },
+        "value": "8px",
+        "description": "Medium paragraph indent",
+        "type": "paragraphIndent"
+      },
+      "3": {
+        "5": {
+          "value": "14px",
+          "description": "Extra large paragraph indent",
+          "type": "paragraphIndent"
+        },
+        "value": "12px",
+        "description": "Large paragraph indent",
+        "type": "paragraphIndent"
+      },
+      "4": {
+        "value": "16px",
+        "description": "Standard paragraph indent",
+        "type": "paragraphIndent"
+      },
+      "5": {
+        "value": "20px",
+        "description": "Large paragraph indent",
+        "type": "paragraphIndent"
+      },
+      "6": {
+        "value": "24px",
+        "description": "Extra large paragraph indent",
+        "type": "paragraphIndent"
+      },
+      "8": {
+        "value": "32px",
+        "description": "Maximum paragraph indent",
+        "type": "paragraphIndent"
+      },
+      "px": {
+        "value": "1px",
+        "description": "1px paragraph indent",
+        "type": "paragraphIndent"
+      }
+    },
+    "textDecoration": {
       "none": {
         "value": "none",
+        "description": "No text decoration",
         "type": "textDecoration"
       },
       "underline": {
         "value": "underline",
-        "type": "textDecoration"
-      },
-      "strikethrough": {
-        "value": "line-through",
+        "description": "Underline text decoration",
         "type": "textDecoration"
       },
       "overline": {
         "value": "overline",
+        "description": "Overline text decoration",
+        "type": "textDecoration"
+      },
+      "lineThrough": {
+        "value": "line-through",
+        "description": "Strike-through text decoration",
         "type": "textDecoration"
       }
     },
     "textCase": {
-      "normal": {
-        "value": "none",
-        "type": "textCase"
-      },
-      "uppercase": {
-        "value": "uppercase",
-        "type": "textCase"
-      },
-      "lowercase": {
-        "value": "lowercase",
-        "type": "textCase"
-      },
-      "capitalize": {
-        "value": "capitalize",
-        "type": "textCase"
-      }
-    },
-    "textAlign": {
-      "left": {
-        "value": "left",
-        "type": "textAlign"
-      },
-      "right": {
-        "value": "right",
-        "type": "textAlign"
-      },
-      "center": {
-        "value": "center",
-        "type": "textAlign"
-      },
-      "justify": {
-        "value": "justify",
-        "type": "textAlign"
-      }
-    },
-    "fontStyle": {
-      "normal": {
-        "value": "normal",
-        "type": "fontStyle"
-      },
-      "italic": {
-        "value": "italic",
-        "type": "fontStyle"
-      },
-      "oblique": {
-        "value": "oblique",
-        "type": "fontStyle"
-      }
-    },
-    "textTransform": {
       "none": {
         "value": "none",
-        "type": "textTransform"
+        "description": "No text transformation",
+        "type": "textCase"
       },
       "uppercase": {
         "value": "uppercase",
-        "type": "textTransform"
+        "description": "Transform text to uppercase",
+        "type": "textCase"
       },
       "lowercase": {
         "value": "lowercase",
-        "type": "textTransform"
+        "description": "Transform text to lowercase",
+        "type": "textCase"
       },
       "capitalize": {
         "value": "capitalize",
-        "type": "textTransform"
-      }
-    },
-    "baselineShift": {
-      "normal": {
-        "value": "baseline",
-        "type": "baselineShift"
-      },
-      "subscript": {
-        "value": "subscript",
-        "type": "baselineShift"
-      },
-      "superscript": {
-        "value": "superscript",
-        "type": "baselineShift"
-      }
-    },
-    "fontVariant": {
-      "normal": {
-        "value": "normal",
-        "type": "fontVariant"
-      },
-      "small-caps": {
-        "value": "small-caps",
-        "type": "fontVariant"
-      },
-      "all-small-caps": {
-        "value": "all-small-caps",
-        "type": "fontVariant"
-      }
-    },
-    "textOverflow": {
-      "clip": {
-        "value": "clip",
-        "type": "textOverflow"
-      },
-      "ellipsis": {
-        "value": "ellipsis",
-        "type": "textOverflow"
-      }
-    },
-    "whiteSpace": {
-      "normal": {
-        "value": "normal",
-        "type": "whiteSpace"
-      },
-      "nowrap": {
-        "value": "nowrap",
-        "type": "whiteSpace"
-      },
-      "pre": {
-        "value": "pre",
-        "type": "whiteSpace"
-      },
-      "pre-wrap": {
-        "value": "pre-wrap",
-        "type": "whiteSpace"
-      },
-      "pre-line": {
-        "value": "pre-line",
-        "type": "whiteSpace"
-      }
-    },
-    "fontSize": {
-      "xs": {
-        "value": "12.5",
-        "type": "fontSizes"
-      },
-      "sm": {
-        "value": "14",
-        "type": "fontSizes"
-      },
-      "md": {
-        "value": "16",
-        "type": "fontSizes"
-      },
-      "lg": {
-        "value": "18",
-        "type": "fontSizes"
-      },
-      "1xl": {
-        "value": "20",
-        "type": "fontSizes"
-      },
-      "2xl": {
-        "value": "24",
-        "type": "fontSizes"
-      },
-      "3xl": {
-        "value": "28",
-        "type": "fontSizes"
-      },
-      "4xl": {
-        "value": "32",
-        "type": "fontSizes"
-      },
-      "5xl": {
-        "value": "40",
-        "type": "fontSizes"
-      },
-      "6xl": {
-        "value": "52",
-        "type": "fontSizes"
+        "description": "Capitalize first letter of each word",
+        "type": "textCase"
       }
     }
   }

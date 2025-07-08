@@ -1,0 +1,857 @@
+{
+  "src": {
+    "chart": {
+      "line": {
+        "series": {
+          "1": {
+            "stroke": {
+              "default": {
+                "value": "{dataviz.color.categorical.series.1.default}",
+                "type": "color",
+                "description": "First line series stroke color"
+              },
+              "hover": {
+                "value": "{dataviz.color.categorical.series.1.hover}",
+                "type": "color",
+                "description": "First line series hover stroke"
+              },
+              "muted": {
+                "value": "{dataviz.color.categorical.series.1.muted}",
+                "type": "color",
+                "description": "First line series muted stroke"
+              }
+            },
+            "marker": {
+              "fill": {
+                "value": "{dataviz.color.categorical.series.1.default}",
+                "type": "color",
+                "description": "Line marker fill color"
+              },
+              "stroke": {
+                "value": "{base.color.neutral.background.default}",
+                "type": "color",
+                "description": "Line marker stroke color"
+              }
+            }
+          },
+          "2": {
+            "stroke": {
+              "default": {
+                "value": "{dataviz.color.categorical.series.2.default}",
+                "type": "color",
+                "description": "Second line series stroke color"
+              },
+              "hover": {
+                "value": "{dataviz.color.categorical.series.2.hover}",
+                "type": "color",
+                "description": "Second line series hover stroke"
+              },
+              "muted": {
+                "value": "{dataviz.color.categorical.series.2.muted}",
+                "type": "color",
+                "description": "Second line series muted stroke"
+              }
+            }
+          },
+          "3": {
+            "stroke": {
+              "default": {
+                "value": "{dataviz.color.categorical.series.3.default}",
+                "type": "color",
+                "description": "Third line series stroke color"
+              }
+            }
+          },
+          "4": {
+            "stroke": {
+              "default": {
+                "value": "{dataviz.color.categorical.series.4.default}",
+                "type": "color",
+                "description": "Fourth line series stroke color"
+              }
+            }
+          }
+        },
+        "dash": {
+          "stroke": {
+            "default": {
+              "value": "{base.color.neutral.border.strong}",
+              "type": "color",
+              "description": "Dashed line stroke color"
+            }
+          }
+        },
+        "connector": {
+          "stroke": {
+            "default": {
+              "value": "{base.color.neutral.border.subtle}",
+              "type": "color",
+              "description": "Connector line stroke color"
+            }
+          }
+        }
+      },
+      "area": {
+        "series": {
+          "1": {
+            "fill": {
+              "default": {
+                "value": "{dataviz.color.categorical.series.1.default}",
+                "type": "color",
+                "description": "First area series fill"
+              },
+              "hover": {
+                "value": "{dataviz.color.categorical.series.1.hover}",
+                "type": "color",
+                "description": "First area series hover fill"
+              },
+              "muted": {
+                "value": "{dataviz.color.categorical.series.1.muted}",
+                "type": "color",
+                "description": "First area series muted fill"
+              }
+            },
+            "stroke": {
+              "default": {
+                "value": "{dataviz.color.categorical.series.1.default}",
+                "type": "color",
+                "description": "First area series stroke"
+              }
+            }
+          },
+          "2": {
+            "fill": {
+              "default": {
+                "value": "{dataviz.color.categorical.series.2.default}",
+                "type": "color",
+                "description": "Second area series fill"
+              }
+            },
+            "stroke": {
+              "default": {
+                "value": "{dataviz.color.categorical.series.2.default}",
+                "type": "color",
+                "description": "Second area series stroke"
+              }
+            }
+          }
+        }
+      },
+      "column": {
+        "series": {
+          "1": {
+            "fill": {
+              "default": {
+                "value": "{dataviz.color.categorical.series.1.default}",
+                "type": "color",
+                "description": "First column series fill"
+              },
+              "hover": {
+                "value": "{dataviz.color.categorical.series.1.hover}",
+                "type": "color",
+                "description": "First column hover fill"
+              },
+              "selected": {
+                "value": "{dataviz.color.categorical.series.1.hover}",
+                "type": "color",
+                "description": "Selected column fill"
+              },
+              "muted": {
+                "value": "{dataviz.color.categorical.series.1.muted}",
+                "type": "color",
+                "description": "Muted column fill"
+              }
+            },
+            "stroke": {
+              "default": {
+                "value": "transparent",
+                "type": "color",
+                "description": "Column border color"
+              },
+              "selected": {
+                "value": "{core.colors.brand.neutral.900}",
+                "type": "color",
+                "description": "Selected column border"
+              }
+            }
+          },
+          "2": {
+            "fill": {
+              "default": {
+                "value": "{dataviz.color.categorical.series.2.default}",
+                "type": "color",
+                "description": "Second column series fill"
+              }
+            }
+          },
+          "3": {
+            "fill": {
+              "default": {
+                "value": "{dataviz.color.categorical.series.3.default}",
+                "type": "color",
+                "description": "Third column series fill"
+              }
+            }
+          },
+          "4": {
+            "fill": {
+              "default": {
+                "value": "{dataviz.color.categorical.series.4.default}",
+                "type": "color",
+                "description": "Fourth column series fill"
+              }
+            }
+          }
+        },
+        "negative": {
+          "fill": {
+            "default": {
+              "value": "{dataviz.color.diverging.negative.500}",
+              "type": "color",
+              "description": "Negative value column fill"
+            }
+          }
+        }
+      },
+      "bar": {
+        "series": {
+          "1": {
+            "fill": {
+              "default": {
+                "value": "{dataviz.color.categorical.series.1.default}",
+                "type": "color",
+                "description": "First bar series fill"
+              },
+              "hover": {
+                "value": "{dataviz.color.categorical.series.1.hover}",
+                "type": "color",
+                "description": "First bar hover fill"
+              }
+            }
+          }
+        }
+      },
+      "pie": {
+        "slice": {
+          "1": {
+            "fill": {
+              "default": {
+                "value": "{dataviz.color.categorical.series.1.default}",
+                "type": "color",
+                "description": "First pie slice fill"
+              },
+              "hover": {
+                "value": "{dataviz.color.categorical.series.1.hover}",
+                "type": "color",
+                "description": "First pie slice hover"
+              }
+            },
+            "stroke": {
+              "default": {
+                "value": "{base.color.neutral.background.default}",
+                "type": "color",
+                "description": "Pie slice border"
+              }
+            }
+          },
+          "2": {
+            "fill": {
+              "default": {
+                "value": "{dataviz.color.categorical.series.2.default}",
+                "type": "color",
+                "description": "Second pie slice fill"
+              }
+            }
+          },
+          "3": {
+            "fill": {
+              "default": {
+                "value": "{dataviz.color.categorical.series.3.default}",
+                "type": "color",
+                "description": "Third pie slice fill"
+              }
+            }
+          },
+          "4": {
+            "fill": {
+              "default": {
+                "value": "{dataviz.color.categorical.series.4.default}",
+                "type": "color",
+                "description": "Fourth pie slice fill"
+              }
+            }
+          },
+          "5": {
+            "fill": {
+              "default": {
+                "value": "{dataviz.color.categorical.series.5.default}",
+                "type": "color",
+                "description": "Fifth pie slice fill"
+              }
+            }
+          },
+          "6": {
+            "fill": {
+              "default": {
+                "value": "{dataviz.color.categorical.series.6.default}",
+                "type": "color",
+                "description": "Sixth pie slice fill"
+              }
+            }
+          }
+        },
+        "label": {
+          "connector": {
+            "stroke": {
+              "value": "{base.color.neutral.border.default}",
+              "type": "color",
+              "description": "Pie label connector color"
+            }
+          },
+          "text": {
+            "value": "{dataviz.color.chart.dataLabel.text.default}",
+            "type": "color",
+            "description": "Pie label text color"
+          }
+        },
+        "donut": {
+          "center": {
+            "fill": {
+              "value": "{base.color.neutral.background.default}",
+              "type": "color",
+              "description": "Donut center fill color"
+            },
+            "text": {
+              "value": "{base.color.neutral.text.strong}",
+              "type": "color",
+              "description": "Donut center text color"
+            }
+          }
+        }
+      },
+      "scatter": {
+        "series": {
+          "1": {
+            "marker": {
+              "fill": {
+                "value": "{dataviz.color.categorical.series.1.default}",
+                "type": "color",
+                "description": "First scatter series marker fill"
+              },
+              "stroke": {
+                "value": "{dataviz.color.categorical.series.1.default}",
+                "type": "color",
+                "description": "First scatter series marker stroke"
+              },
+              "hover": {
+                "fill": {
+                  "value": "{dataviz.color.categorical.series.1.hover}",
+                  "type": "color",
+                  "description": "Scatter marker hover fill"
+                }
+              }
+            }
+          },
+          "2": {
+            "marker": {
+              "fill": {
+                "value": "{dataviz.color.categorical.series.2.default}",
+                "type": "color",
+                "description": "Second scatter series marker fill"
+              }
+            }
+          }
+        },
+        "regression": {
+          "line": {
+            "stroke": {
+              "value": "{base.color.neutral.border.strong}",
+              "type": "color",
+              "description": "Regression line color"
+            }
+          }
+        }
+      },
+      "heatmap": {
+        "cell": {
+          "border": {
+            "value": "{base.color.neutral.background.default}",
+            "type": "color",
+            "description": "Heatmap cell border"
+          }
+        },
+        "colorScale": {
+          "low": {
+            "value": "{dataviz.color.sequential.cool.100}",
+            "type": "color",
+            "description": "Heatmap low value color"
+          },
+          "medium": {
+            "value": "{dataviz.color.sequential.cool.400}",
+            "type": "color",
+            "description": "Heatmap medium value color"
+          },
+          "high": {
+            "value": "{dataviz.color.sequential.cool.800}",
+            "type": "color",
+            "description": "Heatmap high value color"
+          }
+        },
+        "null": {
+          "fill": {
+            "value": "{base.color.neutral.background.subtle}",
+            "type": "color",
+            "description": "Heatmap null value fill"
+          }
+        }
+      },
+      "gauge": {
+        "dial": {
+          "fill": {
+            "value": "{core.colors.brand.neutral.900}",
+            "type": "color",
+            "description": "Gauge dial/needle color"
+          },
+          "pin": {
+            "value": "{core.colors.brand.neutral.700}",
+            "type": "color",
+            "description": "Gauge center pin color"
+          }
+        },
+        "range": {
+          "low": {
+            "fill": {
+              "value": "{dataviz.color.diverging.negative.500}",
+              "type": "color",
+              "description": "Gauge low range color"
+            }
+          },
+          "medium": {
+            "fill": {
+              "value": "{dataviz.color.categorical.series.2.default}",
+              "type": "color",
+              "description": "Gauge medium range color"
+            }
+          },
+          "high": {
+            "fill": {
+              "value": "{dataviz.color.diverging.positive.500}",
+              "type": "color",
+              "description": "Gauge high range color"
+            }
+          }
+        },
+        "track": {
+          "background": {
+            "value": "{base.color.neutral.background.strong}",
+            "type": "color",
+            "description": "Gauge track background"
+          }
+        },
+        "label": {
+          "text": {
+            "value": "{base.color.neutral.text.default}",
+            "type": "color",
+            "description": "Gauge label text color"
+          }
+        }
+      },
+      "bubble": {
+        "series": {
+          "1": {
+            "fill": {
+              "default": {
+                "value": "{dataviz.color.categorical.series.1.default}",
+                "type": "color",
+                "description": "First bubble series fill"
+              },
+              "hover": {
+                "value": "{dataviz.color.categorical.series.1.hover}",
+                "type": "color",
+                "description": "First bubble hover fill"
+              }
+            },
+            "stroke": {
+              "default": {
+                "value": "{dataviz.color.categorical.series.1.default}",
+                "type": "color",
+                "description": "First bubble stroke"
+              }
+            }
+          }
+        }
+      },
+      "treemap": {
+        "level": {
+          "1": {
+            "fill": {
+              "default": {
+                "value": "{dataviz.color.categorical.series.1.default}",
+                "type": "color",
+                "description": "Treemap level 1 fill"
+              }
+            },
+            "border": {
+              "value": "{base.color.neutral.background.default}",
+              "type": "color",
+              "description": "Treemap level 1 border"
+            }
+          },
+          "2": {
+            "fill": {
+              "start": {
+                "value": "{dataviz.color.sequential.brand.300}",
+                "type": "color",
+                "description": "Treemap level 2 gradient start"
+              },
+              "end": {
+                "value": "{dataviz.color.sequential.brand.600}",
+                "type": "color",
+                "description": "Treemap level 2 gradient end"
+              }
+            }
+          }
+        },
+        "label": {
+          "text": {
+            "default": {
+              "value": "{base.color.inverse.text.default}",
+              "type": "color",
+              "description": "Treemap label text"
+            },
+            "contrast": {
+              "value": "{base.color.neutral.text.default}",
+              "type": "color",
+              "description": "Treemap label on light colors"
+            }
+          }
+        }
+      },
+      "sankey": {
+        "node": {
+          "1": {
+            "fill": {
+              "value": "{dataviz.color.categorical.series.1.default}",
+              "type": "color",
+              "description": "First category node fill"
+            }
+          },
+          "2": {
+            "fill": {
+              "value": "{dataviz.color.categorical.series.2.default}",
+              "type": "color",
+              "description": "Second category node fill"
+            }
+          },
+          "3": {
+            "fill": {
+              "value": "{dataviz.color.categorical.series.3.default}",
+              "type": "color",
+              "description": "Third category node fill"
+            }
+          },
+          "label": {
+            "text": {
+              "value": "{base.color.neutral.text.default}",
+              "type": "color",
+              "description": "Node label text color"
+            }
+          }
+        }
+      },
+      "waterfall": {
+        "increase": {
+          "fill": {
+            "value": "{dataviz.color.diverging.positive.500}",
+            "type": "color",
+            "description": "Waterfall increase bar fill"
+          },
+          "stroke": {
+            "value": "{dataviz.color.diverging.positive.500}",
+            "type": "color",
+            "description": "Waterfall increase bar stroke"
+          }
+        },
+        "decrease": {
+          "fill": {
+            "value": "{dataviz.color.diverging.negative.500}",
+            "type": "color",
+            "description": "Waterfall decrease bar fill"
+          },
+          "stroke": {
+            "value": "{dataviz.color.diverging.negative.500}",
+            "type": "color",
+            "description": "Waterfall decrease bar stroke"
+          }
+        },
+        "total": {
+          "fill": {
+            "value": "{dataviz.color.categorical.series.1.default}",
+            "type": "color",
+            "description": "Waterfall total bar fill"
+          }
+        },
+        "connector": {
+          "stroke": {
+            "value": "{base.color.neutral.border.default}",
+            "type": "color",
+            "description": "Waterfall connector line"
+          }
+        }
+      },
+      "funnel": {
+        "segment": {
+          "1": {
+            "fill": {
+              "value": "{dataviz.color.categorical.series.1.default}",
+              "type": "color",
+              "description": "First funnel segment"
+            }
+          },
+          "2": {
+            "fill": {
+              "value": "{dataviz.color.categorical.series.2.default}",
+              "type": "color",
+              "description": "Second funnel segment"
+            }
+          },
+          "3": {
+            "fill": {
+              "value": "{dataviz.color.categorical.series.3.default}",
+              "type": "color",
+              "description": "Third funnel segment"
+            }
+          },
+          "4": {
+            "fill": {
+              "value": "{dataviz.color.categorical.series.4.default}",
+              "type": "color",
+              "description": "Fourth funnel segment"
+            }
+          }
+        },
+        "neck": {
+          "fill": {
+            "value": "{base.color.neutral.background.strong}",
+            "type": "color",
+            "description": "Funnel neck fill color"
+          }
+        }
+      },
+      "radar": {
+        "series": {
+          "1": {
+            "stroke": {
+              "value": "{dataviz.color.categorical.series.1.default}",
+              "type": "color",
+              "description": "First radar series stroke"
+            },
+            "fill": {
+              "value": "{dataviz.color.categorical.series.1.default}",
+              "type": "color",
+              "description": "First radar series fill"
+            }
+          },
+          "2": {
+            "stroke": {
+              "value": "{dataviz.color.categorical.series.2.default}",
+              "type": "color",
+              "description": "Second radar series stroke"
+            },
+            "fill": {
+              "value": "{dataviz.color.categorical.series.2.default}",
+              "type": "color",
+              "description": "Second radar series fill"
+            }
+          }
+        },
+        "grid": {
+          "radial": {
+            "stroke": {
+              "value": "{dataviz.color.chart.grid.major}",
+              "type": "color",
+              "description": "Radar radial grid lines"
+            }
+          },
+          "angular": {
+            "stroke": {
+              "value": "{dataviz.color.chart.grid.major}",
+              "type": "color",
+              "description": "Radar angular grid lines"
+            }
+          }
+        }
+      },
+      "map": {
+        "area": {
+          "fill": {
+            "default": {
+              "value": "{base.color.neutral.background.subtle}",
+              "type": "color",
+              "description": "Default map area fill"
+            },
+            "hover": {
+              "value": "{base.color.neutral.background.strong}",
+              "type": "color",
+              "description": "Map area hover fill"
+            },
+            "selected": {
+              "value": "{dataviz.color.categorical.series.1.default}",
+              "type": "color",
+              "description": "Selected map area fill"
+            }
+          },
+          "stroke": {
+            "default": {
+              "value": "{base.color.neutral.border.default}",
+              "type": "color",
+              "description": "Map area border"
+            }
+          }
+        },
+        "choropleth": {
+          "scale": {
+            "1": {
+              "value": "{dataviz.color.sequential.brand.100}",
+              "type": "color",
+              "description": "Choropleth lowest value"
+            },
+            "2": {
+              "value": "{dataviz.color.sequential.brand.300}",
+              "type": "color",
+              "description": "Choropleth low value"
+            },
+            "3": {
+              "value": "{dataviz.color.sequential.brand.500}",
+              "type": "color",
+              "description": "Choropleth medium value"
+            },
+            "4": {
+              "value": "{dataviz.color.sequential.brand.700}",
+              "type": "color",
+              "description": "Choropleth high value"
+            },
+            "5": {
+              "value": "{dataviz.color.sequential.brand.800}",
+              "type": "color",
+              "description": "Choropleth highest value"
+            }
+          }
+        },
+        "marker": {
+          "fill": {
+            "value": "{dataviz.color.categorical.series.1.default}",
+            "type": "color",
+            "description": "Map marker fill color"
+          },
+          "stroke": {
+            "value": "{base.color.neutral.background.default}",
+            "type": "color",
+            "description": "Map marker stroke color"
+          }
+        }
+      }
+    }
+  },
+  "component": {
+    "chart": {
+      "area": {
+        "stacked": {
+          "opacity": {
+            "value": "0.7",
+            "type": "opacity",
+            "description": "Stacked area fill opacity"
+          }
+        },
+        "gradient": {
+          "start": {
+            "opacity": {
+              "value": "0.5",
+              "type": "opacity",
+              "description": "Area gradient start opacity"
+            }
+          },
+          "end": {
+            "opacity": {
+              "value": "0",
+              "type": "opacity",
+              "description": "Area gradient end opacity"
+            }
+          }
+        }
+      },
+      "column": {
+        "grouped": {
+          "gap": {
+            "value": "0.2",
+            "type": "number",
+            "description": "Gap between grouped columns"
+          }
+        }
+      },
+      "pie": {
+        "slice": {
+          "selected": {
+            "offset": {
+              "value": "10",
+              "type": "dimension",
+              "description": "Selected slice offset distance"
+            }
+          }
+        }
+      },
+      "bubble": {
+        "series": {
+          "1": {
+            "opacity": {
+              "default": {
+                "value": "0.6",
+                "type": "opacity",
+                "description": "Bubble fill opacity"
+              },
+              "hover": {
+                "value": "0.8",
+                "type": "opacity",
+                "description": "Bubble hover opacity"
+              }
+            }
+          }
+        }
+      },
+      "sankey": {
+        "link": {
+          "fill": {
+            "opacity": {
+              "value": "0.3",
+              "type": "opacity",
+              "description": "Sankey link opacity"
+            }
+          },
+          "hover": {
+            "opacity": {
+              "value": "0.6",
+              "type": "opacity",
+              "description": "Sankey link hover opacity"
+            }
+          },
+          "gradient": {
+            "value": "true",
+            "type": "boolean",
+            "description": "Use gradient for links"
+          }
+        }
+      },
+      "radar": {
+        "series": {
+          "1": {
+            "opacity": {
+              "value": "0.25",
+              "type": "opacity",
+              "description": "Radar area fill opacity"
+            }
+          }
+        }
+      }
+    }
+  }
+}

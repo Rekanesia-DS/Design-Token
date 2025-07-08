@@ -1,0 +1,70 @@
+{
+  "mascot": {
+    "clothing": {
+      "outer": {
+        "light": {
+          "value": "{core.colors.brand.primary.500}",
+          "type": "color"
+        },
+        "normal": {
+          "value": "{core.colors.brand.primary.600}",
+          "type": "color"
+        },
+        "dark": {
+          "value": "{core.colors.brand.primary.700}",
+          "type": "color"
+        },
+        "shadow": {
+          "value": "{core.colors.brand.primary.800}",
+          "type": "color"
+        }
+      },
+      "inner": {
+        "light": {
+          "value": "{core.colors.brand.neutral.00}",
+          "type": "color"
+        },
+        "normal": {
+          "value": "{core.colors.brand.neutral.100}",
+          "type": "color"
+        },
+        "dark": {
+          "value": "{core.colors.brand.neutral.200}",
+          "type": "color"
+        },
+        "shadow": {
+          "value": "{core.colors.brand.neutral.400}",
+          "type": "color"
+        }
+      }
+    },
+    "skin": {
+      "light": {
+        "value": "{colors.seed.potato.200}",
+        "type": "color"
+      },
+      "normal": {
+        "value": "{colors.seed.potato.300}",
+        "type": "color"
+      },
+      "dark": {
+        "value": "{colors.seed.potato.400}",
+        "type": "color"
+      }
+    },
+    "hair": {
+      "light": {
+        "value": "{colors.seed.mangosteen.1500}",
+        "type": "color"
+      },
+      "normal": {
+        "value": "{colors.seed.mangosteen.2000}",
+        "type": "color"
+      },
+      "dark": {
+        "value": "{colors.seed.mangosteen.2200}",
+        "type": "color"
+      }
+    }
+  }
+}

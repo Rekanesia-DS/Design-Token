@@ -4,7 +4,7 @@
       "sys": {
         "preventive": {
           "50": {
-            "value": "{colors.blanket.1000}",
+            "value": "{colors.seed.base.white}",
             "type": "color"
           },
           "100": {
@@ -38,29 +38,11 @@
           "800": {
             "value": "{colors.seed.carrot.1700}",
             "type": "color"
-          },
-          "gradient": {
-            "100": {
-              "value": "linear-gradient(0deg, {colors.seed.carrot.50} 0%, {colors.seed.carrot.200} 100%)",
-              "type": "color"
-            },
-            "200": {
-              "value": "linear-gradient(0deg, {colors.seed.carrot.200} 0%, {colors.seed.carrot.50} 100%)",
-              "type": "color"
-            },
-            "300": {
-              "value": "#",
-              "type": "color"
-            },
-            "400": {
-              "value": "#",
-              "type": "color"
-            }
           }
         },
         "destructive": {
           "50": {
-            "value": "{colors.blanket.1000}",
+            "value": "{colors.seed.base.white}",
             "type": "color"
           },
           "100": {
@@ -98,7 +80,7 @@
         },
         "constructive": {
           "50": {
-            "value": "{colors.blanket.1000}",
+            "value": "{colors.seed.base.white}",
             "type": "color"
           },
           "100": {
@@ -136,7 +118,7 @@
         },
         "informative": {
           "50": {
-            "value": "{colors.blanket.1000}",
+            "value": "{colors.seed.base.white}",
             "type": "color"
           },
           "100": {
@@ -354,11 +336,11 @@
       "brand": {
         "primary": {
           "50": {
-            "value": "{brand.highContrast.light.primary.50}",
+            "value": "{colors.seed.base.white}",
             "type": "color"
           },
           "100": {
-            "value": "{brand.highContrast.light.primary.100}",
+            "value": "{colors.seed.base.white}",
             "type": "color"
           },
           "200": {
@@ -438,7 +420,7 @@
       "sys": {
         "preventive": {
           "50": {
-            "value": "{colors.blanket.2100}",
+            "value": "{colors.seed.base.white}",
             "type": "color"
           },
           "100": {

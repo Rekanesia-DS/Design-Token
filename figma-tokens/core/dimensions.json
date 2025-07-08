@@ -1,27 +1,5 @@
 {
   "core": {
-    "cramped": {
-      "xs": {
-        "value": "{seed.size.25}",
-        "type": "sizing"
-      },
-      "s": {
-        "value": "{seed.size.50}",
-        "type": "sizing"
-      },
-      "m": {
-        "value": "{seed.size.80}",
-        "type": "sizing"
-      },
-      "l": {
-        "value": "{seed.size.100}",
-        "type": "sizing"
-      },
-      "xl": {
-        "value": "{seed.size.300}",
-        "type": "sizing"
-      }
-    },
     "compact": {
       "xxs": {
         "value": "{seed.spacing.25}",
@@ -77,36 +55,6 @@
         "value": "{seed.spacing.900}",
         "type": "spacing"
       }
-    },
-    "mobile": {
-      "relaxed": {
-        "xs": {
-          "value": "{seed.size.100}",
-          "type": "sizing"
-        },
-        "s": {
-          "value": "{seed.size.300}",
-          "type": "sizing"
-        },
-        "m": {
-          "value": "{seed.size.500}",
-          "type": "sizing"
-        },
-        "l": {
-          "value": "{seed.size.600}",
-          "type": "sizing"
-        },
-        "xl": {
-          "value": "{seed.size.700}",
-          "type": "sizing"
-        }
-      }
-    }
-  },
-  "border": {
-    "m": {
-      "value": "{seed.borderwidth.500}",
-      "type": "borderWidth"
     }
   },
   "opacity": {

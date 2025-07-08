@@ -1,0 +1,757 @@
+{
+  "src": {
+    "color": {
+      "button": {
+        "primary": {
+          "background": {
+            "default": {
+              "value": "{modifier.color.action.background.primary.default}",
+              "description": "Primary button background color",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{modifier.color.action.background.primary.hover}",
+              "description": "Primary button hover state",
+              "type": "color"
+            },
+            "active": {
+              "value": "{modifier.color.action.background.primary.active}",
+              "description": "Primary button active state",
+              "type": "color"
+            }
+          },
+          "text": {
+            "default": {
+              "value": "{base.color.inverse.text.default}",
+              "description": "Primary button text color",
+              "type": "color"
+            }
+          }
+        },
+        "secondary": {
+          "background": {
+            "default": {
+              "value": "{base.color.neutral.background.default}",
+              "description": "Secondary button background",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{base.color.neutral.background.subtle}",
+              "description": "Secondary button hover state",
+              "type": "color"
+            }
+          },
+          "text": {
+            "default": {
+              "value": "{modifier.color.action.text.primary.default}",
+              "description": "Secondary button text color",
+              "type": "color"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "{modifier.color.action.border.primary.default}",
+              "description": "Secondary button border color",
+              "type": "color"
+            }
+          }
+        },
+        "ghost": {
+          "background": {
+            "default": {
+              "value": "transparent",
+              "description": "Ghost button transparent background",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{base.color.neutral.background.subtle}",
+              "description": "Ghost button hover background",
+              "type": "color"
+            }
+          },
+          "text": {
+            "default": {
+              "value": "{base.color.neutral.text.subtle}",
+              "description": "Ghost button text color",
+              "type": "color"
+            }
+          }
+        },
+        "danger": {
+          "background": {
+            "default": {
+              "value": "{core.colors.sys.destructive.500}",
+              "description": "Danger button background for destructive actions",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{core.colors.sys.destructive.600}",
+              "description": "Danger button hover state",
+              "type": "color"
+            }
+          },
+          "text": {
+            "default": {
+              "value": "{base.color.inverse.text.default}",
+              "description": "Danger button text color",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "forms": {
+        "background": {
+          "default": {
+            "value": "{base.color.neutral.background.default}",
+            "description": "Form input background color",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{base.color.neutral.background.subtle}",
+            "description": "Disabled form input background",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{base.color.neutral.border.default}",
+            "description": "Default form input border",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{base.color.neutral.border.strong}",
+            "description": "Form input hover border",
+            "type": "color"
+          },
+          "focus": {
+            "value": "{modifier.color.action.border.primary.default}",
+            "description": "Form input focus border",
+            "type": "color"
+          },
+          "error": {
+            "value": "{base.color.feedback.border.error}",
+            "description": "Form input error state border",
+            "type": "color"
+          }
+        },
+        "text": {
+          "label": {
+            "value": "{base.color.neutral.text.default}",
+            "description": "Form label text color",
+            "type": "color"
+          },
+          "helper": {
+            "value": "{base.color.neutral.text.subtle}",
+            "description": "Form helper text color",
+            "type": "color"
+          },
+          "error": {
+            "value": "{base.color.feedback.text.error}",
+            "description": "Form error message text color",
+            "type": "color"
+          },
+          "placeholder": {
+            "value": "{modifier.color.neutral.text.500}",
+            "description": "Form input placeholder text",
+            "type": "color"
+          }
+        },
+        "input": {
+          "icon": {
+            "default": {
+              "value": "{base.color.neutral.fill.default}",
+              "description": "Input icon default color",
+              "type": "color"
+            },
+            "focus": {
+              "value": "{base.color.action.fill.default}",
+              "description": "Input icon focus color",
+              "type": "color"
+            }
+          },
+          "required": {
+            "indicator": {
+              "value": "{base.color.feedback.text.error}",
+              "description": "Required field indicator color",
+              "type": "color"
+            }
+          }
+        },
+        "checkbox": {
+          "background": {
+            "unchecked": {
+              "value": "{base.color.neutral.background.default}",
+              "description": "Unchecked checkbox background",
+              "type": "color"
+            },
+            "checked": {
+              "value": "{modifier.color.action.background.primary.default}",
+              "description": "Checked checkbox background",
+              "type": "color"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "#fff",
+              "type": "color",
+              "description": "Checkbox border color"
+            }
+          },
+          "checkmark": {
+            "default": {
+              "value": "{base.color.inverse.fill.default}",
+              "description": "Checkbox checkmark color",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "card": {
+        "background": {
+          "default": {
+            "value": "{base.color.elevation.surface.default}",
+            "description": "Card background color",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{base.color.neutral.background.subtle}",
+            "description": "Card hover state background",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{base.color.neutral.border.subtle}",
+            "description": "Card border color",
+            "type": "color"
+          }
+        },
+        "shadow": {
+          "default": {
+            "value": "rgba(19, 19, 19, 0.1)",
+            "description": "Card shadow color",
+            "type": "color"
+          }
+        },
+        "header": {
+          "background": {
+            "value": "{base.color.neutral.background.subtle}",
+            "description": "Card header background",
+            "type": "color"
+          },
+          "text": {
+            "value": "{base.color.neutral.text.strong}",
+            "description": "Card header text color",
+            "type": "color"
+          },
+          "border": {
+            "value": "{base.color.neutral.border.subtle}",
+            "description": "Card header border color",
+            "type": "color"
+          }
+        }
+      },
+      "badge": {
+        "default": {
+          "background": {
+            "value": "{core.colors.brand.neutral.700}",
+            "description": "Default badge background",
+            "type": "color"
+          },
+          "text": {
+            "value": "{base.color.inverse.text.default}",
+            "description": "Default badge text color",
+            "type": "color"
+          }
+        },
+        "success": {
+          "background": {
+            "value": "{core.colors.sys.constructive.500}",
+            "description": "Success badge background",
+            "type": "color"
+          },
+          "text": {
+            "value": "{base.color.inverse.text.default}",
+            "description": "Success badge text color",
+            "type": "color"
+          }
+        },
+        "warning": {
+          "background": {
+            "value": "{core.colors.sys.preventive.500}",
+            "description": "Warning badge background",
+            "type": "color"
+          },
+          "text": {
+            "value": "{core.colors.brand.neutral.900}",
+            "description": "Warning badge text color",
+            "type": "color"
+          }
+        },
+        "error": {
+          "background": {
+            "value": "{core.colors.sys.destructive.500}",
+            "description": "Error badge background",
+            "type": "color"
+          },
+          "text": {
+            "value": "{base.color.inverse.text.default}",
+            "description": "Error badge text color",
+            "type": "color"
+          }
+        },
+        "info": {
+          "background": {
+            "value": "{core.colors.sys.informative.500}",
+            "description": "Info badge background",
+            "type": "color"
+          },
+          "text": {
+            "value": "{base.color.inverse.text.default}",
+            "description": "Info badge text color",
+            "type": "color"
+          }
+        },
+        "new": {
+          "background": {
+            "value": "{core.colors.accent.violet.500}",
+            "description": "New/unread badge background",
+            "type": "color"
+          },
+          "text": {
+            "value": "{base.color.inverse.text.default}",
+            "description": "New badge text color",
+            "type": "color"
+          }
+        }
+      },
+      "nav": {
+        "bar": {
+          "background": {
+            "value": "{base.color.neutral.background.default}",
+            "description": "Navigation bar background",
+            "type": "color"
+          },
+          "border": {
+            "value": "{base.color.neutral.border.subtle}",
+            "description": "Navigation bar border",
+            "type": "color"
+          }
+        },
+        "item": {
+          "text": {
+            "default": {
+              "value": "{base.color.neutral.text.default}",
+              "description": "Navigation item text color",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{modifier.color.action.text.primary.default}",
+              "description": "Navigation item hover text",
+              "type": "color"
+            },
+            "active": {
+              "value": "{modifier.color.action.text.primary.default}",
+              "description": "Active navigation item text",
+              "type": "color"
+            }
+          },
+          "background": {
+            "hover": {
+              "value": "{base.color.neutral.background.subtle}",
+              "description": "Navigation item hover background",
+              "type": "color"
+            },
+            "active": {
+              "value": "{core.colors.brand.primary.100}",
+              "description": "Active navigation item background",
+              "type": "color"
+            }
+          },
+          "border": {
+            "active": {
+              "value": "{core.colors.brand.primary.500}",
+              "description": "Active navigation item indicator",
+              "type": "color"
+            }
+          },
+          "icon": {
+            "default": {
+              "value": "{base.color.neutral.fill.default}",
+              "description": "Navigation icon default color",
+              "type": "color"
+            },
+            "active": {
+              "value": "{base.color.action.fill.default}",
+              "description": "Active navigation icon color",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "table": {
+        "background": {
+          "default": {
+            "value": "{base.color.neutral.background.default}",
+            "description": "Table background color",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{base.color.neutral.border.subtle}",
+            "description": "Table border color",
+            "type": "color"
+          }
+        },
+        "header": {
+          "background": {
+            "value": "{base.color.neutral.background.subtle}",
+            "description": "Table header background",
+            "type": "color"
+          },
+          "text": {
+            "value": "{base.color.neutral.text.strong}",
+            "description": "Table header text color",
+            "type": "color"
+          },
+          "border": {
+            "value": "{base.color.neutral.border.default}",
+            "description": "Table header border",
+            "type": "color"
+          }
+        },
+        "row": {
+          "background": {
+            "default": {
+              "value": "{base.color.neutral.background.default}",
+              "description": "Table row default background",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{base.color.neutral.background.subtle}",
+              "description": "Table row hover background",
+              "type": "color"
+            },
+            "selected": {
+              "value": "{core.colors.brand.primary.100}",
+              "description": "Selected table row background",
+              "type": "color"
+            },
+            "striped": {
+              "value": "#5c4848",
+              "type": "color",
+              "description": "Alternating table row background"
+            }
+          }
+        },
+        "cell": {
+          "text": {
+            "default": {
+              "value": "{base.color.neutral.text.default}",
+              "description": "Table cell text color",
+              "type": "color"
+            },
+            "secondary": {
+              "value": "{base.color.neutral.text.subtle}",
+              "description": "Table cell secondary text",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "modal": {
+        "backdrop": {
+          "default": {
+            "value": "{base.color.overlay.background.default}",
+            "description": "Modal backdrop overlay color",
+            "type": "color"
+          }
+        },
+        "background": {
+          "default": {
+            "value": "{base.color.elevation.surface.default}",
+            "description": "Modal background color",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{base.color.neutral.border.default}",
+            "description": "Modal border color",
+            "type": "color"
+          }
+        },
+        "shadow": {
+          "default": {
+            "value": "rgba(19, 19, 19, 0.2)",
+            "description": "Modal shadow color",
+            "type": "color"
+          }
+        },
+        "header": {
+          "background": {
+            "value": "{base.color.neutral.background.subtle}",
+            "description": "Modal header background",
+            "type": "color"
+          },
+          "text": {
+            "value": "{base.color.neutral.text.strong}",
+            "description": "Modal header text color",
+            "type": "color"
+          },
+          "border": {
+            "value": "{base.color.neutral.border.subtle}",
+            "description": "Modal header border",
+            "type": "color"
+          }
+        }
+      },
+      "alert": {
+        "success": {
+          "background": {
+            "value": "{base.color.feedback.background.success}",
+            "description": "Success alert background",
+            "type": "color"
+          },
+          "text": {
+            "value": "{base.color.feedback.text.success}",
+            "description": "Success alert text",
+            "type": "color"
+          },
+          "border": {
+            "value": "{core.colors.sys.constructive.300}",
+            "description": "Success alert border",
+            "type": "color"
+          },
+          "icon": {
+            "value": "{base.color.feedback.fill.success}",
+            "description": "Success alert icon color",
+            "type": "color"
+          }
+        },
+        "warning": {
+          "background": {
+            "value": "{base.color.feedback.background.warning}",
+            "description": "Warning alert background",
+            "type": "color"
+          },
+          "text": {
+            "value": "{base.color.feedback.text.warning}",
+            "description": "Warning alert text",
+            "type": "color"
+          },
+          "border": {
+            "value": "{core.colors.sys.preventive.300}",
+            "description": "Warning alert border",
+            "type": "color"
+          }
+        },
+        "error": {
+          "background": {
+            "value": "{base.color.feedback.background.error}",
+            "description": "Error alert background",
+            "type": "color"
+          },
+          "text": {
+            "value": "{base.color.feedback.text.error}",
+            "description": "Error alert text",
+            "type": "color"
+          },
+          "border": {
+            "value": "{core.colors.sys.destructive.300}",
+            "description": "Error alert border",
+            "type": "color"
+          }
+        },
+        "info": {
+          "background": {
+            "value": "{base.color.feedback.background.info}",
+            "description": "Info alert background",
+            "type": "color"
+          },
+          "text": {
+            "value": "{base.color.feedback.text.info}",
+            "description": "Info alert text",
+            "type": "color"
+          },
+          "border": {
+            "value": "{core.colors.sys.informative.300}",
+            "description": "Info alert border",
+            "type": "color"
+          }
+        }
+      },
+      "toast": {
+        "background": {
+          "default": {
+            "value": "{core.colors.brand.neutral.900}",
+            "description": "Toast notification background",
+            "type": "color"
+          }
+        },
+        "text": {
+          "default": {
+            "value": "{base.color.inverse.text.default}",
+            "description": "Toast notification text",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{core.colors.brand.neutral.700}",
+            "description": "Toast notification border",
+            "type": "color"
+          }
+        }
+      },
+      "tab": {
+        "background": {
+          "default": {
+            "value": "{base.color.neutral.background.default}",
+            "description": "Tab container background",
+            "type": "color"
+          }
+        },
+        "item": {
+          "text": {
+            "default": {
+              "value": "{base.color.neutral.text.subtle}",
+              "description": "Inactive tab text color",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{base.color.neutral.text.default}",
+              "description": "Tab hover text color",
+              "type": "color"
+            },
+            "active": {
+              "value": "{modifier.color.action.text.primary.default}",
+              "description": "Active tab text color",
+              "type": "color"
+            }
+          },
+          "background": {
+            "hover": {
+              "value": "{base.color.neutral.background.subtle}",
+              "description": "Tab hover background",
+              "type": "color"
+            },
+            "active": {
+              "value": "{base.color.neutral.background.default}",
+              "description": "Active tab background",
+              "type": "color"
+            }
+          },
+          "indicator": {
+            "active": {
+              "value": "{modifier.color.action.background.primary.default}",
+              "description": "Active tab indicator color",
+              "type": "color"
+            }
+          }
+        },
+        "panel": {
+          "background": {
+            "value": "{base.color.neutral.background.default}",
+            "description": "Tab content panel background",
+            "type": "color"
+          },
+          "border": {
+            "value": "{base.color.neutral.border.subtle}",
+            "description": "Tab panel border",
+            "type": "color"
+          }
+        }
+      },
+      "progress": {
+        "background": {
+          "default": {
+            "value": "{core.colors.brand.neutral.300}",
+            "description": "Progress bar track background",
+            "type": "color"
+          }
+        },
+        "fill": {
+          "default": {
+            "value": "{modifier.color.action.background.primary.default}",
+            "description": "Progress bar fill color",
+            "type": "color"
+          },
+          "success": {
+            "value": "{core.colors.sys.constructive.500}",
+            "description": "Completed progress bar color",
+            "type": "color"
+          },
+          "warning": {
+            "value": "{core.colors.sys.preventive.500}",
+            "description": "Warning progress bar color",
+            "type": "color"
+          }
+        }
+      },
+      "avatar": {
+        "background": {
+          "default": {
+            "value": "{core.colors.brand.neutral.400}",
+            "description": "Default avatar background",
+            "type": "color"
+          }
+        },
+        "text": {
+          "default": {
+            "value": "{base.color.neutral.text.default}",
+            "description": "Avatar initials text color",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{base.color.neutral.border.default}",
+            "description": "Avatar border color",
+            "type": "color"
+          }
+        }
+      },
+      "tooltip": {
+        "background": {
+          "default": {
+            "value": "{core.colors.brand.neutral.900}",
+            "description": "Tooltip background color",
+            "type": "color"
+          }
+        },
+        "text": {
+          "default": {
+            "value": "{base.color.inverse.text.default}",
+            "description": "Tooltip text color",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{core.colors.brand.neutral.800}",
+            "description": "Tooltip border color",
+            "type": "color"
+          }
+        }
+      },
+      "skeleton": {
+        "background": {
+          "default": {
+            "value": "{core.colors.brand.neutral.300}",
+            "description": "Skeleton loader base color",
+            "type": "color"
+          }
+        },
+        "shimmer": {
+          "default": {
+            "value": "{core.colors.brand.neutral.200}",
+            "description": "Skeleton loader shimmer effect",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}

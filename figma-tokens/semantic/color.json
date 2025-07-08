@@ -1,42 +1,1649 @@
 {
-  "sem": {
-    "blanket": {
+  "base": {
+    "color": {
+      "neutral": {
+        "background": {
+          "default": {
+            "value": "{core.colors.brand.neutral.100}",
+            "description": "Primary background color for surfaces and containers",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{core.colors.brand.neutral.200}",
+            "description": "Subtle background for secondary surfaces and alternating rows",
+            "type": "color"
+          },
+          "strong": {
+            "value": "{core.colors.brand.neutral.300}",
+            "description": "Strong background for emphasized sections like headers and sidebars",
+            "type": "color"
+          }
+        },
+        "text": {
+          "default": {
+            "value": "{core.colors.brand.neutral.800}",
+            "description": "Primary text color for body content and paragraphs",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{core.colors.brand.neutral.600}",
+            "description": "Secondary text for metadata, timestamps, and supporting content",
+            "type": "color"
+          },
+          "strong": {
+            "value": "{core.colors.brand.neutral.900}",
+            "description": "Emphasized text for headings and important content",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{core.colors.brand.neutral.400}",
+            "description": "Default border color for cards, inputs, and dividers",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{core.colors.brand.neutral.300}",
+            "description": "Subtle borders for light separators and table rows",
+            "type": "color"
+          },
+          "strong": {
+            "value": "{core.colors.brand.neutral.500}",
+            "description": "Strong borders for emphasis and active states",
+            "type": "color"
+          }
+        },
+        "fill": {
+          "default": {
+            "value": "{core.colors.brand.neutral.700}",
+            "description": "Default fill color for icons and graphics",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{core.colors.brand.neutral.500}",
+            "description": "Subtle fill for secondary icons",
+            "type": "color"
+          },
+          "strong": {
+            "value": "{core.colors.brand.neutral.900}",
+            "description": "Strong fill for emphasized icons",
+            "type": "color"
+          }
+        }
+      },
+      "action": {
+        "background": {
+          "default": {
+            "value": "{core.colors.brand.primary.500}",
+            "description": "Primary action background for buttons and interactive elements",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{core.colors.brand.primary.200}",
+            "description": "Subtle action background for secondary actions and hover states",
+            "type": "color"
+          }
+        },
+        "text": {
+          "default": {
+            "value": "{core.colors.brand.primary.500}",
+            "description": "Interactive text color for links and clickable elements",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{core.colors.brand.primary.500}",
+            "description": "Border color for interactive elements and focus states",
+            "type": "color"
+          }
+        },
+        "fill": {
+          "default": {
+            "value": "{core.colors.brand.primary.500}",
+            "description": "Fill color for interactive icons and graphics",
+            "type": "color"
+          }
+        }
+      },
+      "feedback": {
+        "background": {
+          "success": {
+            "value": "{core.colors.sys.constructive.200}",
+            "description": "Background color for success alerts and confirmations",
+            "type": "color"
+          },
+          "warning": {
+            "value": "{core.colors.sys.preventive.200}",
+            "description": "Background color for warning messages and cautions",
+            "type": "color"
+          },
+          "error": {
+            "value": "{core.colors.sys.destructive.200}",
+            "description": "Background color for error alerts and validation failures",
+            "type": "color"
+          },
+          "info": {
+            "value": "{core.colors.sys.informative.200}",
+            "description": "Background color for informational banners and tooltips",
+            "type": "color"
+          }
+        },
+        "text": {
+          "success": {
+            "value": "{core.colors.sys.constructive.700}",
+            "description": "Text color for success messages and positive values",
+            "type": "color"
+          },
+          "warning": {
+            "value": "{core.colors.sys.preventive.700}",
+            "description": "Text color for warning labels and caution text",
+            "type": "color"
+          },
+          "error": {
+            "value": "{core.colors.sys.destructive.700}",
+            "description": "Text color for error messages and invalid inputs",
+            "type": "color"
+          },
+          "info": {
+            "value": "{core.colors.sys.informative.700}",
+            "description": "Text color for help text and informative content",
+            "type": "color"
+          }
+        },
+        "border": {
+          "success": {
+            "value": "{core.colors.sys.constructive.500}",
+            "description": "Border color for valid inputs and success states",
+            "type": "color"
+          },
+          "warning": {
+            "value": "{core.colors.sys.preventive.500}",
+            "description": "Border color for warning inputs and caution states",
+            "type": "color"
+          },
+          "error": {
+            "value": "{core.colors.sys.destructive.500}",
+            "description": "Border color for invalid inputs and error states",
+            "type": "color"
+          },
+          "info": {
+            "value": "{core.colors.sys.informative.500}",
+            "description": "Border color for info cards and tooltips",
+            "type": "color"
+          }
+        },
+        "fill": {
+          "success": {
+            "value": "{core.colors.sys.constructive.600}",
+            "description": "Fill color for success icons and checkmarks",
+            "type": "color"
+          },
+          "warning": {
+            "value": "{core.colors.sys.preventive.600}",
+            "description": "Fill color for warning triangles and alert icons",
+            "type": "color"
+          },
+          "error": {
+            "value": "{core.colors.sys.destructive.600}",
+            "description": "Fill color for error circles and X marks",
+            "type": "color"
+          },
+          "info": {
+            "value": "{core.colors.sys.informative.600}",
+            "description": "Fill color for info circles and i icons",
+            "type": "color"
+          }
+        }
+      },
       "brand": {
+        "background": {
+          "default": {
+            "value": "{core.colors.brand.primary.500}",
+            "description": "Brand color for hero sections and brand elements",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{core.colors.brand.primary.100}",
+            "description": "Subtle brand background for light accents",
+            "type": "color"
+          }
+        },
+        "text": {
+          "default": {
+            "value": "{core.colors.brand.primary.600}",
+            "description": "Brand color for headlines and emphasis",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{core.colors.brand.primary.400}",
+            "description": "Brand color for element outlines",
+            "type": "color"
+          }
+        },
+        "fill": {
+          "default": {
+            "value": "{core.colors.brand.primary.500}",
+            "description": "Brand color for logos and brand icons",
+            "type": "color"
+          }
+        }
+      },
+      "inverse": {
+        "background": {
+          "default": {
+            "value": "{core.colors.brand.neutral.900}",
+            "description": "Dark background for inverted sections and dark mode",
+            "type": "color"
+          }
+        },
+        "text": {
+          "default": {
+            "value": "{core.colors.brand.neutral.100}",
+            "description": "Light text on dark backgrounds",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{core.colors.brand.neutral.400}",
+            "description": "Light borders on dark backgrounds",
+            "type": "color"
+          }
+        },
+        "fill": {
+          "default": {
+            "value": "{core.colors.brand.neutral.200}",
+            "description": "Light icons on dark backgrounds",
+            "type": "color"
+          }
+        }
+      },
+      "overlay": {
+        "background": {
+          "default": {
+            "value": "rgba(19, 19, 19, 0.5)",
+            "description": "Semi-transparent backdrop for modals and overlays",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{core.colors.brand.neutral.400}",
+            "description": "Border color for overlay elements",
+            "type": "color"
+          }
+        }
+      },
+      "elevation": {
+        "surface": {
+          "default": {
+            "value": "{core.colors.brand.neutral.100}",
+            "description": "Background color for elevated surfaces like cards and modals",
+            "type": "color"
+          }
+        },
+        "shadow": {
+          "default": {
+            "value": "rgba(19, 19, 19, 0.15)",
+            "description": "Shadow color for drop shadows and elevation",
+            "type": "color"
+          }
+        }
+      },
+      "dataviz": {
+        "primary": {
+          "default": {
+            "value": "{core.colors.accent.blue.500}",
+            "description": "Primary color for main data series in charts",
+            "type": "color"
+          }
+        },
+        "secondary": {
+          "default": {
+            "value": "{core.colors.accent.cyan.500}",
+            "description": "Secondary color for comparison data in charts",
+            "type": "color"
+          }
+        },
+        "tertiary": {
+          "default": {
+            "value": "{core.colors.accent.violet.500}",
+            "description": "Tertiary color for additional data series",
+            "type": "color"
+          }
+        },
+        "categorical": {
+          "1": {
+            "value": "{core.colors.accent.blue.500}",
+            "description": "First categorical color for data visualization",
+            "type": "color"
+          },
+          "2": {
+            "value": "{core.colors.accent.cyan.500}",
+            "description": "Second categorical color for data visualization",
+            "type": "color"
+          },
+          "3": {
+            "value": "{core.colors.accent.violet.500}",
+            "description": "Third categorical color for data visualization",
+            "type": "color"
+          },
+          "4": {
+            "value": "{core.colors.accent.magenta.500}",
+            "description": "Fourth categorical color for data visualization",
+            "type": "color"
+          },
+          "5": {
+            "value": "{core.colors.accent.yellow.500}",
+            "description": "Fifth categorical color for data visualization",
+            "type": "color"
+          }
+        }
+      }
+    }
+  },
+  "modifier": {
+    "color": {
+      "action": {
+        "background": {
+          "primary": {
+            "default": {
+              "value": "{core.colors.brand.primary.500}",
+              "description": "Primary action button background",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{core.colors.brand.primary.600}",
+              "description": "Primary action button hover state",
+              "type": "color"
+            },
+            "active": {
+              "value": "{core.colors.brand.primary.700}",
+              "description": "Primary action button active/pressed state",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{core.colors.brand.primary.300}",
+              "description": "Primary action button disabled state",
+              "type": "color"
+            }
+          },
+          "secondary": {
+            "default": {
+              "value": "{core.colors.brand.neutral.700}",
+              "description": "Secondary action button background",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{core.colors.brand.neutral.800}",
+              "description": "Secondary action button hover state",
+              "type": "color"
+            },
+            "active": {
+              "value": "{core.colors.brand.neutral.900}",
+              "description": "Secondary action button active state",
+              "type": "color"
+            },
+            "subtle": {
+              "value": "{core.colors.brand.neutral.200}",
+              "description": "Ghost/tertiary button background",
+              "type": "color"
+            }
+          }
+        },
+        "text": {
+          "primary": {
+            "default": {
+              "value": "{core.colors.brand.primary.500}",
+              "description": "Primary link text color",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{core.colors.brand.primary.600}",
+              "description": "Primary link hover state",
+              "type": "color"
+            },
+            "active": {
+              "value": "{core.colors.brand.primary.700}",
+              "description": "Primary link active state",
+              "type": "color"
+            },
+            "visited": {
+              "value": "{core.colors.accent.violet.800}",
+              "description": "Visited link color",
+              "type": "color"
+            }
+          },
+          "secondary": {
+            "default": {
+              "value": "{core.colors.brand.neutral.700}",
+              "description": "Secondary link text color",
+              "type": "color"
+            }
+          },
+          "disabled": {
+            "default": {
+              "value": "{core.colors.brand.neutral.400}",
+              "description": "Disabled text color for interactive elements",
+              "type": "color"
+            }
+          }
+        },
+        "border": {
+          "primary": {
+            "default": {
+              "value": "{core.colors.brand.primary.500}",
+              "description": "Primary interactive element border",
+              "type": "color"
+            },
+            "focus": {
+              "value": "{core.colors.accent.violet.500}",
+              "description": "Focus ring color for accessibility",
+              "type": "color"
+            }
+          },
+          "secondary": {
+            "default": {
+              "value": "{core.colors.brand.neutral.500}",
+              "description": "Secondary interactive element border",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "neutral": {
+        "background": {
+          "100": {
+            "value": "{core.colors.brand.neutral.100}",
+            "description": "Lightest neutral background",
+            "type": "color"
+          },
+          "200": {
+            "value": "{core.colors.brand.neutral.200}",
+            "description": "Very light neutral background",
+            "type": "color"
+          },
+          "300": {
+            "value": "{core.colors.brand.neutral.300}",
+            "description": "Light neutral background",
+            "type": "color"
+          },
+          "400": {
+            "value": "{core.colors.brand.neutral.400}",
+            "description": "Medium-light neutral background",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{core.colors.brand.neutral.200}",
+            "description": "Neutral element hover state",
+            "type": "color"
+          }
+        },
+        "text": {
+          "500": {
+            "value": "{core.colors.brand.neutral.500}",
+            "description": "Medium neutral text for placeholders",
+            "type": "color"
+          },
+          "600": {
+            "value": "{core.colors.brand.neutral.600}",
+            "description": "Medium-dark neutral text",
+            "type": "color"
+          },
+          "700": {
+            "value": "{core.colors.brand.neutral.700}",
+            "description": "Dark neutral text",
+            "type": "color"
+          },
+          "800": {
+            "value": "{core.colors.brand.neutral.800}",
+            "description": "Very dark neutral text",
+            "type": "color"
+          },
+          "900": {
+            "value": "{core.colors.brand.neutral.900}",
+            "description": "Darkest neutral text",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{core.colors.brand.neutral.400}",
+            "description": "Disabled text color",
+            "type": "color"
+          },
+          "on": {
+            "light": {
+              "value": "{core.colors.brand.neutral.800}",
+              "description": "Text color on light backgrounds",
+              "type": "color"
+            },
+            "dark": {
+              "value": "{core.colors.brand.neutral.100}",
+              "description": "Text color on dark backgrounds",
+              "type": "color"
+            },
+            "brand": {
+              "value": "{core.colors.brand.neutral.100}",
+              "description": "Text color on brand backgrounds",
+              "type": "color"
+            }
+          }
+        },
+        "border": {
+          "hover": {
+            "value": "{core.colors.brand.neutral.500}",
+            "description": "Border color on hover",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{core.colors.brand.neutral.300}",
+            "description": "Border color for disabled elements",
+            "type": "color"
+          }
+        }
+      },
+      "feedback": {
+        "background": {
+          "error": {
+            "100": {
+              "value": "{core.colors.sys.destructive.100}",
+              "description": "Lightest error background",
+              "type": "color"
+            },
+            "200": {
+              "value": "{core.colors.sys.destructive.200}",
+              "description": "Light error background",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{core.colors.sys.destructive.300}",
+              "description": "Error element hover state",
+              "type": "color"
+            }
+          },
+          "success": {
+            "100": {
+              "value": "{core.colors.sys.constructive.100}",
+              "description": "Lightest success background",
+              "type": "color"
+            },
+            "200": {
+              "value": "{core.colors.sys.constructive.200}",
+              "description": "Light success background",
+              "type": "color"
+            }
+          },
+          "warning": {
+            "100": {
+              "value": "{core.colors.sys.preventive.100}",
+              "description": "Lightest warning background",
+              "type": "color"
+            },
+            "200": {
+              "value": "{core.colors.sys.preventive.200}",
+              "description": "Light warning background",
+              "type": "color"
+            }
+          },
+          "info": {
+            "100": {
+              "value": "{core.colors.sys.informative.100}",
+              "description": "Lightest info background",
+              "type": "color"
+            },
+            "200": {
+              "value": "{core.colors.sys.informative.200}",
+              "description": "Light info background",
+              "type": "color"
+            }
+          }
+        },
+        "border": {
+          "error": {
+            "focus": {
+              "value": "{core.colors.sys.destructive.600}",
+              "description": "Error input focus border",
+              "type": "color"
+            }
+          }
+        }
+      }
+    }
+  },
+  "overlay": {
+    "primary": {
+      "100": {
+        "value": "rgba( {core.colors.brand.primary.600} ,0.09)",
+        "type": "color"
+      },
+      "200": {
+        "value": "rgba({core.colors.brand.primary.600},0.18)",
+        "type": "color"
+      },
+      "300": {
+        "value": "rgba({core.colors.brand.primary.600},0.32)",
+        "type": "color"
+      },
+      "400": {
+        "value": "rgba({core.colors.brand.primary.600},0.38)",
+        "type": "color"
+      },
+      "500": {
+        "value": "rgba({core.colors.brand.primary.600},0.45)",
+        "type": "color"
+      },
+      "600": {
+        "value": "rgba({core.colors.brand.primary.600},0.54)",
+        "type": "color"
+      },
+      "700": {
+        "value": "rgba({core.colors.brand.primary.600},0.63)",
+        "type": "color"
+      },
+      "800": {
+        "value": "rgba({core.colors.brand.primary.600},0.72)",
+        "type": "color"
+      },
+      "900": {
+        "value": "rgba({core.colors.brand.primary.600},0.81)",
+        "type": "color"
+      }
+    },
+    "neutral": {
+      "100": {
+        "value": "rgba( {core.colors.base} ,0.09)",
+        "type": "color"
+      },
+      "200": {
+        "value": "rgba({core.colors.base},0.18)",
+        "type": "color"
+      },
+      "300": {
+        "value": "rgba({core.colors.base},0.32)",
+        "type": "color"
+      },
+      "400": {
+        "value": "rgba({core.colors.base},0.38)",
+        "type": "color"
+      },
+      "500": {
+        "value": "rgba({core.colors.base},0.45)",
+        "type": "color"
+      },
+      "600": {
+        "value": "rgba({core.colors.base},0.54)",
+        "type": "color"
+      },
+      "700": {
+        "value": "rgba({core.colors.base},0.63)",
+        "type": "color"
+      },
+      "800": {
+        "value": "rgba({core.colors.base},0.72)",
+        "type": "color"
+      },
+      "900": {
+        "value": "rgba({core.colors.base},0.81)",
+        "type": "color"
+      }
+    }
+  },
+  "sem": {
+    "shadow": {
+      "neutral": {
+        "50": {
+          "value": [
+            {
+              "color": "{core.colors.brand.neutral.300}",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "1",
+              "blur": "4",
+              "spread": "-2"
+            },
+            {
+              "color": "{core.colors.brand.neutral.200}",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "2",
+              "blur": "2",
+              "spread": "-2"
+            }
+          ],
+          "type": "boxShadow"
+        },
         "100": {
-          "value": "rgba( {core.colors.brand.primary.600} ,0.09)",
-          "type": "color"
+          "value": [
+            {
+              "color": "{core.colors.brand.neutral.300}",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "2",
+              "blur": "4",
+              "spread": "-2"
+            },
+            {
+              "color": "{core.colors.brand.neutral.200}",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "4",
+              "blur": "4",
+              "spread": "-2"
+            }
+          ],
+          "type": "boxShadow"
         },
         "200": {
-          "value": "rgba({core.colors.brand.primary.600},0.18)",
-          "type": "color"
+          "value": [
+            {
+              "color": "{core.colors.brand.neutral.200}",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "4",
+              "blur": "6",
+              "spread": "-4"
+            },
+            {
+              "color": "{core.colors.brand.neutral.200}",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "8",
+              "blur": "8",
+              "spread": "-4"
+            }
+          ],
+          "type": "boxShadow"
         },
         "300": {
-          "value": "rgba({core.colors.brand.primary.600},0.32)",
-          "type": "color"
+          "value": [
+            {
+              "color": "{core.colors.brand.neutral.300}",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "6",
+              "blur": "8",
+              "spread": "-6"
+            },
+            {
+              "color": "{core.colors.brand.neutral.200}",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "8",
+              "blur": "16",
+              "spread": "-6"
+            }
+          ],
+          "type": "boxShadow"
         },
         "400": {
-          "value": "rgba({core.colors.brand.primary.600},0.38)",
-          "type": "color"
+          "value": [
+            {
+              "color": "{core.colors.brand.neutral.300}",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "6",
+              "blur": "12",
+              "spread": "-6"
+            },
+            {
+              "color": "{core.colors.brand.neutral.200}",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "8",
+              "blur": "24",
+              "spread": "-4"
+            }
+          ],
+          "type": "boxShadow"
         },
         "500": {
-          "value": "rgba({core.colors.brand.primary.600},0.45)",
-          "type": "color"
+          "value": [
+            {
+              "color": "{core.colors.brand.neutral.300}",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "6",
+              "blur": "14",
+              "spread": "-6"
+            },
+            {
+              "color": "{core.colors.brand.neutral.300}",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "10",
+              "blur": "32",
+              "spread": "-4"
+            }
+          ],
+          "type": "boxShadow"
         },
         "600": {
-          "value": "rgba({core.colors.brand.primary.600},0.54)",
-          "type": "color"
+          "value": [
+            {
+              "color": "{core.colors.brand.neutral.200}",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "8",
+              "blur": "18",
+              "spread": "-6"
+            },
+            {
+              "color": "{core.colors.brand.neutral.300}",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "12",
+              "blur": "42",
+              "spread": "-4"
+            }
+          ],
+          "type": "boxShadow"
         },
         "700": {
-          "value": "rgba({core.colors.brand.primary.600},0.63)",
-          "type": "color"
+          "value": [
+            {
+              "color": "{core.colors.brand.neutral.300}",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "8",
+              "blur": "22",
+              "spread": "-6"
+            },
+            {
+              "color": "{core.colors.brand.neutral.300}",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "14",
+              "blur": "64",
+              "spread": "-4"
+            }
+          ],
+          "type": "boxShadow"
         },
         "800": {
-          "value": "rgba({core.colors.brand.primary.600},0.72)",
-          "type": "color"
+          "value": [
+            {
+              "color": "{core.colors.brand.neutral.300}",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "8",
+              "blur": "28",
+              "spread": "-6"
+            },
+            {
+              "color": "{core.colors.brand.neutral.400}",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "18",
+              "blur": "88",
+              "spread": "-4"
+            }
+          ],
+          "type": "boxShadow"
+        }
+      },
+      "primary": {
+        "50": {
+          "value": [
+            {
+              "color": "{core.colors.brand.primary.300}",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "1",
+              "blur": "4",
+              "spread": "-2"
+            },
+            {
+              "color": "{core.colors.brand.primary.200}",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "2",
+              "blur": "2",
+              "spread": "-2"
+            }
+          ],
+          "type": "boxShadow"
         },
-        "900": {
-          "value": "rgba({core.colors.brand.primary.600},0.81)",
-          "type": "color"
+        "100": {
+          "value": [
+            {
+              "color": "{core.colors.brand.primary.300}",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "2",
+              "blur": "4",
+              "spread": "-2"
+            },
+            {
+              "color": "{core.colors.brand.primary.200}",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "4",
+              "blur": "4",
+              "spread": "-2"
+            }
+          ],
+          "type": "boxShadow"
+        },
+        "200": {
+          "value": [
+            {
+              "color": "{core.colors.brand.primary.200}",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "4",
+              "blur": "6",
+              "spread": "-4"
+            },
+            {
+              "color": "{core.colors.brand.primary.200}",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "8",
+              "blur": "8",
+              "spread": "-4"
+            }
+          ],
+          "type": "boxShadow"
+        },
+        "300": {
+          "value": [
+            {
+              "color": "{core.colors.brand.primary.300}",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "6",
+              "blur": "8",
+              "spread": "-6"
+            },
+            {
+              "color": "{core.colors.brand.primary.200}",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "8",
+              "blur": "16",
+              "spread": "-6"
+            }
+          ],
+          "type": "boxShadow"
+        },
+        "400": {
+          "value": [
+            {
+              "color": "{core.colors.brand.primary.300}",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "6",
+              "blur": "12",
+              "spread": "-6"
+            },
+            {
+              "color": "{core.colors.brand.primary.200}",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "8",
+              "blur": "24",
+              "spread": "-4"
+            }
+          ],
+          "type": "boxShadow"
+        },
+        "500": {
+          "value": [
+            {
+              "color": "{core.colors.brand.primary.300}",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "6",
+              "blur": "14",
+              "spread": "-6"
+            },
+            {
+              "color": "{core.colors.brand.primary.300}",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "10",
+              "blur": "32",
+              "spread": "-4"
+            }
+          ],
+          "type": "boxShadow"
+        },
+        "600": {
+          "value": [
+            {
+              "color": "{core.colors.brand.primary.200}",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "8",
+              "blur": "18",
+              "spread": "-6"
+            },
+            {
+              "color": "{core.colors.brand.primary.300}",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "12",
+              "blur": "42",
+              "spread": "-4"
+            }
+          ],
+          "type": "boxShadow"
+        },
+        "700": {
+          "value": [
+            {
+              "color": "{core.colors.brand.primary.300}",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "8",
+              "blur": "22",
+              "spread": "-6"
+            },
+            {
+              "color": "{core.colors.brand.primary.300}",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "14",
+              "blur": "64",
+              "spread": "-4"
+            }
+          ],
+          "type": "boxShadow"
+        },
+        "800": {
+          "value": [
+            {
+              "color": "{core.colors.brand.primary.300}",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "8",
+              "blur": "28",
+              "spread": "-6"
+            },
+            {
+              "color": "{core.colors.brand.primary.400}",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "18",
+              "blur": "88",
+              "spread": "-4"
+            }
+          ],
+          "type": "boxShadow"
+        }
+      }
+    }
+  },
+  "dataviz": {
+    "color": {
+      "categorical": {
+        "series": {
+          "1": {
+            "default": {
+              "value": "{core.colors.brand.primary.500}",
+              "type": "color",
+              "description": "First data series - brand color"
+            },
+            "hover": {
+              "value": "{core.colors.brand.primary.600}",
+              "type": "color",
+              "description": "First data series hover state"
+            },
+            "muted": {
+              "value": "{core.colors.brand.primary.300}",
+              "type": "color",
+              "description": "First data series muted/inactive state"
+            }
+          },
+          "2": {
+            "default": {
+              "value": "{core.colors.sys.preventive.500}",
+              "type": "color",
+              "description": "Second data series - warning/orange color"
+            },
+            "hover": {
+              "value": "{core.colors.sys.preventive.600}",
+              "type": "color",
+              "description": "Second data series hover state"
+            },
+            "muted": {
+              "value": "{core.colors.sys.preventive.300}",
+              "type": "color",
+              "description": "Second data series muted/inactive state"
+            }
+          },
+          "3": {
+            "default": {
+              "value": "{core.colors.sys.constructive.500}",
+              "type": "color",
+              "description": "Third data series - constructive/green color"
+            },
+            "hover": {
+              "value": "{core.colors.sys.constructive.600}",
+              "type": "color",
+              "description": "Third data series hover state"
+            },
+            "muted": {
+              "value": "{core.colors.sys.constructive.300}",
+              "type": "color",
+              "description": "Third data series muted/inactive state"
+            }
+          },
+          "4": {
+            "default": {
+              "value": "{core.colors.sys.informative.500}",
+              "type": "color",
+              "description": "Fourth data series - informative/blue color"
+            },
+            "hover": {
+              "value": "{core.colors.sys.informative.600}",
+              "type": "color",
+              "description": "Fourth data series hover state"
+            },
+            "muted": {
+              "value": "{core.colors.sys.informative.300}",
+              "type": "color",
+              "description": "Fourth data series muted/inactive state"
+            }
+          },
+          "5": {
+            "default": {
+              "value": "{core.colors.accent.violet.500}",
+              "type": "color",
+              "description": "Fifth data series - violet accent"
+            },
+            "hover": {
+              "value": "{core.colors.accent.violet.800}",
+              "type": "color",
+              "description": "Fifth data series hover state"
+            },
+            "muted": {
+              "value": "{core.colors.accent.violet.300}",
+              "type": "color",
+              "description": "Fifth data series muted/inactive state"
+            }
+          },
+          "6": {
+            "default": {
+              "value": "{core.colors.accent.cyan.500}",
+              "type": "color",
+              "description": "Sixth data series - cyan accent"
+            },
+            "hover": {
+              "value": "{core.colors.accent.cyan.800}",
+              "type": "color",
+              "description": "Sixth data series hover state"
+            },
+            "muted": {
+              "value": "{core.colors.accent.cyan.300}",
+              "type": "color",
+              "description": "Sixth data series muted/inactive state"
+            }
+          },
+          "7": {
+            "default": {
+              "value": "{core.colors.accent.magenta.500}",
+              "type": "color",
+              "description": "Seventh data series - magenta accent"
+            },
+            "hover": {
+              "value": "{core.colors.accent.magenta.800}",
+              "type": "color",
+              "description": "Seventh data series hover state"
+            },
+            "muted": {
+              "value": "{core.colors.accent.magenta.300}",
+              "type": "color",
+              "description": "Seventh data series muted/inactive state"
+            }
+          },
+          "8": {
+            "default": {
+              "value": "{core.colors.accent.yellow.500}",
+              "type": "color",
+              "description": "Eighth data series - yellow accent"
+            },
+            "hover": {
+              "value": "{core.colors.accent.yellow.800}",
+              "type": "color",
+              "description": "Eighth data series hover state"
+            },
+            "muted": {
+              "value": "{core.colors.accent.yellow.300}",
+              "type": "color",
+              "description": "Eighth data series muted/inactive state"
+            }
+          }
+        }
+      },
+      "sequential": {
+        "brand": {
+          "100": {
+            "value": "{core.colors.brand.primary.100}",
+            "type": "color",
+            "description": "Lightest value in brand sequential scale"
+          },
+          "200": {
+            "value": "{core.colors.brand.primary.200}",
+            "type": "color",
+            "description": "Light value in brand sequential scale"
+          },
+          "300": {
+            "value": "{core.colors.brand.primary.300}",
+            "type": "color",
+            "description": "Light-medium value in brand sequential scale"
+          },
+          "400": {
+            "value": "{core.colors.brand.primary.400}",
+            "type": "color",
+            "description": "Medium value in brand sequential scale"
+          },
+          "500": {
+            "value": "{core.colors.brand.primary.500}",
+            "type": "color",
+            "description": "Base value in brand sequential scale"
+          },
+          "600": {
+            "value": "{core.colors.brand.primary.600}",
+            "type": "color",
+            "description": "Medium-dark value in brand sequential scale"
+          },
+          "700": {
+            "value": "{core.colors.brand.primary.700}",
+            "type": "color",
+            "description": "Dark value in brand sequential scale"
+          },
+          "800": {
+            "value": "{core.colors.brand.primary.800}",
+            "type": "color",
+            "description": "Darkest value in brand sequential scale"
+          }
+        },
+        "neutral": {
+          "100": {
+            "value": "{core.colors.brand.neutral.100}",
+            "type": "color",
+            "description": "Lightest value in neutral sequential scale"
+          },
+          "200": {
+            "value": "{core.colors.brand.neutral.200}",
+            "type": "color",
+            "description": "Light value in neutral sequential scale"
+          },
+          "300": {
+            "value": "{core.colors.brand.neutral.300}",
+            "type": "color",
+            "description": "Light-medium value in neutral sequential scale"
+          },
+          "400": {
+            "value": "{core.colors.brand.neutral.400}",
+            "type": "color",
+            "description": "Medium value in neutral sequential scale"
+          },
+          "500": {
+            "value": "{core.colors.brand.neutral.500}",
+            "type": "color",
+            "description": "Base value in neutral sequential scale"
+          },
+          "600": {
+            "value": "{core.colors.brand.neutral.600}",
+            "type": "color",
+            "description": "Medium-dark value in neutral sequential scale"
+          },
+          "700": {
+            "value": "{core.colors.brand.neutral.700}",
+            "type": "color",
+            "description": "Dark value in neutral sequential scale"
+          },
+          "800": {
+            "value": "{core.colors.brand.neutral.800}",
+            "type": "color",
+            "description": "Darkest value in neutral sequential scale"
+          }
+        },
+        "warm": {
+          "100": {
+            "value": "{core.colors.sys.preventive.100}",
+            "type": "color",
+            "description": "Lightest value in warm sequential scale"
+          },
+          "200": {
+            "value": "{core.colors.sys.preventive.200}",
+            "type": "color",
+            "description": "Light value in warm sequential scale"
+          },
+          "300": {
+            "value": "{core.colors.sys.preventive.300}",
+            "type": "color",
+            "description": "Light-medium value in warm sequential scale"
+          },
+          "400": {
+            "value": "{core.colors.sys.preventive.400}",
+            "type": "color",
+            "description": "Medium value in warm sequential scale"
+          },
+          "500": {
+            "value": "{core.colors.sys.preventive.500}",
+            "type": "color",
+            "description": "Base value in warm sequential scale"
+          },
+          "600": {
+            "value": "{core.colors.sys.preventive.600}",
+            "type": "color",
+            "description": "Medium-dark value in warm sequential scale"
+          },
+          "700": {
+            "value": "{core.colors.sys.preventive.700}",
+            "type": "color",
+            "description": "Dark value in warm sequential scale"
+          },
+          "800": {
+            "value": "{core.colors.sys.preventive.800}",
+            "type": "color",
+            "description": "Darkest value in warm sequential scale"
+          }
+        },
+        "cool": {
+          "100": {
+            "value": "{core.colors.sys.informative.100}",
+            "type": "color",
+            "description": "Lightest value in cool sequential scale"
+          },
+          "200": {
+            "value": "{core.colors.sys.informative.200}",
+            "type": "color",
+            "description": "Light value in cool sequential scale"
+          },
+          "300": {
+            "value": "{core.colors.sys.informative.300}",
+            "type": "color",
+            "description": "Light-medium value in cool sequential scale"
+          },
+          "400": {
+            "value": "{core.colors.sys.informative.400}",
+            "type": "color",
+            "description": "Medium value in cool sequential scale"
+          },
+          "500": {
+            "value": "{core.colors.sys.informative.500}",
+            "type": "color",
+            "description": "Base value in cool sequential scale"
+          },
+          "600": {
+            "value": "{core.colors.sys.informative.600}",
+            "type": "color",
+            "description": "Medium-dark value in cool sequential scale"
+          },
+          "700": {
+            "value": "{core.colors.sys.informative.700}",
+            "type": "color",
+            "description": "Dark value in cool sequential scale"
+          },
+          "800": {
+            "value": "{core.colors.sys.informative.800}",
+            "type": "color",
+            "description": "Darkest value in cool sequential scale"
+          }
+        }
+      },
+      "diverging": {
+        "positive": {
+          "100": {
+            "value": "{core.colors.sys.constructive.100}",
+            "type": "color",
+            "description": "Lightest positive value"
+          },
+          "200": {
+            "value": "{core.colors.sys.constructive.200}",
+            "type": "color",
+            "description": "Light positive value"
+          },
+          "300": {
+            "value": "{core.colors.sys.constructive.300}",
+            "type": "color",
+            "description": "Medium-light positive value"
+          },
+          "400": {
+            "value": "{core.colors.sys.constructive.400}",
+            "type": "color",
+            "description": "Medium positive value"
+          },
+          "500": {
+            "value": "{core.colors.sys.constructive.500}",
+            "type": "color",
+            "description": "Strong positive value"
+          }
+        },
+        "negative": {
+          "100": {
+            "value": "{core.colors.sys.destructive.100}",
+            "type": "color",
+            "description": "Lightest negative value"
+          },
+          "200": {
+            "value": "{core.colors.sys.destructive.200}",
+            "type": "color",
+            "description": "Light negative value"
+          },
+          "300": {
+            "value": "{core.colors.sys.destructive.300}",
+            "type": "color",
+            "description": "Medium-light negative value"
+          },
+          "400": {
+            "value": "{core.colors.sys.destructive.400}",
+            "type": "color",
+            "description": "Medium negative value"
+          },
+          "500": {
+            "value": "{core.colors.sys.destructive.500}",
+            "type": "color",
+            "description": "Strong negative value"
+          }
+        },
+        "neutral": {
+          "default": {
+            "value": "{core.colors.brand.neutral.400}",
+            "type": "color",
+            "description": "Neutral/zero value in diverging scale"
+          }
+        }
+      },
+      "chart": {
+        "background": {
+          "default": {
+            "value": "{base.color.neutral.background.default}",
+            "type": "color",
+            "description": "Chart container background"
+          },
+          "plot": {
+            "value": "{base.color.neutral.background.default}",
+            "type": "color",
+            "description": "Plot area background"
+          }
+        },
+        "grid": {
+          "major": {
+            "value": "{base.color.neutral.border.subtle}",
+            "type": "color",
+            "description": "Major grid lines"
+          },
+          "minor": {
+            "value": "{core.colors.brand.neutral.200}",
+            "type": "color",
+            "description": "Minor grid lines"
+          }
+        },
+        "axis": {
+          "line": {
+            "value": "{base.color.neutral.border.default}",
+            "type": "color",
+            "description": "Axis lines color"
+          },
+          "label": {
+            "value": "{base.color.neutral.text.subtle}",
+            "type": "color",
+            "description": "Axis labels text color"
+          },
+          "title": {
+            "value": "{base.color.neutral.text.default}",
+            "type": "color",
+            "description": "Axis title text color"
+          },
+          "tick": {
+            "value": "{base.color.neutral.border.default}",
+            "type": "color",
+            "description": "Axis tick marks color"
+          }
+        },
+        "legend": {
+          "text": {
+            "default": {
+              "value": "{base.color.neutral.text.default}",
+              "type": "color",
+              "description": "Legend item text color"
+            },
+            "inactive": {
+              "value": "{base.color.neutral.text.subtle}",
+              "type": "color",
+              "description": "Inactive legend item text"
+            }
+          },
+          "background": {
+            "value": "{base.color.neutral.background.default}",
+            "type": "color",
+            "description": "Legend background color"
+          },
+          "border": {
+            "value": "{base.color.neutral.border.subtle}",
+            "type": "color",
+            "description": "Legend border color"
+          }
+        },
+        "tooltip": {
+          "background": {
+            "value": "{core.colors.brand.neutral.900}",
+            "type": "color",
+            "description": "Tooltip background color"
+          },
+          "text": {
+            "value": "{base.color.inverse.text.default}",
+            "type": "color",
+            "description": "Tooltip text color"
+          },
+          "border": {
+            "value": "{core.colors.brand.neutral.800}",
+            "type": "color",
+            "description": "Tooltip border color"
+          },
+          "shadow": {
+            "value": "rgba(19, 19, 19, 0.2)",
+            "type": "color",
+            "description": "Tooltip shadow color"
+          }
+        },
+        "selection": {
+          "background": {
+            "value": "rgba(0, 22, 187, 0.1)",
+            "type": "color",
+            "description": "Selection area background"
+          },
+          "border": {
+            "value": "{core.colors.brand.primary.500}",
+            "type": "color",
+            "description": "Selection area border"
+          }
+        },
+        "annotation": {
+          "line": {
+            "value": "{core.colors.brand.neutral.600}",
+            "type": "color",
+            "description": "Annotation line color"
+          },
+          "fill": {
+            "value": "rgba(102, 102, 105, 0.1)",
+            "type": "color",
+            "description": "Annotation area fill"
+          },
+          "text": {
+            "value": "{base.color.neutral.text.default}",
+            "type": "color",
+            "description": "Annotation text color"
+          }
+        },
+        "title": {
+          "text": {
+            "value": "{base.color.neutral.text.strong}",
+            "type": "color",
+            "description": "Chart title text color"
+          },
+          "subtitle": {
+            "value": "{base.color.neutral.text.subtle}",
+            "type": "color",
+            "description": "Chart subtitle text color"
+          }
+        },
+        "loading": {
+          "background": {
+            "value": "rgba(255, 255, 255, 0.8)",
+            "type": "color",
+            "description": "Loading overlay background"
+          },
+          "text": {
+            "value": "{base.color.neutral.text.default}",
+            "type": "color",
+            "description": "Loading text color"
+          }
+        },
+        "nodata": {
+          "text": {
+            "value": "{base.color.neutral.text.subtle}",
+            "type": "color",
+            "description": "No data message text color"
+          }
+        },
+        "dataLabel": {
+          "text": {
+            "default": {
+              "value": "{base.color.neutral.text.default}",
+              "type": "color",
+              "description": "Data label text color"
+            },
+            "contrast": {
+              "value": "{base.color.inverse.text.default}",
+              "type": "color",
+              "description": "Data label text on colored backgrounds"
+            }
+          },
+          "background": {
+            "value": "rgba(255, 255, 255, 0.9)",
+            "type": "color",
+            "description": "Data label background"
+          },
+          "border": {
+            "value": "{base.color.neutral.border.subtle}",
+            "type": "color",
+            "description": "Data label border"
+          }
+        },
+        "special": {
+          "threshold": {
+            "value": "{core.colors.sys.destructive.500}",
+            "type": "color",
+            "description": "Threshold line color"
+          },
+          "average": {
+            "value": "{core.colors.brand.primary.500}",
+            "type": "color",
+            "description": "Average line color"
+          },
+          "target": {
+            "value": "{core.colors.sys.preventive.500}",
+            "type": "color",
+            "description": "Target line color"
+          }
         }
       }
     }

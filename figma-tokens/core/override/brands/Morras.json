@@ -200,11 +200,11 @@
       "light": {
         "primary": {
           "50": {
-            "value": "{colors.blanket.1000}",
+            "value": "{colors.seed.base.white}",
             "type": "color"
           },
           "100": {
-            "value": "{colors.blanket.1000}",
+            "value": "{colors.seed.base.white}",
             "type": "color"
           },
           "200": {
@@ -365,29 +365,29 @@
     "corner": {
       "comfort": {
         "s": {
-          "value": "{seed.borderradius.700}",
+          "value": "{seed.borderRadius.700}",
           "type": "borderRadius"
         },
         "m": {
-          "value": "{seed.borderradius.900}",
+          "value": "{seed.borderRadius.900}",
           "type": "borderRadius"
         },
         "l": {
-          "value": "{seed.borderradius.1000}",
+          "value": "{seed.borderRadius.1000}",
           "type": "borderRadius"
         }
       },
       "compact": {
         "s": {
-          "value": "{seed.borderradius.700}",
+          "value": "{seed.borderRadius.700}",
           "type": "borderRadius"
         },
         "m": {
-          "value": "{seed.borderradius.400}",
+          "value": "{seed.borderRadius.400}",
           "type": "borderRadius"
         },
         "l": {
-          "value": "{seed.borderradius.1000}",
+          "value": "{seed.borderRadius.1000}",
           "type": "borderRadius"
         }
       }
